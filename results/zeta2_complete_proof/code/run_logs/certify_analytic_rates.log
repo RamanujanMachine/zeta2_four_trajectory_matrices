@@ -1,0 +1,40 @@
+{
+  "status": "NUMERICAL_CANDIDATE",
+  "arithmetic": "exact Fractions; 32 positive atanh-series terms with a geometric remainder",
+  "limiting_theta": [
+    [
+      "0",
+      "0",
+      "10890/13"
+    ],
+    [
+      "1",
+      "0",
+      "2305/13"
+    ],
+    [
+      "0",
+      "1",
+      "42/13"
+    ]
+  ],
+  "characteristic_ascending": [
+    "1855425871872/895833302668638834554683750087890625",
+    "6119917581009155345396562793851904/32000061404626447809127858236889541015625",
+    "266957778538934989798238376160038092809/15342324857928574809549553125",
+    "1"
+  ],
+  "cubic_discriminant_negative": true,
+  "dominant_modulus_interval": [
+    17400086428,
+    17400086429
+  ],
+  "small_modulus_squared_upper": "463856467968/3896894222878749691592172535934112367802734375",
+  "observability_determinant": "72143259339220303025804927524593090645506084475442025307751136603648/28469599455181793682074031322586982029718987334183867584429931640625",
+  "sigma_upper": "49098639/1000000",
+  "tau_lower": "846121/62500",
+  "mu_upper": "62636575/13537936",
+  "proof_dependencies": "Uniform integer normalization, contour estimates, recurrence analysis, and separation are established in the accompanying manuscript; the finite certificate verifies their constants."
+}
+rate displays: 38.16873290964669 -24.46784213192157 -18.8496451210932 62.636575041510795
+/Users/elyasheev/Documents/CMF_delta_search/results/zeta2_complete_proof/code/analytic/analytic_certificates.json

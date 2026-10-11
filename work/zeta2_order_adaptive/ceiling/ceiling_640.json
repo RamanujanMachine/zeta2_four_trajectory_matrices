@@ -1,0 +1,1362 @@
+{
+  "status": "NUMERICAL_CANDIDATE",
+  "N": 640,
+  "rows": [
+    {
+      "column": 0,
+      "reduced_log_q": 31310.353216294618,
+      "delta": 0.2803064074528059,
+      "numerical_implied_mu": 4.567524585282148,
+      "normalized_gcd": "626048800481682180919789632778498029332589745281530977097229569176082700428397272137338910848275573034693508407868385822081384988352072456059463333125000",
+      "normalized_gcd_log": 351.82719227320956,
+      "extra_gain_per_N": 0.54972998792689,
+      "classified_gain_per_N": {
+        "excluded_small_prime": 0.44529560673779656,
+        "eligible_prime": 0.10443438118909337,
+        "beyond_cutoff": 0
+      },
+      "trial_factor_limit": 32000,
+      "unfactored_remainder": "1",
+      "factors": [
+        {
+          "p": 2,
+          "v": 3,
+          "p_over_N": 0.003125,
+          "numerator_v": 3,
+          "denominator_v": 28,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "320"
+        },
+        {
+          "p": 3,
+          "v": 11,
+          "p_over_N": 0.0046875,
+          "numerator_v": 11,
+          "denominator_v": 29,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/3"
+        },
+        {
+          "p": 5,
+          "v": 7,
+          "p_over_N": 0.0078125,
+          "numerator_v": 7,
+          "denominator_v": 17,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "128"
+        },
+        {
+          "p": 7,
+          "v": 3,
+          "p_over_N": 0.0109375,
+          "numerator_v": 3,
+          "denominator_v": 12,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/7"
+        },
+        {
+          "p": 11,
+          "v": 5,
+          "p_over_N": 0.0171875,
+          "numerator_v": 5,
+          "denominator_v": 10,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/11"
+        },
+        {
+          "p": 13,
+          "v": 3,
+          "p_over_N": 0.0203125,
+          "numerator_v": 3,
+          "denominator_v": 9,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/13"
+        },
+        {
+          "p": 17,
+          "v": 4,
+          "p_over_N": 0.0265625,
+          "numerator_v": 4,
+          "denominator_v": 9,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/17"
+        },
+        {
+          "p": 19,
+          "v": 2,
+          "p_over_N": 0.0296875,
+          "numerator_v": 2,
+          "denominator_v": 8,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/19"
+        },
+        {
+          "p": 23,
+          "v": 3,
+          "p_over_N": 0.0359375,
+          "numerator_v": 3,
+          "denominator_v": 7,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/23"
+        },
+        {
+          "p": 37,
+          "v": 3,
+          "p_over_N": 0.0578125,
+          "numerator_v": 3,
+          "denominator_v": 7,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/37"
+        },
+        {
+          "p": 41,
+          "v": 3,
+          "p_over_N": 0.0640625,
+          "numerator_v": 3,
+          "denominator_v": 7,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/41"
+        },
+        {
+          "p": 43,
+          "v": 2,
+          "p_over_N": 0.0671875,
+          "numerator_v": 2,
+          "denominator_v": 6,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/43"
+        },
+        {
+          "p": 47,
+          "v": 3,
+          "p_over_N": 0.0734375,
+          "numerator_v": 3,
+          "denominator_v": 7,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/47"
+        },
+        {
+          "p": 53,
+          "v": 3,
+          "p_over_N": 0.0828125,
+          "numerator_v": 3,
+          "denominator_v": 7,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/53"
+        },
+        {
+          "p": 59,
+          "v": 3,
+          "p_over_N": 0.0921875,
+          "numerator_v": 3,
+          "denominator_v": 6,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/59"
+        },
+        {
+          "p": 61,
+          "v": 2,
+          "p_over_N": 0.0953125,
+          "numerator_v": 2,
+          "denominator_v": 6,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/61"
+        },
+        {
+          "p": 67,
+          "v": 2,
+          "p_over_N": 0.1046875,
+          "numerator_v": 2,
+          "denominator_v": 6,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/67"
+        },
+        {
+          "p": 71,
+          "v": 1,
+          "p_over_N": 0.1109375,
+          "numerator_v": 1,
+          "denominator_v": 5,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/71"
+        },
+        {
+          "p": 73,
+          "v": 3,
+          "p_over_N": 0.1140625,
+          "numerator_v": 3,
+          "denominator_v": 7,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/73"
+        },
+        {
+          "p": 79,
+          "v": 4,
+          "p_over_N": 0.1234375,
+          "numerator_v": 4,
+          "denominator_v": 8,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/79"
+        },
+        {
+          "p": 83,
+          "v": 2,
+          "p_over_N": 0.1296875,
+          "numerator_v": 2,
+          "denominator_v": 6,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/83"
+        },
+        {
+          "p": 89,
+          "v": 1,
+          "p_over_N": 0.1390625,
+          "numerator_v": 1,
+          "denominator_v": 4,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/89"
+        },
+        {
+          "p": 97,
+          "v": 1,
+          "p_over_N": 0.1515625,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/97"
+        },
+        {
+          "p": 101,
+          "v": 2,
+          "p_over_N": 0.1578125,
+          "numerator_v": 2,
+          "denominator_v": 4,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/101"
+        },
+        {
+          "p": 103,
+          "v": 2,
+          "p_over_N": 0.1609375,
+          "numerator_v": 2,
+          "denominator_v": 4,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/103"
+        },
+        {
+          "p": 109,
+          "v": 2,
+          "p_over_N": 0.1703125,
+          "numerator_v": 2,
+          "denominator_v": 4,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/109"
+        },
+        {
+          "p": 137,
+          "v": 1,
+          "p_over_N": 0.2140625,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/137"
+        },
+        {
+          "p": 139,
+          "v": 2,
+          "p_over_N": 0.2171875,
+          "numerator_v": 2,
+          "denominator_v": 4,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/139"
+        },
+        {
+          "p": 149,
+          "v": 1,
+          "p_over_N": 0.2328125,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/149"
+        },
+        {
+          "p": 151,
+          "v": 2,
+          "p_over_N": 0.2359375,
+          "numerator_v": 2,
+          "denominator_v": 4,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/151"
+        },
+        {
+          "p": 163,
+          "v": 1,
+          "p_over_N": 0.2546875,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/163"
+        },
+        {
+          "p": 167,
+          "v": 1,
+          "p_over_N": 0.2609375,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/167"
+        },
+        {
+          "p": 173,
+          "v": 1,
+          "p_over_N": 0.2703125,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/173"
+        },
+        {
+          "p": 269,
+          "v": 1,
+          "p_over_N": 0.4203125,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/269"
+        },
+        {
+          "p": 311,
+          "v": 1,
+          "p_over_N": 0.4859375,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/311"
+        },
+        {
+          "p": 337,
+          "v": 1,
+          "p_over_N": 0.5265625,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/337"
+        },
+        {
+          "p": 439,
+          "v": 1,
+          "p_over_N": 0.6859375,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/439"
+        },
+        {
+          "p": 443,
+          "v": 1,
+          "p_over_N": 0.6921875,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/443"
+        },
+        {
+          "p": 463,
+          "v": 1,
+          "p_over_N": 0.7234375,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/463"
+        },
+        {
+          "p": 491,
+          "v": 1,
+          "p_over_N": 0.7671875,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/491"
+        },
+        {
+          "p": 521,
+          "v": 1,
+          "p_over_N": 0.8140625,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/521"
+        },
+        {
+          "p": 523,
+          "v": 1,
+          "p_over_N": 0.8171875,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/523"
+        },
+        {
+          "p": 557,
+          "v": 1,
+          "p_over_N": 0.8703125,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/557"
+        },
+        {
+          "p": 563,
+          "v": 1,
+          "p_over_N": 0.8796875,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/563"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "reduced_log_q": 31317.613648295468,
+      "delta": 0.2801221880936338,
+      "numerical_implied_mu": 4.569870729646519,
+      "normalized_gcd": "4723883767836058471249002159443329181673560350248636740369234905680195295836995493940906679926966810465425829787131228496734137532688735359762724400000000",
+      "normalized_gcd_log": 353.8481505215143,
+      "extra_gain_per_N": 0.5528877351898661,
+      "classified_gain_per_N": {
+        "excluded_small_prime": 0.4574217804260528,
+        "eligible_prime": 0.09546595476381332,
+        "beyond_cutoff": 0
+      },
+      "trial_factor_limit": 32000,
+      "unfactored_remainder": "1",
+      "factors": [
+        {
+          "p": 2,
+          "v": 10,
+          "p_over_N": 0.003125,
+          "numerator_v": 10,
+          "denominator_v": 35,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "320"
+        },
+        {
+          "p": 3,
+          "v": 10,
+          "p_over_N": 0.0046875,
+          "numerator_v": 10,
+          "denominator_v": 26,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/3"
+        },
+        {
+          "p": 5,
+          "v": 8,
+          "p_over_N": 0.0078125,
+          "numerator_v": 8,
+          "denominator_v": 18,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "128"
+        },
+        {
+          "p": 7,
+          "v": 3,
+          "p_over_N": 0.0109375,
+          "numerator_v": 3,
+          "denominator_v": 12,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/7"
+        },
+        {
+          "p": 11,
+          "v": 6,
+          "p_over_N": 0.0171875,
+          "numerator_v": 6,
+          "denominator_v": 11,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/11"
+        },
+        {
+          "p": 13,
+          "v": 3,
+          "p_over_N": 0.0203125,
+          "numerator_v": 3,
+          "denominator_v": 9,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/13"
+        },
+        {
+          "p": 17,
+          "v": 4,
+          "p_over_N": 0.0265625,
+          "numerator_v": 4,
+          "denominator_v": 9,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/17"
+        },
+        {
+          "p": 19,
+          "v": 2,
+          "p_over_N": 0.0296875,
+          "numerator_v": 2,
+          "denominator_v": 8,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/19"
+        },
+        {
+          "p": 23,
+          "v": 3,
+          "p_over_N": 0.0359375,
+          "numerator_v": 3,
+          "denominator_v": 7,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/23"
+        },
+        {
+          "p": 37,
+          "v": 3,
+          "p_over_N": 0.0578125,
+          "numerator_v": 3,
+          "denominator_v": 7,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/37"
+        },
+        {
+          "p": 41,
+          "v": 3,
+          "p_over_N": 0.0640625,
+          "numerator_v": 3,
+          "denominator_v": 7,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/41"
+        },
+        {
+          "p": 43,
+          "v": 2,
+          "p_over_N": 0.0671875,
+          "numerator_v": 2,
+          "denominator_v": 6,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/43"
+        },
+        {
+          "p": 47,
+          "v": 3,
+          "p_over_N": 0.0734375,
+          "numerator_v": 3,
+          "denominator_v": 7,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/47"
+        },
+        {
+          "p": 53,
+          "v": 3,
+          "p_over_N": 0.0828125,
+          "numerator_v": 3,
+          "denominator_v": 7,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/53"
+        },
+        {
+          "p": 59,
+          "v": 3,
+          "p_over_N": 0.0921875,
+          "numerator_v": 3,
+          "denominator_v": 6,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/59"
+        },
+        {
+          "p": 61,
+          "v": 2,
+          "p_over_N": 0.0953125,
+          "numerator_v": 2,
+          "denominator_v": 6,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/61"
+        },
+        {
+          "p": 67,
+          "v": 2,
+          "p_over_N": 0.1046875,
+          "numerator_v": 2,
+          "denominator_v": 6,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/67"
+        },
+        {
+          "p": 71,
+          "v": 1,
+          "p_over_N": 0.1109375,
+          "numerator_v": 1,
+          "denominator_v": 5,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/71"
+        },
+        {
+          "p": 73,
+          "v": 3,
+          "p_over_N": 0.1140625,
+          "numerator_v": 3,
+          "denominator_v": 7,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/73"
+        },
+        {
+          "p": 79,
+          "v": 4,
+          "p_over_N": 0.1234375,
+          "numerator_v": 4,
+          "denominator_v": 8,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/79"
+        },
+        {
+          "p": 83,
+          "v": 2,
+          "p_over_N": 0.1296875,
+          "numerator_v": 2,
+          "denominator_v": 6,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/83"
+        },
+        {
+          "p": 89,
+          "v": 1,
+          "p_over_N": 0.1390625,
+          "numerator_v": 1,
+          "denominator_v": 4,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/89"
+        },
+        {
+          "p": 97,
+          "v": 1,
+          "p_over_N": 0.1515625,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/97"
+        },
+        {
+          "p": 101,
+          "v": 2,
+          "p_over_N": 0.1578125,
+          "numerator_v": 2,
+          "denominator_v": 4,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/101"
+        },
+        {
+          "p": 103,
+          "v": 2,
+          "p_over_N": 0.1609375,
+          "numerator_v": 2,
+          "denominator_v": 4,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/103"
+        },
+        {
+          "p": 109,
+          "v": 2,
+          "p_over_N": 0.1703125,
+          "numerator_v": 2,
+          "denominator_v": 4,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/109"
+        },
+        {
+          "p": 137,
+          "v": 1,
+          "p_over_N": 0.2140625,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/137"
+        },
+        {
+          "p": 139,
+          "v": 2,
+          "p_over_N": 0.2171875,
+          "numerator_v": 2,
+          "denominator_v": 4,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/139"
+        },
+        {
+          "p": 149,
+          "v": 1,
+          "p_over_N": 0.2328125,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/149"
+        },
+        {
+          "p": 151,
+          "v": 2,
+          "p_over_N": 0.2359375,
+          "numerator_v": 2,
+          "denominator_v": 4,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/151"
+        },
+        {
+          "p": 163,
+          "v": 1,
+          "p_over_N": 0.2546875,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/163"
+        },
+        {
+          "p": 167,
+          "v": 1,
+          "p_over_N": 0.2609375,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/167"
+        },
+        {
+          "p": 173,
+          "v": 1,
+          "p_over_N": 0.2703125,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/173"
+        },
+        {
+          "p": 269,
+          "v": 1,
+          "p_over_N": 0.4203125,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/269"
+        },
+        {
+          "p": 337,
+          "v": 1,
+          "p_over_N": 0.5265625,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/337"
+        },
+        {
+          "p": 439,
+          "v": 1,
+          "p_over_N": 0.6859375,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/439"
+        },
+        {
+          "p": 443,
+          "v": 1,
+          "p_over_N": 0.6921875,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/443"
+        },
+        {
+          "p": 463,
+          "v": 1,
+          "p_over_N": 0.7234375,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/463"
+        },
+        {
+          "p": 491,
+          "v": 1,
+          "p_over_N": 0.7671875,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/491"
+        },
+        {
+          "p": 521,
+          "v": 1,
+          "p_over_N": 0.8140625,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/521"
+        },
+        {
+          "p": 523,
+          "v": 1,
+          "p_over_N": 0.8171875,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/523"
+        },
+        {
+          "p": 557,
+          "v": 1,
+          "p_over_N": 0.8703125,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/557"
+        },
+        {
+          "p": 563,
+          "v": 1,
+          "p_over_N": 0.8796875,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/563"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "reduced_log_q": 31321.732768713075,
+      "delta": 0.2799010389312833,
+      "numerical_implied_mu": 4.572691276238897,
+      "normalized_gcd": "824532439476839296799825831466472002619385079316125685591721001718724997091548304396958256859979661463056144835571996246702685823887488353704039168000000000",
+      "normalized_gcd_log": 359.0103357137378,
+      "extra_gain_per_N": 0.5609536495527153,
+      "classified_gain_per_N": {
+        "excluded_small_prime": 0.46548769478890195,
+        "eligible_prime": 0.09546595476381332,
+        "beyond_cutoff": 0
+      },
+      "trial_factor_limit": 32000,
+      "unfactored_remainder": "1",
+      "factors": [
+        {
+          "p": 2,
+          "v": 17,
+          "p_over_N": 0.003125,
+          "numerator_v": 17,
+          "denominator_v": 42,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "320"
+        },
+        {
+          "p": 3,
+          "v": 11,
+          "p_over_N": 0.0046875,
+          "numerator_v": 11,
+          "denominator_v": 27,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/3"
+        },
+        {
+          "p": 5,
+          "v": 9,
+          "p_over_N": 0.0078125,
+          "numerator_v": 9,
+          "denominator_v": 19,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "128"
+        },
+        {
+          "p": 7,
+          "v": 3,
+          "p_over_N": 0.0109375,
+          "numerator_v": 3,
+          "denominator_v": 12,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/7"
+        },
+        {
+          "p": 11,
+          "v": 5,
+          "p_over_N": 0.0171875,
+          "numerator_v": 5,
+          "denominator_v": 10,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/11"
+        },
+        {
+          "p": 13,
+          "v": 3,
+          "p_over_N": 0.0203125,
+          "numerator_v": 3,
+          "denominator_v": 9,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/13"
+        },
+        {
+          "p": 17,
+          "v": 4,
+          "p_over_N": 0.0265625,
+          "numerator_v": 4,
+          "denominator_v": 9,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/17"
+        },
+        {
+          "p": 19,
+          "v": 2,
+          "p_over_N": 0.0296875,
+          "numerator_v": 2,
+          "denominator_v": 8,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/19"
+        },
+        {
+          "p": 23,
+          "v": 3,
+          "p_over_N": 0.0359375,
+          "numerator_v": 3,
+          "denominator_v": 7,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/23"
+        },
+        {
+          "p": 37,
+          "v": 3,
+          "p_over_N": 0.0578125,
+          "numerator_v": 3,
+          "denominator_v": 7,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/37"
+        },
+        {
+          "p": 41,
+          "v": 3,
+          "p_over_N": 0.0640625,
+          "numerator_v": 3,
+          "denominator_v": 7,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/41"
+        },
+        {
+          "p": 43,
+          "v": 2,
+          "p_over_N": 0.0671875,
+          "numerator_v": 2,
+          "denominator_v": 6,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/43"
+        },
+        {
+          "p": 47,
+          "v": 3,
+          "p_over_N": 0.0734375,
+          "numerator_v": 3,
+          "denominator_v": 7,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/47"
+        },
+        {
+          "p": 53,
+          "v": 3,
+          "p_over_N": 0.0828125,
+          "numerator_v": 3,
+          "denominator_v": 7,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/53"
+        },
+        {
+          "p": 59,
+          "v": 3,
+          "p_over_N": 0.0921875,
+          "numerator_v": 3,
+          "denominator_v": 6,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/59"
+        },
+        {
+          "p": 61,
+          "v": 2,
+          "p_over_N": 0.0953125,
+          "numerator_v": 2,
+          "denominator_v": 6,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/61"
+        },
+        {
+          "p": 67,
+          "v": 2,
+          "p_over_N": 0.1046875,
+          "numerator_v": 2,
+          "denominator_v": 6,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/67"
+        },
+        {
+          "p": 71,
+          "v": 1,
+          "p_over_N": 0.1109375,
+          "numerator_v": 1,
+          "denominator_v": 5,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/71"
+        },
+        {
+          "p": 73,
+          "v": 3,
+          "p_over_N": 0.1140625,
+          "numerator_v": 3,
+          "denominator_v": 7,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/73"
+        },
+        {
+          "p": 79,
+          "v": 4,
+          "p_over_N": 0.1234375,
+          "numerator_v": 4,
+          "denominator_v": 8,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/79"
+        },
+        {
+          "p": 83,
+          "v": 2,
+          "p_over_N": 0.1296875,
+          "numerator_v": 2,
+          "denominator_v": 6,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/83"
+        },
+        {
+          "p": 89,
+          "v": 1,
+          "p_over_N": 0.1390625,
+          "numerator_v": 1,
+          "denominator_v": 4,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/89"
+        },
+        {
+          "p": 97,
+          "v": 1,
+          "p_over_N": 0.1515625,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/97"
+        },
+        {
+          "p": 101,
+          "v": 2,
+          "p_over_N": 0.1578125,
+          "numerator_v": 2,
+          "denominator_v": 4,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/101"
+        },
+        {
+          "p": 103,
+          "v": 2,
+          "p_over_N": 0.1609375,
+          "numerator_v": 2,
+          "denominator_v": 4,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/103"
+        },
+        {
+          "p": 109,
+          "v": 2,
+          "p_over_N": 0.1703125,
+          "numerator_v": 2,
+          "denominator_v": 4,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/109"
+        },
+        {
+          "p": 137,
+          "v": 1,
+          "p_over_N": 0.2140625,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/137"
+        },
+        {
+          "p": 139,
+          "v": 2,
+          "p_over_N": 0.2171875,
+          "numerator_v": 2,
+          "denominator_v": 4,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/139"
+        },
+        {
+          "p": 149,
+          "v": 1,
+          "p_over_N": 0.2328125,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/149"
+        },
+        {
+          "p": 151,
+          "v": 2,
+          "p_over_N": 0.2359375,
+          "numerator_v": 2,
+          "denominator_v": 4,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/151"
+        },
+        {
+          "p": 163,
+          "v": 1,
+          "p_over_N": 0.2546875,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/163"
+        },
+        {
+          "p": 167,
+          "v": 1,
+          "p_over_N": 0.2609375,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/167"
+        },
+        {
+          "p": 173,
+          "v": 1,
+          "p_over_N": 0.2703125,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "640/173"
+        },
+        {
+          "p": 269,
+          "v": 1,
+          "p_over_N": 0.4203125,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/269"
+        },
+        {
+          "p": 337,
+          "v": 1,
+          "p_over_N": 0.5265625,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/337"
+        },
+        {
+          "p": 439,
+          "v": 1,
+          "p_over_N": 0.6859375,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/439"
+        },
+        {
+          "p": 443,
+          "v": 1,
+          "p_over_N": 0.6921875,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/443"
+        },
+        {
+          "p": 463,
+          "v": 1,
+          "p_over_N": 0.7234375,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/463"
+        },
+        {
+          "p": 491,
+          "v": 1,
+          "p_over_N": 0.7671875,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/491"
+        },
+        {
+          "p": 521,
+          "v": 1,
+          "p_over_N": 0.8140625,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/521"
+        },
+        {
+          "p": 523,
+          "v": 1,
+          "p_over_N": 0.8171875,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/523"
+        },
+        {
+          "p": 557,
+          "v": 1,
+          "p_over_N": 0.8703125,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/557"
+        },
+        {
+          "p": 563,
+          "v": 1,
+          "p_over_N": 0.8796875,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "640/563"
+        }
+      ]
+    }
+  ],
+  "runtime_seconds": 0.017179916030727327,
+  "scope": "Exact finite gcd beyond C_N D_(N,r)/(G_N H_(N,r)); no all-N divisibility or asymptotic exponent claimed."
+}

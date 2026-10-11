@@ -1,0 +1,118 @@
+\paragraph{Periodic lifts: an independent arithmetic audit.}
+Put $x=N/p=t+f$ with $t\in\mathbb Z_{\ge0}$ and $0\le f<1$.
+In the notation of the six-shell argument, translation by $t$ changes
+\[
+ a=8t+a_0,\quad M=11t+M_0,\quad
+ \lambda_u=ut+\lambda_{u,0},\quad K=13t+K_0.
+\]
+It leaves $b/p$, $d/p$, $h$, $e$, $\delta$, and the minimal-carry support
+unchanged. Thus the same eight rows of the chamber table apply, with these
+integer translations. The high-digit polynomial $U(V)$ changes, but it is
+still independent of the residue $k$ on the minimal-carry support; that
+independence, rather than its explicit coefficients, is the required property.
+The degree condition becomes exactly
+\[
+ 13N+r<(13t+K_0)p.
+\]
+The admissible shift can uniformly be chosen as
+$\eta=p\lceil2N/p\rceil$. For $t\ge1$ it lies in $[2N,3N]$;
+for $t=0$ it is the original choice and lies in $[2N,9N]$.
+All original factorial arguments, polynomial degrees, and harmonic indices
+are still below $p^2$ under $p^2>50N$.
+The omitted internal chamber walls $f=5/11,10/11$ still force $p=11$,
+which is incompatible with the cutoff. Hence no new obstruction appears
+in translating the existing local factorization and Newton-sum argument.
+This audit must be read with that argument, not as a replacement for its
+integer-valued-polynomial justification.
+
+\paragraph{Density of the lifted prime intervals.}
+For
+\[
+ \mathcal B=\{(2,8,1),(3,9,2),(4,10,3),
+                 (5,8,3),(6,9,4),(12,9,8)\},
+\]
+write $(k,a,b)$ for an element. The additional intervals, beyond the six
+original intervals, are
+\[
+ \frac{13N+r}{13t+k}<p<\frac{aN}{at+b},\qquad t=1,2,\ldots .
+\]
+They are disjoint because their reciprocals lie in the disjoint translated
+base intervals. If $H_{N,r}^{\mathrm{lift}}$ is the product of eligible primes
+in these intervals, the prime number theorem gives
+\[
+ \lim_{N\to\infty}\frac{\log H_{N,r}^{\mathrm{lift}}}{N}
+ =g:=\sum_{(k,a,b)\in\mathcal B}\sum_{t=1}^{\infty}
+       \left(\frac{a}{at+b}-\frac{13}{13t+k}\right).
+\]
+To justify the infinite sum, first retain finitely many $t$. The column
+shift changes each endpoint only by a bounded amount. The discarded
+intervals for $t\ge T$ contain only primes $p<N/T$, so their total
+logarithmic weight is at most $\vartheta(N/T)$; after division by $N$,
+the limiting upper bound is $1/T$. The excluded primes
+$p\le\sqrt{50N}$ contribute $o(N)$. This proves the stated limit without
+requiring a prime number theorem uniform in $t$.
+Equivalently,
+\[
+ g=\sum_{(k,a,b)\in\mathcal B}
+       \bigl(\psi(1+k/13)-\psi(1+b/a)\bigr)
+  =0.10868236921910157039\ldots.
+\]
+
+\paragraph{An exact rational enclosure.}
+Each summand is
+\[
+ f_{k,a,b}(t)=\frac{ak-13b}{(at+b)(13t+k)}>0.
+\]
+Put $M=100000$ and $S=10^{24}$. Integer division gives
+\[
+ A:=\sum_{(k,a,b)\in\mathcal B}\sum_{t=1}^{M}
+          \lfloor S f_{k,a,b}(t)\rfloor
+   =108681309400407200714213.
+\]
+Since $f(t)=(\beta-\alpha)/((t+\alpha)(t+\beta))$ with
+$\alpha=b/a<\beta=k/13$, comparison with decreasing reciprocal squares gives
+\[
+ \frac{ak-13b}{a(13M+13+k)}
+ \le \sum_{t=M+1}^{\infty}f_{k,a,b}(t)
+ \le \frac{ak-13b}{13aM}.
+\]
+Consequently
+\[
+ \frac AS+\sum_{\mathcal B}\frac{ak-13b}{a(13M+13+k)}
+ \le g\le
+ \frac{A+6M}{S}+\sum_{\mathcal B}\frac{ak-13b}{13aM}.
+\]
+The accompanying integer-arithmetic script verifies this enclosure:
+\[
+ 0.1086823692136766<g<0.1086823692294671.
+\]
+Using the previously certified carry-density lower bound
+\[
+ \gamma\ge\frac{159010385641752609841}{13110552000000000000},
+\]
+set $c_0=25-233/120-\gamma_{\rm lower}$ and let $g_-$ denote the displayed
+rational lower endpoint. The existing analytic enclosures imply
+\[
+ \sigma\le38.168732909647+c_0-g_-,\qquad
+ \tau\ge24.467842131921-c_0+g_->0.
+\]
+Exact rational cross-multiplication then gives
+\[
+ 1+\frac{38.168732909647+c_0-g_-}
+          {24.467842131921-c_0+g_-}
+   <4.589897.
+\]
+This last implication uses the uniform integer normalization furnished by
+the translated shell argument and the analytic/nonvanishing inputs.
+It does not follow merely from the finite divisibility checks below.
+
+\paragraph{Why the column shift matters even after translation.}
+At $N=3000$, $p=907$, the active lift has $t=3$, $k=4$ and
+$(13t+k)p=43\cdot907=39001$.
+Thus $13N+r<(13t+k)p$ holds only for $r=0$.
+For the pair normalized using the original six-shell divisor, its two
+$p$-valuations are $(1,3)$ in column zero, but $(0,2)$ in columns one and
+two. The unshifted periodic guess therefore fails, whereas the shifted
+inequality predicts precisely the observed distinction.
+The same phenomenon occurs at $N=6000$, $p=1013$:
+$(13\cdot5+12)1013=78001$.

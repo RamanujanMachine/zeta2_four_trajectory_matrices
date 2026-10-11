@@ -1,0 +1,29 @@
+Independent audit of the proposed periodic lift of all_shells.tex.
+
+Let x=N/p=t+f with integer t>=0 and 0<=f<1. On each of the original
+fractional chambers, the low-digit quantities b,d,e,delta,h are unchanged.
+The high digits become a=8t+a0, M=11t+M0, lambda_u=u*t+lambda_u0.
+Hence K=3a-M+h=13t+K0. The polynomial Q and its root multiplicities
+are unchanged over F_p. Its degree condition is exactly
+  13N+r < (13t+K0)p,
+which gives the column-corrected lifted intervals.
+
+No large-t denominator obstruction is introduced. The cutoff p^2>50N
+implies p>50x. Since the smallest supported x is >1/8, this ensures
+a+delta<=8x+1<p, M<=11x<p, and M+A<=13x+1<p when A=ceil(2x).
+The high-digit factorials, distinct kernel poles, and harmonic inverses
+remain units modulo p. Actual original factorial arguments remain below
+22N<p^2, as before.
+
+The shift eta=p*ceil(2N/p) is admissible. If p<=2N, then
+2N<=eta<2N+p<=4N. If p>2N, eta=p<8N. Thus eta lies in [2N,9N]
+and all harmonic indices are below 19N<p^2.
+
+The excluded fractional boundaries f=5/11 and 10/11 force p=11 and
+N=11t+5 or 11t+10, respectively. Both violate p^2>50N for every t>=0.
+All remaining residue, normalized-S, and Newton-coefficient arguments
+are exactly those already audited in the original all-shell proof.
+
+Conclusion: no new gap found in the proposed uniform periodic extension.
+It is an extension of the finite-readout arithmetic proof. It should not
+be attributed to a demonstrated prime-dependent multiplication-order rule.

@@ -1,0 +1,9 @@
+{
+  "N_range": [
+    1,
+    120
+  ],
+  "eligible_prime_cases": 1693,
+  "direct_rational_polynomial_checks": 74,
+  "all_assertions_passed": true
+}

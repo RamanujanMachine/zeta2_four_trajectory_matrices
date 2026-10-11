@@ -1,0 +1,103 @@
+{'N': 3, 'p': 23, 'a': 1, 'M': 1, 'h': 0, 'e': 0, 'support': 11, 'Q_degree': 15, 'S_checks': 207}
+{'N': 7, 'p': 31, 'a': 1, 'M': 2, 'h': 2, 'e': 0, 'support': 6, 'Q_degree': 28, 'S_checks': 186}
+{'N': 7, 'p': 23, 'a': 2, 'M': 3, 'h': 1, 'e': 0, 'support': 4, 'Q_degree': 21, 'S_checks': 69}
+{'N': 23, 'p': 61, 'a': 3, 'M': 4, 'h': 0, 'e': 0, 'support': 10, 'Q_degree': 54, 'S_checks': 549}
+{'N': 13, 'p': 29, 'a': 3, 'M': 4, 'h': 1, 'e': 0, 'support': 9, 'Q_degree': 23, 'S_checks': 261}
+{'N': 17, 'p': 37, 'a': 3, 'M': 5, 'h': 2, 'e': 1, 'support': 9, 'Q_degree': 35, 'S_checks': 111}
+{'N': 42, 'p': 47, 'a': 7, 'M': 9, 'h': 0, 'e': 0, 'support': 25, 'Q_degree': 28, 'S_checks': 423}
+{'N': 43, 'p': 47, 'a': 7, 'M': 10, 'h': 1, 'e': 1, 'support': 24, 'Q_degree': 41, 'S_checks': 423}
+{
+  "all_assertions_passed": true,
+  "cases": [
+    {
+      "N": 3,
+      "p": 23,
+      "a": 1,
+      "M": 1,
+      "h": 0,
+      "e": 0,
+      "support": 11,
+      "Q_degree": 15,
+      "S_checks": 207
+    },
+    {
+      "N": 7,
+      "p": 31,
+      "a": 1,
+      "M": 2,
+      "h": 2,
+      "e": 0,
+      "support": 6,
+      "Q_degree": 28,
+      "S_checks": 186
+    },
+    {
+      "N": 7,
+      "p": 23,
+      "a": 2,
+      "M": 3,
+      "h": 1,
+      "e": 0,
+      "support": 4,
+      "Q_degree": 21,
+      "S_checks": 69
+    },
+    {
+      "N": 23,
+      "p": 61,
+      "a": 3,
+      "M": 4,
+      "h": 0,
+      "e": 0,
+      "support": 10,
+      "Q_degree": 54,
+      "S_checks": 549
+    },
+    {
+      "N": 13,
+      "p": 29,
+      "a": 3,
+      "M": 4,
+      "h": 1,
+      "e": 0,
+      "support": 9,
+      "Q_degree": 23,
+      "S_checks": 261
+    },
+    {
+      "N": 17,
+      "p": 37,
+      "a": 3,
+      "M": 5,
+      "h": 2,
+      "e": 1,
+      "support": 9,
+      "Q_degree": 35,
+      "S_checks": 111
+    },
+    {
+      "N": 42,
+      "p": 47,
+      "a": 7,
+      "M": 9,
+      "h": 0,
+      "e": 0,
+      "support": 25,
+      "Q_degree": 28,
+      "S_checks": 423
+    },
+    {
+      "N": 43,
+      "p": 47,
+      "a": 7,
+      "M": 10,
+      "h": 1,
+      "e": 1,
+      "support": 24,
+      "Q_degree": 41,
+      "S_checks": 423
+    }
+  ],
+  "S_checks": 2229,
+  "runtime_seconds": 0.7977784579852596
+}

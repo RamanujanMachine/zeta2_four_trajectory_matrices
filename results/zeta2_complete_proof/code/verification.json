@@ -1,0 +1,82 @@
+{
+  "all_executed_checks_passed": true,
+  "python_version": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "checks": [
+    {
+      "script": "analytic/certify_analytic_rates.py",
+      "arguments": [],
+      "exit_code": 0,
+      "elapsed_seconds": 0.03133683401392773,
+      "log": "run_logs/certify_analytic_rates.log"
+    },
+    {
+      "script": "chamber_certificate.py",
+      "arguments": [],
+      "exit_code": 0,
+      "elapsed_seconds": 0.025937542028259486,
+      "log": "run_logs/chamber_certificate.log"
+    },
+    {
+      "script": "check_fifth_shell.py",
+      "arguments": [],
+      "exit_code": 0,
+      "elapsed_seconds": 8.280359000025783,
+      "log": "run_logs/check_fifth_shell.log"
+    },
+    {
+      "script": "check_finite_formula.py",
+      "arguments": [],
+      "exit_code": 0,
+      "elapsed_seconds": 0.09386958397226408,
+      "log": "run_logs/check_finite_formula.log"
+    },
+    {
+      "script": "check_local_kernel.py",
+      "arguments": [],
+      "exit_code": 0,
+      "elapsed_seconds": 0.849147750006523,
+      "log": "run_logs/check_local_kernel.log"
+    },
+    {
+      "script": "check_main_shell.py",
+      "arguments": [],
+      "exit_code": 0,
+      "elapsed_seconds": 3.319189792033285,
+      "log": "run_logs/check_main_shell.log"
+    },
+    {
+      "script": "check_shell_independent.py",
+      "arguments": [],
+      "exit_code": 0,
+      "elapsed_seconds": 0.2523935420322232,
+      "log": "run_logs/check_shell_independent.log"
+    },
+    {
+      "script": "rate_certificate.py",
+      "arguments": [],
+      "exit_code": 0,
+      "elapsed_seconds": 0.08023750002030283,
+      "log": "run_logs/rate_certificate.log"
+    },
+    {
+      "script": "rt_blocks.py",
+      "arguments": [
+        "--depths",
+        "1",
+        "2",
+        "3"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.7172417499823496,
+      "log": "run_logs/rt_blocks.log"
+    },
+    {
+      "script": "toy_cmf.py",
+      "arguments": [],
+      "exit_code": 0,
+      "elapsed_seconds": 0.02327391697326675,
+      "log": "run_logs/toy_cmf.log"
+    }
+  ],
+  "scope": "Exact finite certificates for the floor arrangements, logarithmic enclosures, and final scalar comparison, together with finite matrix and congruence diagnostics. Uniform mathematical arguments are in ../zeta2_complete_proof.tex."
+}

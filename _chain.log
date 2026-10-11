@@ -1,0 +1,196 @@
+=== build blueprint_gamma_core
+=== build blueprint_gamma_cells1
+=== build blueprint_gamma_cells2
+=== build blueprint_gamma_cells3
+=== build blueprint_gamma_cells4
+=== build blueprint_gamma_cells5
+=== build blueprint_gamma_cells6
+=== build blueprint_gamma_cells7
+=== build blueprint_gamma_cells8
+=== build blueprint_gamma_table
+=== build blueprint_gamma_sumA
+=== build blueprint_gamma_sumB
+=== build blueprint_gamma_sum
+=== build blueprint_gamma_int
+=== build blueprint_gamma_bounds
+=== build blueprint_irr_criterion
+error: blueprint_irr_criterion.lean:152:2: Type mismatch
+error: build failed
+=== build blueprint_limit_spectrum
+=== build blueprint_bounded_gap
+=== BUILD-PHASE-DONE
+=== profile blueprint_irr_criterion
+	blocked (unaccounted) 0.121ms
+	congr simp thm 11.8ms
+	elaboration 78.2ms
+	import 17s
+	interpretation 16.1s
+	simp 144ms
+	tactic execution 572ms
+	type checking 113ms
+	typeclass inference 1.15s
+=== profile blueprint_limit_spectrum
+	blocked (unaccounted) 14.6s
+	congr simp thm 9.63ms
+	elaboration 273ms
+	import 15.3s
+	interpretation 13.1s
+	simp 374ms
+	tactic execution 166ms
+	type checking 1.59s
+	typeclass inference 1.05s
+=== profile blueprint_bounded_gap
+	blocked (unaccounted) 4.6s
+	congr simp thm 73.4ms
+	dsimp 78.9ms
+	elaboration 11.1s
+	import 15.4s
+	interpretation 18.4s
+	simp 2.24s
+	tactic execution 2.82s
+	type checking 2.9s
+	typeclass inference 4.69s
+=== profile blueprint_gamma_core
+	blocked (unaccounted) 3.74ms
+	congr simp thm 36.1ms
+	elaboration 312ms
+	import 16.6s
+	interpretation 17.5s
+	simp 696ms
+	tactic execution 1.32s
+	type checking 208ms
+	typeclass inference 1.54s
+=== profile blueprint_gamma_cells1
+	blocked (unaccounted) 19s
+	congr simp thm 3.18ms
+	elaboration 86.6ms
+	import 15.3s
+	interpretation 11.3s
+	simp 235ms
+	tactic execution 1.52s
+	type checking 1.25s
+	typeclass inference 857ms
+=== profile blueprint_gamma_cells2
+	blocked (unaccounted) 20.8s
+	congr simp thm 4.39ms
+	elaboration 90ms
+	import 17.1s
+	interpretation 10.6s
+	simp 381ms
+	tactic execution 1.71s
+	type checking 1.32s
+	typeclass inference 895ms
+=== profile blueprint_gamma_cells3
+	blocked (unaccounted) 39.1s
+	congr simp thm 7.13ms
+	elaboration 186ms
+	import 15.5s
+	interpretation 13.2s
+	simp 642ms
+	tactic execution 2.74s
+	type checking 2.01s
+	typeclass inference 1.37s
+=== profile blueprint_gamma_cells4
+	blocked (unaccounted) 18.1s
+	congr simp thm 3.56ms
+	elaboration 78.5ms
+	import 15.8s
+	interpretation 11.2s
+	simp 304ms
+	tactic execution 1.39s
+	type checking 1.16s
+	typeclass inference 744ms
+=== profile blueprint_gamma_cells5
+	blocked (unaccounted) 27.7s
+	congr simp thm 5.2ms
+	elaboration 121ms
+	import 15.4s
+	interpretation 12.8s
+	simp 475ms
+	tactic execution 1.97s
+	type checking 1.47s
+	typeclass inference 1s
+=== profile blueprint_gamma_cells6
+	blocked (unaccounted) 20.5s
+	congr simp thm 4.25ms
+	elaboration 69.5ms
+	import 13.8s
+	interpretation 9.61s
+	simp 362ms
+	tactic execution 1.51s
+	type checking 1.21s
+	typeclass inference 812ms
+=== profile blueprint_gamma_cells7
+	blocked (unaccounted) 22.2s
+	congr simp thm 4.53ms
+	elaboration 95ms
+	import 13.2s
+	interpretation 10s
+	simp 399ms
+	tactic execution 1.74s
+	type checking 1.39s
+	typeclass inference 886ms
+=== profile blueprint_gamma_cells8
+	blocked (unaccounted) 12s
+	congr simp thm 2.33ms
+	elaboration 55.7ms
+	import 15.9s
+	interpretation 9.69s
+	simp 179ms
+	tactic execution 1.07s
+	type checking 928ms
+	typeclass inference 562ms
+=== profile blueprint_gamma_table
+	blocked (unaccounted) 8.35s
+	elaboration 277ms
+	import 12.7s
+	interpretation 9.53s
+	tactic execution 803ms
+	type checking 1.72s
+	typeclass inference 184ms
+=== profile blueprint_gamma_sumA
+	blocked (unaccounted) 4.42s
+	elaboration 130ms
+	import 12.4s
+	interpretation 9.07s
+	tactic execution 0.918ms
+	type checking 8.96s
+	typeclass inference 43.7ms
+=== profile blueprint_gamma_sumB
+	blocked (unaccounted) 6.04s
+	elaboration 4.82ms
+	import 15.3s
+	interpretation 12.6s
+	tactic execution 0.919ms
+	type checking 11.7s
+	typeclass inference 3.88ms
+=== profile blueprint_gamma_sum
+	blocked (unaccounted) 0.0521ms
+	elaboration 50.1ms
+	import 15.2s
+	interpretation 11.4s
+	tactic execution 69.4ms
+	type checking 617ms
+	typeclass inference 98.2ms
+=== profile blueprint_gamma_int
+	blocked (unaccounted) 288ms
+	congr simp thm 21.2ms
+	dsimp 3.72ms
+	elaboration 316ms
+	import 14.6s
+	interpretation 25s
+	simp 381ms
+	tactic execution 1.94s
+	type checking 439ms
+	typeclass inference 3.47s
+=== profile blueprint_gamma_bounds
+	blocked (unaccounted) 1.8s
+	congr simp thm 18.8ms
+	elaboration 61ms
+	import 14.5s
+	interpretation 14.1s
+	simp 324ms
+	tactic execution 427ms
+	type checking 980ms
+	typeclass inference 734ms
+=== CHAIN-DONE

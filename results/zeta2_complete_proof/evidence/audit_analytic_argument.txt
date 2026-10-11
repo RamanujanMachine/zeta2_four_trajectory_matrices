@@ -1,0 +1,49 @@
+Independent audit of ../analytic/analytic_argument.tex
+
+Conclusion: no mathematical gap found in the written analytic completion,
+assuming the exact rational matrix/rate certificates stated there are
+correctly evaluated. The analytic estimates do not require a lower bound
+for the oscillating small-root contribution.
+
+Barnes functional and signs:
+  With the left vertical edge oriented upward, closing to the right is
+  clockwise. Hence I_eta(1/(s-j)) is the negative residue sum, giving
+  H_(j+eta)^(2)-zeta(2). At j the residue is pi^2/3, not zero. This
+  verifies A1. Substitution t=-s preserves the upward integral after
+  the orientation reversal and ds sign; L_m(-t)=-B(t,m+1), giving the
+  positive sign in A2. Reflection contributes (-1)^(6N)=1.
+
+Uniform coarse decay:
+  Rotating Euler's Gamma contour by sign(y)*theta gives the stated
+  Gamma(a)(cos theta)^(-a)exp(-theta|y|) bound. The six real parts sum
+  to 24N+3. At theta=pi/4 their decay overwhelms the sine growth by
+  exp(-pi|y|/2). Since |6N+iy|^r <= const*N^r*(1+|y|)^r, the remaining
+  integral has a constant independent of N. Beta's modulus bound follows
+  immediately from its positive-real integral. The resulting negative
+  exponential bound makes every component of the raw error row decay.
+
+Limiting recurrence:
+  Independently recomputed the limit companion coefficients 10890/13,
+  2305/13,42/13 from the trajectory slopes. The diagonal gauge removes
+  exactly the powers N^3,N^2,N in the companion's last column. All unit
+  moves have the stated limiting factors; the final gauge ratio tends
+  to identity. The cone argument is valid in a fixed complex eigenbasis:
+  once in the dominant cone, a nonzero solution grows; a decaying solution
+  therefore remains outside, where its pair coordinate contracts at
+  rho+2epsilon. No extra regularity or Levinson theorem is needed.
+
+Bounded-gap nonvanishing:
+  Since S_N e0=e0, the columns (e0,A_N e0,A_N A_(N+1)e0) detect exactly
+  the raw column-zero forms at N,N+1,N+2. Their determinant converges to
+  the stated nonzero limit, with a threshold independent of a/b. The
+  initial row (-2a,2b,-b) is nonzero for b>0, and W_N,S_N are invertible.
+  Nonzero scalar normalizations preserve the gap property.
+
+Irrationality measure step:
+  Eventual nonzero Q_N is not separately required in this direct argument:
+  at the selected index, nonzero integer bP_N-aQ_N and error less than
+  1/(2b) themselves force Q_N != 0. The bounded gap contributes only a
+  constant to the growth estimate. Letting epsilon tend to zero yields
+  the displayed upper bound once the uniform arithmetic normalization
+  is supplied. A separate audit of all_shells.tex found that arithmetic
+  argument sound.

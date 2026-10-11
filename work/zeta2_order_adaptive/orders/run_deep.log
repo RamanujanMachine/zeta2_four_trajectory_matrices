@@ -1,0 +1,24 @@
+{
+  "N": 320,
+  "status": "NUMERICAL_CANDIDATE",
+  "path_count": 89,
+  "gain_factor_over_six_shells": "1333675687607821550497938508382281358169887553717545525177025987125223329212875",
+  "gain_factor_from_row_choice": "1",
+  "baseline_log_q_bound": 15860.979328136407,
+  "improved_log_q_bound": 15681.089752077674,
+  "actual_reduced_log_q": 15668.557979292504,
+  "gain_rate": 0.5621549251835433,
+  "runtime_seconds": 29.42658129200572
+}
+{
+  "N": 640,
+  "status": "NUMERICAL_CANDIDATE",
+  "path_count": 89,
+  "gain_factor_over_six_shells": "251627331383312773681587472981711426580622887974891871823645325231544493741317231566454546160882465046098677012808836745209559882778164170441906484375",
+  "gain_factor_from_row_choice": "1",
+  "baseline_log_q_bound": 31662.180408567827,
+  "improved_log_q_bound": 31318.172450748476,
+  "actual_reduced_log_q": 31310.353216294614,
+  "gain_rate": 0.5375124340927385,
+  "runtime_seconds": 103.56448616599664
+}

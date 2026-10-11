@@ -1,0 +1,1597 @@
+\documentclass[11pt]{article}
+\usepackage[margin=24mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,amsthm,mathtools,booktabs,array}
+\usepackage{xcolor,listings,microtype,hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue!50!black,urlcolor=blue!50!black,citecolor=blue!50!black,
+pdftitle={CMF conservation and an irrationality measure for zeta(2)}}
+\lstset{basicstyle=\ttfamily\footnotesize,breaklines=true,columns=fullflexible,
+ keepspaces=true,showstringspaces=false,frame=single,rulecolor=\color{black!20}}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\Fp}{\mathbb F_p}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\med}{\operatorname{med}}
+\allowdisplaybreaks
+\setlength{\emergencystretch}{2em}
+\title{CMF conservation as an arithmetic tool\\
+\large A proof of $\mu(\zeta(2))<4.62675$ for the direction\\
+$(10,9,11,-11;2,1,3)$}
+\author{Mathematical derivation with reproducible exact certificates}
+\date{10 October 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+Conservation allows a matrix product to be decomposed into paths and
+blocks whose arithmetic is easier to see. Different initial rows and
+different primes may favor different certificates for the same endpoint.
+We explain this with an explicit $2\times2$ field, then use four long
+blocks of the native $\,{}_4F_3(1)$ field to derive an exact finite
+readout for the specified trajectory. A finite-field polynomial
+factorization proves the additional divisibility in all six required
+prime intervals. A Barnes integral identifies the error exactly and
+removes the dominant recurrence mode; an elementary cone argument
+then gives the sharp exponential upper rate. A nonzero observability
+determinant supplies independence at three consecutive depths.
+These ingredients give
+$\mu(\zeta(2))\le62636575/13537936<4.62675$.
+The finite chamber and numerical constant certificates use exact
+rational arithmetic. No formal proof assistant is used.
+\end{abstract}
+
+\section{The idea: one endpoint, several arithmetic descriptions}
+An arithmetic estimate need not use the same path for every initial row
+or every prime. Conservation makes the endpoint product independent of
+the admissible path, so each valid estimate constrains the same rational
+vector. A favorable first block may preserve an eigenline or a congruence
+lattice for one row, while another row benefits from another block order.
+
+For the present trajectory, the effective implementation is a fixed
+four-block route followed by prime-dependent evaluation of its exact
+readout. The last $11N$ moves are treated as one finite-difference
+operator. Their cancellation survives reduction modulo a prime and
+produces the extra common divisor. Estimating these moves one at a time
+would discard the polynomial degree reduction which proves that divisor.
+
+
+% LaTeX fragment: exact elementary lemmas and a 2-by-2 example.
+% Depends only on amsmath/amssymb and an ordinary theorem environment.
+\subsection{Conservation changes the available arithmetic certificates}
+
+Use row vectors and multiply on the right.  A conservative matrix field obeys
+\[
+ M_x(w)M_y(w+e_x)=M_y(w)M_x(w+e_y).
+\]
+Thus two admissible paths related by elementary square exchanges have the
+same endpoint product.  The evaluation points move when the order changes:
+this is not permission to commute two matrices evaluated at the same point.
+All exchanges must stay within the domain where the required matrices and
+identities are defined.
+
+For a prime $\ell$, let $c_\ell(V)$ denote the minimum $\ell$-adic
+valuation of the entries of a rational matrix or row $V$, with
+$v_\ell(0)=+\infty$.  The elementary valuation inequality gives
+\[
+ c_\ell(UV)\geq c_\ell(U)+c_\ell(V).
+\]
+Indeed, every summand in every entry of $UV$ has valuation at least the
+right-hand side, and addition cannot decrease that lower bound.
+
+Suppose a path $\gamma$ is decomposed into full blocks
+$B_{\gamma,1},\ldots,B_{\gamma,k}$, and let its endpoint product be $W$.
+For an initial row $r$, a useful certificate is
+\[
+ L_{\ell,r}(\gamma)
+ =c_\ell(rB_{\gamma,1})+
+   \sum_{j=2}^k c_\ell(B_{\gamma,j}),
+ \qquad
+ c_\ell(rW)\geq L_{\ell,r}(\gamma).
+\]
+More accurate certificates retain the transported row through later
+blocks, or retain a lattice of possible rows.  The blocks can contain any
+number of elementary steps.  Replacing a block by separate entrywise
+estimates can discard cancellations, since the displayed product
+inequality can be strict.
+
+If $\mathcal P$ is any family of admissible paths to the same endpoint,
+conservation therefore gives
+\[
+ c_\ell(rW)\geq\max_{\gamma\in\mathcal P}
+ L_{\ell,r}(\gamma).
+\]
+The maximizing path can depend on $r$, on $\ell$, and on the endpoint
+parameter $N$.  These choices are compatible because every certificate
+concerns the same rational endpoint vector.  They do not change the
+approximant or its actual reduced denominator.
+
+For several initial rows, the useful common-content bound is
+\[
+ \min_r\max_{\gamma\in\mathcal P}L_{\ell,r}(\gamma)
+ \ \geq\
+ \max_{\gamma\in\mathcal P}\min_r L_{\ell,r}(\gamma).
+\]
+The left side allows a different path for each initial row.  The inequality
+can be strict even for a $2\times2$ field and one elementary square.
+
+\subsection{An exact toy example with both kinds of dependence}
+
+Consider the rational potential
+\[
+ F(x,y)=
+ \begin{pmatrix}
+ 1+x+2y+2xy&3y(1-x)\\
+ 3x(1-y)&1+2x+y+2xy
+ \end{pmatrix},
+ \qquad
+ M_i(w)=F(w)^{-1}F(w+e_i).
+\]
+This defines a rational conservative field on its nonsingular domain:
+both products around a square telescope to
+$F(w)^{-1}F(w+e_x+e_y)$.  The four corners used below are nonsingular.
+Writing $X$ for an $x$-step and $Y$ for a $y$-step, their matrices are
+\[
+ A=M_x(0,0)=\begin{pmatrix}2&0\\3&3\end{pmatrix},\quad
+ B=M_y(0,0)=\begin{pmatrix}3&3\\0&2\end{pmatrix},
+\]
+\[
+ C=M_y(1,0)=\begin{pmatrix}3&0\\-3&2\end{pmatrix},\quad
+ D=M_x(0,1)=\begin{pmatrix}2&-3\\0&3\end{pmatrix}.
+\]
+Direct multiplication gives
+\[
+ W=AC=BD=6I_2,
+ \qquad AB\ne BA.
+\]
+The first coordinate row $e_1=(1,0)$ is a left eigenvector of $A$ with
+eigenvalue $2$; the second coordinate row $e_2=(0,1)$ is a left eigenvector
+of $B$ with the same eigenvalue.  In contrast,
+\[
+ e_1B=(3,3),\qquad e_2A=(3,3).
+\]
+All four whole matrices have content zero at both primes $2$ and $3$.
+Consequently a bound using only their individual matrix contents certifies
+no positive content.  Retaining the first transported row gives instead:
+\[
+\begin{array}{c|c|cc|c}
+\text{initial row}&\ell&L_{\ell,r}(XY)&L_{\ell,r}(YX)&
+\text{best order}\\\hline
+e_1&2&1&0&XY\\
+e_2&2&0&1&YX\\
+e_1&3&0&1&YX\\
+e_2&3&1&0&XY
+\end{array}
+\]
+For $\ell=2$, send $e_1$ along $XY$ and $e_2$ along $YX$.  This certifies
+that both endpoint rows are divisible by $2$.  For $\ell=3$, reverse those
+choices; both are divisible by $3$.  Since the endpoint vectors agree
+exactly along the two paths, both endpoint rows are divisible by $6$.
+Either single order used for both rows gives only the common-content lower
+bound zero at each prime under this particular certificate.  The endpoint
+calculation $W=6I_2$ independently confirms that the optimized bounds are
+sharp.
+
+This example is deliberately small enough that the endpoint product can be
+inspected directly.  Its purpose is to exhibit exactly the information
+lost by an arithmetic estimate, and how conservation recovers that
+information.  For large hypergeometric products one seeks symbolic block
+identities that supply the same certificates without expanding the full
+endpoint matrix.
+
+\paragraph{The same effect as denominator clearing.}
+There is also a rational version of the square with edge matrices
+$A/6,B/6,C,D$, so both endpoint products are $I_2$.  It is realized by
+bilinearly interpolating potential values
+$I_2,A/6,B/6,I_2$ at the four corners and again using
+$M_i(w)=F(w)^{-1}F(w+e_i)$.
+For $e_1$, the $XY$ calculation clears denominators by $3$, whereas the
+$YX$ calculation clears them by $2$.  For $e_2$ the roles reverse.
+Since either calculation concerns the same endpoint row, localizing at
+each prime certifies integrality: use the path with no $2$-denominator at
+$2$ and the path with no $3$-denominator at $3$.  Neither whole-matrix
+denominator estimate alone displays this fact.
+
+Equivalently, if the positive integers $D_\gamma$ all clear denominators
+of the same rational row, then $\gcd_\gamma D_\gamma$ clears them as well,
+by B\'ezout's identity.  For two rows, independently optimizing their
+certificates gives the common denominator
+\[
+ \operatorname{lcm}\!\left(
+ \gcd_\gamma D_{1,\gamma},\,
+ \gcd_\gamma D_{2,\gamma}\right).
+\]
+This divides the less flexible expression
+\[
+ \gcd_\gamma\operatorname{lcm}
+ \bigl(D_{1,\gamma},D_{2,\gamma}\bigr).
+\]
+The rational toy square gives $1$ for the first expression and $6$ for
+the second.  Prime-specific ordering is precisely the local form of
+taking these greatest common divisors; it does not splice different
+approximants together.
+
+\paragraph{What an arithmetic proof must record.}
+A usable certificate specifies the initial row, the prime range, the
+entire block order, every block's starting point, and the retained
+transported row or lattice.  Numerical endpoint readouts suggest such
+certificates; a uniform identity or valuation argument must establish
+them for all admissible parameters.  A finite set of successful readouts
+alone is not that uniform argument.
+
+
+\section{Comparison with the literature}
+
+% Include in the main article before its bibliography.
+
+Rhin and Viola's permutation-group method compares representations of the
+same linear form obtained from transformations of a multiple integral.
+Factorial quotients in the transformation formulas supply additional
+$p$-adic information; their 1996 paper obtains
+$\mu(\zeta(2))<5.441243$ \cite{RhinViola1996}.  Its arithmetic analysis is
+particularly explicit in Sections~3--4.  This provides the relevant analogy:
+several equivalent descriptions can certify more divisibility than one
+description considered in isolation.
+
+The choice of description separately at each prime has a direct precedent.
+In Zudilin's hypergeometric treatment, Lemma~7 maximizes valuations of
+factorial quotients over parameter permutations.  Section~6 then compares
+two different hypergeometric descriptions of the same pair of coefficients
+and takes the pointwise maximum of their arithmetic profiles,
+$\widetilde\varphi(x)=\max\{\varphi(x),\widehat\varphi(x)\}$.
+Equations~(28)--(29), followed by the asymptotic calculation in Section~7,
+yield $\mu(\zeta(2))\leq5.09541178\ldots$ \cite{Zudilin2014}.
+Thus prime-dependent selection should be presented as a familiar arithmetic
+principle, here organized through CMF path identities.
+
+CMFs also already have an arithmetic role in the literature.
+David's potential matrix is independent of the lattice path
+(Definition~11).  Lemma~36 and Corollary~37 use identities relating
+horizontal and vertical directions to establish factorial divisibility
+for a $\zeta(3)$ field \cite{David2023}.  The July~2026 revision of
+Weinbaum et al. studies CMF asymptotics through a discrete
+Levinson-type framework and explicitly separates structural results from
+experimental arithmetic conjectures \cite{Weinbaum2026}.
+
+In the present proposal, the representations are shifted matrix products
+along admissible paths in a known conserving family.  A selected row is
+transported exactly into each block, so a certificate can retain congruence
+information lost by an entrywise matrix estimate.  One may then optimize the
+certificate for each row and prime, while conservation keeps the endpoint
+readout fixed.  This is the concrete CMF mechanism to investigate; the extra prime intervals for the present $\zeta(2)$ trajectory are proved by the uniform polynomial argument in Appendix~\ref{app:all-shells}.  Suitable descriptions of the classical work are
+``technically intricate'', ``case-intensive'', and
+``dependent on carefully chosen transformations''.
+
+
+
+\section{The specified $\zeta(2)$ trajectory}
+We use the native field $\mathrm{pFq}(4,3,1)$, with initial vertex and direction
+\[
+ w_0=(1,1,1,0;1,1,1),\qquad v=(10,9,11,-11;2,1,3).
+\]
+Let $W(N)$ be its unscaled endpoint product, acting on rows on the right,
+and set
+\[
+ R=\begin{pmatrix}0&2&-1\\2&0&0\end{pmatrix},\qquad
+ \binom{p_N^{\rm raw}}{q_N^{\rm raw}}=RW(N)e_0.
+\]
+Thus $p_N^{\rm raw}/q_N^{\rm raw}$ is exactly the expression in the
+experiment, $(2W_{10}-W_{20})/(2W_{00})$.
+The column labels below are $r=0,1,2$.
+The two initial rows of $R$ are transported separately when deriving
+arithmetic bounds; they are not reset at the boundaries of blocks.
+
+At a vertex $w=(x_0,x_1,x_2,-m;y_0,y_1,y_2)$, write
+\[
+ Q_w(s)=s\prod_{i=0}^2(s+y_i-1)-(s-m)\prod_{i=0}^2(s+x_i)
+       =\sum_{j=0}^3a_js^j,
+\quad
+ T_w=\begin{pmatrix}0&0&-a_0/a_3\\1&0&-a_1/a_3\\0&1&-a_2/a_3\end{pmatrix}.
+\]
+An upper increase has matrix $I+T_w/x_i$. A lower increase is the
+inverse of $I+T_{w+e_{y_i}}/y_i$, evaluated at the target in $T$.
+A decrease of $x_3$ is likewise the inverse upper move evaluated at
+its target. These evaluation points are part of the multiplication order.
+
+\subsection{The four chosen blocks}
+For $t=3$ or $4$, the following blocks reach the same endpoint:
+\[
+\begin{array}{c|c|c}
+\text{block}&\text{direction per block step}&\text{number of steps}\\\hline
+A&(1,1,1,0;0,0,0)&tN\\
+B&(0,0,0,0;2,1,3)&N\\
+C&(10-t,9-t,11-t,0;0,0,0)&N\\
+D&(0,0,0,-1;0,0,0)&11N
+\end{array}
+\]
+Within each step, make its coordinate moves from left to right, always
+evaluating at the current vertex. The first block raises all positive
+uppers enough that the lower moves are regular. The lower block then
+establishes the harmonic shifts; the remaining upper block establishes
+the binomial widths; the final negative-upper block performs a long
+finite difference. In particular this decomposition treats the last
+$11N$ steps together, rather than estimating them independently.
+
+At the endpoint all three paired widths $x_i-y_i$ equal $8N$.
+This is the reason that the readout below contains three binomial
+polynomials of a common width. Appendix~\ref{app:blocks} records the
+complete $t=3$ vertices and compatible integral normalizations, including
+every block boundary. Appendix~\ref{app:finite} verifies all generators
+and the regularity of both routes uniformly in $N$.
+
+\subsection{Reading the arithmetic from the rows}
+Put $d_n=\lcm(1,\ldots,n)$, with $d_0=1$, and let
+$H_n^{(2)}=\sum_{k=1}^n k^{-2}$, with $H_0^{(2)}=0$.
+Define
+\[
+\begin{split}
+ C_N&=\binom{10N}{2N}\binom{9N}{N}\binom{11N}{3N},\qquad m=11N,\\
+ F(s)&=\binom{s+10N}{8N}\binom{s+9N}{8N}\binom{s+11N}{8N},\qquad
+ c_j=(-1)^j\binom mjF(j),\\
+ S_r(s)&=\sum_{j=0}^m(-1)^j\binom mj
+       \frac{s^rF(s)-j^rF(j)}{s-j},\\
+ J_\eta(P)&=\sum_{h=0}^{\deg P}\frac{(-1)^h}{h+1}\Delta^hP(-\eta),
+ \qquad \Delta P(s)=P(s+1)-P(s).
+\end{split}
+\]
+We use $0^0=1$ and the polynomial value of each divided difference
+at a removable singularity. The exact native readout is
+\begin{equation}\label{eq:finite}
+ C_NRW(N)e_r=
+ 2\binom{\displaystyle\sum_{j=0}^m j^rc_jH_{j+\eta}^{(2)}+J_\eta(S_r)}
+        {\displaystyle\sum_{j=0}^m j^rc_j},
+ \qquad 2N\le\eta\le9N.
+\end{equation}
+This is a uniform identity, proved in Appendix~\ref{app:finite}, and
+its value is independent of the admissible integer $\eta$.
+The first row contains the harmonic and polynomial correction terms;
+the second is an integer binomial sum after multiplication by $C_N$.
+The polynomial degree drops from $24N+r-1$ to at most $13N+r-1$
+because a finite difference of order $11N$ kills all lower powers.
+That is a whole-block cancellation.
+
+The matrix readout therefore does more than suggest a growth rate.
+Its exact expression supplies the integer-valued polynomial basis,
+the possible denominator indices, and the binomial carries that can
+force common divisors. A raw list of rational approximants would hide
+this structure. Discovering a conserving family provides a systematic
+route to the identities that expose it.
+
+
+
+\section{The arithmetic normalization}
+For real $x,y$, set
+\[
+\begin{split}
+ \rho(x,y)={}&\lfloor11x\rfloor-\lfloor y\rfloor-\lfloor11x-y\rfloor\\
+ &+\lfloor10x+y\rfloor+\lfloor9x+y\rfloor+\lfloor11x+y\rfloor
+ -3\lfloor8x\rfloor\\
+ &-\lfloor2x+y\rfloor-\lfloor x+y\rfloor-\lfloor3x+y\rfloor,\\
+ \phi(x)={}&\min_{0\le y<1}\rho(x,y),\qquad
+ G_N=\prod_{\substack{\sqrt{50N}<p\le13N\\p\ \text{prime}}}p^{\phi(N/p)},\qquad
+ D_{N,r}=d_{12N}d_{13N+r}.
+\end{split}
+\]
+Each summand in the carry interpretation of $\rho$ is nonnegative.
+The large-prime cutoff ensures that only the first level of Legendre's
+factorial valuation formula is involved.
+
+Appendix~\ref{app:baseline} proves the baseline statement
+\begin{equation}\label{eq:baseline}
+ \frac{C_ND_{N,r}}{G_N}RW(N)e_r\in\Z^2
+ \quad(N\ge1,\ r=0,1,2).
+\end{equation}
+It does so by bounding the divided differences in an integer-valued
+binomial basis, accounting for a missing harmonic prime by a binomial
+carry, and transferring common divisibility through Newton coefficients.
+Thus this is a proof of the arithmetic of the actual native rows,
+not an extrapolation from the checked endpoints.
+
+The additional common divisor comes from the following six prime intervals.
+Let $H_{N,r}$ be the product of primes $p>\sqrt{50N}$ belonging to
+one of the following \emph{open} intervals:
+\begin{equation}\label{eq:shells}
+\begin{gathered}
+ ((13N+r)/2,8N),\quad ((13N+r)/3,9N/2),\quad
+ ((13N+r)/4,10N/3),\\
+ ((13N+r)/5,8N/3),\quad ((13N+r)/6,9N/4),\quad
+ ((13N+r)/12,9N/8).
+\end{gathered}
+\end{equation}
+
+\begin{theorem}[Arithmetic of the native readouts]\label{thm:arithmetic}
+For every $N\ge1$ and $r=0,1,2$,
+\[
+ \boxed{\frac{C_Nd_{12N}d_{13N+r}}{G_NH_{N,r}}RW(N)e_r\in\Z^2.}
+\]
+\end{theorem}
+\begin{proof}
+The baseline argument in Appendix~\ref{app:baseline} clears all
+denominators and divides out $G_N$. It remains to establish one further
+factor of each prime in the six open intervals. Appendix~\ref{app:all-shells}
+proves this simultaneously for all six intervals and all three columns.
+Here is the mechanism, before its detailed calculation.
+
+Write $8N=ap+b$, $11N=Mp+d$, with $0\le b,d<p$, and let
+$h=\phi(N/p)$. In $\mathbb F_p[X]$ form
+\[
+ \mathcal Q(X)=
+ \frac{\displaystyle\prod_{u=9}^{11}\binom{X+uN}{b}}
+ {(X^p-X)^{h-1}\displaystyle\prod_{j=0}^d(X-j)}.
+\]
+For $h=0$, the expression means multiplication by $X^p-X$ in the
+numerator. The carry lower bound proves that this is a polynomial:
+every denominator root occurs in the numerator with at least the
+required multiplicity. In a shell labeled by $K=2,3,4,5,6,12$,
+\[
+ \deg(X^r\mathcal Q)=13N+r-(K-1)p-1<p-1.
+\]
+Therefore $\sum_{k\in\mathbb F_p}k^r\mathcal Q(k)=0$.
+
+The whole-block rational kernel, reduced at $s=k+pV$, separates into
+$\mathcal Q(k)$ times a rational function of the high digit $V$.
+The floor-cell table shows that the latter function is independent
+of $k$ on the support of $\mathcal Q$. Choose the admissible shift
+$\eta=p$ or $2p$. Both the leading harmonic residue and the leading
+Newton-coefficient residue then contain the same vanishing sum.
+Both parts of the numerator gain a factor of $p$, and the denominator
+already has the required factor. Combining the distinct primes proves
+the assertion. The appendix accounts for derivative nodes and for the
+carry chambers where a termwise argument would fail.
+\end{proof}
+
+This identifies precisely how the conserving family helps the proof.
+It transports the original rows to a useful four-block description;
+the exact readout records a long finite difference; and its polynomial
+structure supplies the uniform arithmetic cancellation. The choice of
+$\eta$ here is a prime-dependent representation of that same readout.
+The toy example separately illustrates literal prime-dependent path
+orders. We do not identify these two freedoms without an additional
+path identity.
+
+
+
+\section{The exponential cost of the arithmetic normalization}
+Define the arithmetic rate
+\[
+ \gamma=\int_{1/13}^{\infty}\frac{\phi(x)}{x^2}\,dx.
+\]
+The function $\phi$ is bounded and one-periodic, and vanishes on
+$(0,1/13)$. The prime number theorem, applied on its continuity
+intervals, gives $N^{-1}\log G_N\longrightarrow\gamma$.
+For completeness, first restrict to $p\ge N/K$, where there are only
+finitely many intervals, then bound the omitted part by
+$\|\phi\|_\infty\vartheta(N/K)/N=O(1/K)$. The excluded primes
+$p\le\sqrt{50N}$ contribute $o(N)$ and do not affect the limit.
+Here $\vartheta(x)=\sum_{p\le x}\log p$.
+
+The six interval lengths in \eqref{eq:shells}, divided by $N$, sum to
+\[
+ \left(8-\frac{13}2\right)+\left(\frac92-\frac{13}3\right)
+ +\left(\frac{10}3-\frac{13}4\right)
+ +\left(\frac83-\frac{13}5\right)
+ +\left(\frac94-\frac{13}6\right)
+ +\left(\frac98-\frac{13}{12}\right)=\frac{233}{120}.
+\]
+Consequently Theorem~\ref{thm:arithmetic} gives the arithmetic
+exponent
+\[
+ c=25-\gamma-\frac{233}{120}<10.929906.
+\]
+The strict numerical comparison uses a directed rational enclosure,
+not a floating-point integral; Appendix~\ref{app:rate} explains it.
+
+
+In particular, with
+$k_N=d_{12N}d_{13N}/(G_NH_{N,0})$, we have
+\[
+ \lim_{N\to\infty}\frac{\log k_N}{N}
+ =25-\gamma-\frac{233}{120}<10.929906.
+\]
+Only a subexponential factor is lost by omitting primes below
+$\sqrt{50N}$ or by using open interval endpoints.
+
+
+% Analytic completion for the exact native trajectory (10,9,11,-11;2,1,3).
+% Depends on the finite formula established in finite_formula_audit.tex.
+\section{Analytic estimates and nonvanishing from the native CMF}
+
+Let $W_N$ be the native endpoint product, and write
+\[
+ \mathsf P_{N,r}=(RW_N)_{0r},\qquad
+ \mathsf Q_{N,r}=(RW_N)_{1r},\qquad
+ \mathsf E_{N,r}=\zeta(2)\mathsf Q_{N,r}-\mathsf P_{N,r}
+ \quad(0\le r\le2).
+\]
+These symbols denote the rational matrix readouts, before integer
+normalization.  Put
+\[
+ F_N(s)=\prod_{u=9}^{11}\binom{s+uN}{8N},\quad
+ C_N=F_N(0),\quad m=11N,\quad
+ L_m(s)=\frac{(-1)^m m!}{s(s-1)\cdots(s-m)}.
+\]
+The finite formula provides the following exact integral identification,
+not merely a numerically identified limit.
+
+\subsection{The Barnes integral identifies the error exactly}
+For $\eta\ge0$ and a function for which the integral converges, set
+\[
+ \mathcal I_\eta(g)=\frac1{2\pi i}
+ \int_{-\eta-1/2-i\infty}^{-\eta-1/2+i\infty}
+ \left(\frac\pi{\sin\pi s}\right)^2g(s)\,ds.
+\]
+For every polynomial $P$,
+\[
+ \mathcal I_\eta(P)=J_\eta(P).
+\]
+Here is a direct verification.  Moving the line one unit to the right
+crosses one double pole, whose residue is $P'(-\eta)$; the horizontal
+segments tend to zero because of the exponential decay of the kernel.
+Thus the integral functional obeys
+$\mathcal I_\eta(P(s+1)-P(s))=P'(-\eta)$.
+This determines a linear functional on all polynomials, since the
+forward-difference map on polynomials is onto.  It agrees with the
+binomial-basis identity defining $J_\eta$.
+
+For $j\ge0$, closing a large half-integer rectangle to the right gives
+\[
+ \mathcal I_\eta\!\left(\frac1{s-j}\right)
+ =H_{j+\eta}^{(2)}-\zeta(2).
+\]
+Indeed, the residue at an integer $k\ne j$ is $-(k-j)^{-2}$, and the
+residue at $k=j$ is $\pi^2/3=2\zeta(2)$.  The integral on the distant
+right edge tends to zero.  The left edge is oriented upward, which
+accounts for the minus sign in the residue sum.
+
+The exact partial-fraction identity
+\[
+ s^rF_N(s)L_m(s)=S_r(s)+
+ \sum_{j=0}^m\frac{j^r(-1)^j\binom mjF_N(j)}{s-j}
+\]
+therefore yields
+\[
+ \boxed{\quad C_N\mathsf E_{N,r}
+       =-2\mathcal I_\eta(s^rF_NL_m).\quad}                 \tag{A1}
+\]
+Thus the constant in the error is exactly $\zeta(2)$.
+Take $\eta=6N$.  The line may be moved from $\Re s=-6N-1/2$ to
+$\Re s=-6N$: the only integer crossed is a zero of $F_N$ of
+multiplicity three, so it cancels the double pole of the sine kernel.
+
+\subsection{A coarse exponential bound removes the dominant mode}
+Use $t=-s$ and the reflection formula for the gamma function.  Since
+\[
+ L_m(-t)=-B(t,m+1),
+\]
+and the three complementary shifts are $N,2N,3N$, whose sum is even,
+(A1) becomes
+\[
+ \frac{C_N\mathsf E_{N,r}}2
+ =\frac1{2\pi i}\int_{6N-i\infty}^{6N+i\infty}
+ (-t)^r B(t,11N+1)
+ \frac{\prod_{v=1}^3\Gamma(t-vN)\Gamma((v+8)N+1-t)}
+      {\Gamma(8N+1)^3}
+ \frac{\sin\pi t}{\pi}\,dt.                              \tag{A2}
+\]
+All gamma arguments in this formula have positive real part along the
+line.  For $a>0$, real $y$, and $0<\theta<\pi/2$, rotation of the Euler
+integral by $\operatorname{sgn}(y)\theta$ proves
+\[
+ |\Gamma(a+iy)|\le\Gamma(a)(\cos\theta)^{-a}
+                                  e^{-\theta|y|}.
+\]
+The rotation is justified by exponential decay on the outer arc and
+$a>0$ on the inner arc.  Also, directly from the beta integral,
+$|B(6N+iy,11N+1)|\le B(6N,11N+1)$.
+
+The six gamma arguments in (A2), at $t=6N+iy$, have real parts
+$3N,3N+1,4N,4N+1,5N,5N+1$.  Choose $\theta=\pi/4$.
+Their combined bound supplies
+$2^{12N+3/2}e^{-3\pi|y|/2}$; the sine contributes at most
+$e^{\pi|y|}/2$.  Consequently the remaining integral is bounded by
+a constant times $N^r$, uniformly for $N\ge1$.  More explicitly,
+\[
+ |C_N\mathsf E_{N,r}|
+ \le K_r N^r 2^{12N}
+ B(6N,11N+1)
+ \frac{\prod_{k=3}^5\Gamma(kN)\Gamma(kN+1)}
+      {\Gamma(8N+1)^3},                                  \tag{A3}
+\]
+where $K_r$ is independent of $N$.  Stirling's formula gives
+\[
+ \limsup_{N\to\infty}\frac1N\log|C_N\mathsf E_{N,r}|
+ \le h,
+\]
+\[
+ h=12\log2+6\log6+11\log11-17\log17
+       +2\sum_{k=3}^5 k\log k-24\log8
+   <-18.                                                 \tag{A4}
+\]
+Since $C_N\ge1$, this already proves exponential decay of the entire
+unscaled error row.  It is deliberately a coarse bound; it will identify
+which invariant modes are present, after which the matrix recurrence
+supplies the sharp upper rate.
+
+\subsection{The limiting matrix and an elementary cone argument}
+Let $M_N$ be the native product of the 47 unit moves from the endpoint
+at $N$ to that at $N+1$.  Conservation gives $W_{N+1}=W_NM_N$.
+For $N\ge1$ put
+\[
+ S_N=\operatorname{diag}(1,N^{-1},N^{-2}),\qquad
+ A_N=S_N^{-1}M_NS_{N+1}.
+\]
+Every entry is a rational function of $N$, and direct degree comparison
+in the native companion matrix gives $A_N=A_\infty+O(N^{-1})$, where
+\[
+ T=\begin{pmatrix}0&0&10890/13\\1&0&2305/13\\0&1&42/13\end{pmatrix},
+\]
+\[
+ A_\infty=
+ \prod_{u\in\{10,9,11\}}(I+T/u)^u
+ (I-T/11)^{-11}
+ \prod_{v\in\{2,1,3\}}(I+T/v)^{-v}.                       \tag{A5}
+\]
+To see the limit directly, each unit move changes the vertex by only a
+bounded amount, while $S_N^{-1}T_wS_N/N\to T$ and its parameter
+denominator divided by $N$ tends to its displayed slope.  All the
+limiting factors are invertible.  Since they are rational functions
+of the same matrix $T$, their order in (A5) is immaterial.
+
+Write the characteristic polynomial as
+$z^3+c_2z^2+c_1z+c_0$.  Exact rational arithmetic gives
+\[
+ c_0=\frac{1855425871872}{895833302668638834554683750087890625},
+\]
+\[
+\begin{gathered}
+ c_1=\frac{6119917581009155345396562793851904}
+ {32000061404626447809127858236889541015625},\\
+ c_2=\frac{266957778538934989798238376160038092809}
+ {15342324857928574809549553125}.
+\end{gathered}
+\]
+Its discriminant is strictly negative.  Thus there is one real
+root $-\Lambda$ and a nonreal conjugate pair with common modulus
+$\rho$, where
+\[
+ 17400086428<\Lambda<17400086429,\qquad
+ \rho^2=\frac{c_0}{\Lambda}<1.                             \tag{A6}
+\]
+In particular, all three roots are distinct, and $A_\infty$ is
+complex-diagonalizable.
+
+For completeness, the needed recurrence conclusion has an elementary
+proof.  In a fixed eigenbasis split a row solution of
+$x_{N+1}=x_NA_N$ into its dominant coordinate $u_N$ and remaining pair
+$v_N$, using the maximum norm on the pair.  For any sufficiently small
+$\varepsilon>0$, the perturbation from the diagonal limiting matrix
+has norm at most $\varepsilon$ for all sufficiently large $N$.
+The cone $|u_N|\ge\|v_N\|$ is then forward invariant, and inside it
+\[
+ |u_{N+1}|\ge(\Lambda-2\varepsilon)|u_N|,
+ \qquad
+ \|v_{N+1}\|\le(\rho+2\varepsilon)|u_N|.
+\]
+Choose $\Lambda-2\varepsilon>\max(1,\rho+2\varepsilon)$.
+A nonzero solution tending to zero cannot enter this cone.  Outside
+it, $|u_N|<\|v_N\|$ at every sufficiently large index, so
+\[
+ \|v_{N+1}\|\le(\rho+2\varepsilon)\|v_N\|.
+\]
+Letting $\varepsilon$ decrease to zero proves a growth upper rate
+$\log\rho$ for every decaying solution.  Without the decay condition,
+the ordinary operator-norm bound gives upper rate $\log\Lambda$.
+The zero solution satisfies both upper bounds automatically.
+
+Apply this first to the fixed error row
+$(\zeta(2)R_{1,*}-R_{0,*})W_NS_N$, which tends to zero by (A3), and
+then to either fixed row of $RW_NS_N$.  Removing $S_N$ changes only
+polynomial factors.  We obtain
+\[
+ \limsup_N\frac1N\log|\mathsf E_{N,r}|\le\log\rho,
+ \qquad
+ \limsup_N\frac1N\log|\mathsf Q_{N,r}|\le\log\Lambda.
+                                                               \tag{A7}
+\]
+These are uniform exponential upper estimates, and do not require a
+lower estimate for an oscillatory error.
+
+\subsection{Certified numerical rates}
+Stirling's formula gives
+\[
+ \lim_N\frac{\log C_N}{N}
+ =c_C=10\log10+9\log9+11\log11
+          -2\log2-3\log3-24\log8.
+\]
+The accompanying standard-library program verifies by exact rational
+arithmetic that
+\[
+ c_C+\log\Lambda<38.168733,
+ \qquad c_C+\log\rho<-24.467842.                           \tag{A8}
+\]
+For reproducibility, logarithms are enclosed by scaling a positive
+rational argument into $[1,2]$ and using
+\[
+ \log x=2\sum_{k=0}^{K-1}\frac{z^{2k+1}}{2k+1}+R_K,
+ \quad z=\frac{x-1}{x+1},\quad
+ 0\le R_K\le\frac{2z^{2K+1}}{(2K+1)(1-z^2)}.
+\]
+The implementation uses $K=32$, handles signs of all coefficients
+when combining intervals, checks the cubic discriminant and the root
+bracket (A6), and uses $\log\rho=(\log c_0-\log\Lambda)/2$.
+No floating-point value is used in its assertions.
+
+\subsection{A bounded gap of at most two for column zero}
+The product $W_N$ is invertible on the chosen regular paths.  The exact
+observability determinant is
+\[
+\begin{gathered}
+ \det(e_0,A_\infty e_0,A_\infty^2e_0)
+ \\
+ =\frac{72143259339220303025804927524593090645506084475442025307751136603648}
+ {28469599455181793682074031322586982029718987334183867584429931640625}
+ \ne0.
+\end{gathered}                                               \tag{A9}
+\]
+Thus $(e_0,A_Ne_0,A_NA_{N+1}e_0)$ is invertible for all sufficiently
+large $N$.  Given integers $a,b$ with $b>0$, the row
+\[
+ (bR_{0,*}-aR_{1,*})W_NS_N=(-2a,2b,-b)W_NS_N
+\]
+is nonzero.  It cannot annihilate all three columns in that matrix.
+Therefore at least one of
+\[
+ b\mathsf P_{N,0}-a\mathsf Q_{N,0},\quad
+ b\mathsf P_{N+1,0}-a\mathsf Q_{N+1,0},\quad
+ b\mathsf P_{N+2,0}-a\mathsf Q_{N+2,0}
+\]
+is nonzero.  This supplies the needed nonvanishing with a bounded
+gap, directly from the native three-dimensional matrices.  Multiplying
+each pair by any nonzero normalization preserves this property.
+
+\subsection{The irrationality-measure conclusion}
+Theorem~\ref{thm:arithmetic} and the preceding rate calculation supply nonzero scalars $k_N$ with
+\[
+ P_N=C_Nk_N\mathsf P_{N,0}\in\mathbb Z,\qquad
+ Q_N=C_Nk_N\mathsf Q_{N,0}\in\mathbb Z,\qquad
+ \limsup_N\frac{\log|k_N|}{N}\le10.929906.
+                                                               \tag{A10}
+\]
+Here $k_N=d_{12N}d_{13N}/(G_NH_{N,0})$.
+Equations (A7)--(A8) then give
+\[
+ \limsup_N\frac{\log|Q_N|}{N}\le\sigma=49.098639,
+ \qquad
+ \limsup_N\frac{\log|Q_N\zeta(2)-P_N|}{N}
+ \le-\tau=-13.537936.
+\]
+Here is the irrationality-measure step explicitly.  For any small
+$\varepsilon>0$, take $n$ just large enough that
+$b e^{-(\tau-\varepsilon)n}<1/2$.  At one of $N=n,n+1,n+2$, (A9)
+ensures the integer $bP_N-aQ_N$ is nonzero.  Hence
+\[
+ 1\le |bP_N-aQ_N|
+ \le b|Q_N|\left|\zeta(2)-\frac ab\right|
+          +b|Q_N\zeta(2)-P_N|,
+\]
+which gives a positive constant times
+$b^{-1-(\sigma+\varepsilon)/(\tau-\varepsilon)}$ as a lower bound
+for the rational-approximation error.  Letting $\varepsilon\downarrow0$
+proves
+\[
+ \boxed{\quad\mu(\zeta(2))\le1+\frac\sigma\tau
+   =\frac{62636575}{13537936}<4.62675.\quad}
+\]
+All ingredients have now been supplied: the finite CMF identity, the uniform arithmetic normalization, the analytic upper estimates, and bounded-gap independence. Here $\mu(\alpha)$ is the usual irrationality measure: the infimum of $\mu$ such that for every $\varepsilon>0$ only finitely many reduced $a/b$ satisfy $|\alpha-a/b|<b^{-\mu-\varepsilon}$.
+
+
+
+\section{The role of the exact code}
+The proof reduces its finite checks to explicit rational identities and
+finite arrangements. The accompanying Python package verifies the
+390 floor cells in the eight-row chamber table, computes the rational
+limiting matrix and its discriminant, brackets its real eigenvalue,
+checks the observability determinant, and encloses the logarithms with
+positive series and explicit tails. Its carry-integral computation also
+uses a finite rational partition and a proved tail bound.
+These finite certificates check the stated reductions for all parameters
+covered by each cell; they are not tests at a chosen finite list of depths.
+
+Other scripts provide additional diagnostics: RamanujanTools checks the
+native matrices against the four-block products, the finite-functional
+checker checks general vertices, and independent integer arithmetic
+checks the local kernel formulas. These diagnostics help catch mistakes
+but are not the logical justification for universal statements.
+
+The uniform arithmetic argument keeps the cancellation of the entire
+rational kernel. Each finite certificate is used only after its
+reduction to a finite set of rational identities or floor cells has
+been established in the text.
+
+
+\appendix
+\section{Uniform derivation of the finite readout}\label{app:finite}
+
+% Independently audited finite formula. Insert after the CMF generators are defined.
+% All claims below are algebraic; no irrationality-measure conclusion is asserted.
+
+
+We use row vectors and the unscaled native generators.  Assume
+\[
+ x_i,y_i\in\mathbb Z,\quad x_i\ge y_i\ge1\quad(0\le i\le2),
+ \qquad m\in\mathbb Z_{\ge0},
+\]
+and put $b_i=x_i-y_i$ and
+\[
+ I_w=\{\eta\in\mathbb Z:
+ \operatorname{med}(y_0-1,y_1-1,y_2-1)
+ \le\eta\le\min_i(x_i-1)\}.
+\]
+Assume $I_w\ne\varnothing$. Define
+\[
+ F(s)=\prod_{i=0}^2\binom{s+x_i-1}{b_i},\quad C=F(0)>0,
+ \quad \omega_j=(-1)^j\binom mj,\quad c_j=\omega_jF(j),
+\]
+\[
+ A(s)=s\prod_i(s+y_i-1),\qquad
+ D(s)=(s-m)\prod_i(s+x_i),\qquad Q(s)=A(s)-D(s).
+\]
+The two monic quartic terms cancel.  Write
+$Q(s)=a_0+a_1s+a_2s^2+a_3s^3$ and assume $a_3\ne0$.
+For a polynomial $f$, set
+\[
+ S_f(s)=\sum_{j=0}^m\omega_j
+   \frac{f(s)F(s)-f(j)F(j)}{s-j},\qquad
+ \ell_\eta(f)=\binom{
+ \sum_{j=0}^m f(j)c_jH_{j+\eta}^{(2)}+J_\eta(S_f)}{
+ \sum_{j=0}^m f(j)c_j},
+\]
+where $J_\eta(\binom{s+\eta}{h})=(-1)^h/(h+1)$.
+All the divided differences defining $S_f$ are polynomials.
+
+\paragraph{1. The two identities for the finite functional.}
+Let $P$ be any polynomial.  Pascal's identity and
+\[
+ \left.\frac{d}{dt}\binom th\right|_{t=0}
+ =\frac{(-1)^{h-1}}h\quad(h\ge1)
+\]
+give, by checking the binomial basis,
+\[
+ J_\eta(P(s+1)-P(s))=P'(-\eta).
+\]
+Translation of that basis also gives
+$J_{\eta+1}(P)=J_\eta(P(s-1))$. Consequently
+\[
+ J_{\eta+1}(P)-J_\eta(P)=-P'(-\eta-1).
+\]
+These signs fix both cancellation arguments below.
+
+\paragraph{2. The exact rational kernel and the shift of $S_A$.}
+As an identity of rational functions,
+\[
+ L_m(s):=\sum_{j=0}^m\frac{\omega_j}{s-j}
+  =\frac{(-1)^m m!}{s(s-1)\cdots(s-m)}.
+\]
+Indeed, the right side has residue $\omega_j$ at $s=j$, and the
+remaining polynomial part vanishes at infinity.  The factor $(-1)^m$
+must be retained.  The polynomial $F$ satisfies the rational identity
+\[
+ \frac{F(s+1)}{F(s)}=
+   \frac{\prod_i(s+x_i)}{\prod_i(s+y_i)},\qquad
+ \frac{L_m(s+1)}{L_m(s)}=\frac{s-m}{s+1}.
+\]
+Therefore
+\[
+ A(s+1)F(s+1)L_m(s+1)=D(s)F(s)L_m(s).
+\]
+With $u_j=A(j)c_j$, extended by $u_0=u_{m+1}=0$, the same identities
+at nonnegative integer arguments give
+\[
+ D(j)c_j=u_{j+1}\qquad(0\le j\le m).
+\]
+The endpoint $j=m$ follows from $D(m)=0$; the other cases use the
+binomial-weight recurrence.  Since
+\[
+ S_f(s)=f(s)F(s)L_m(s)-\sum_{j=0}^m\frac{f(j)c_j}{s-j},
+\]
+the two preceding equations imply, with every residue and endpoint
+accounted for,
+\[
+ \boxed{S_D(s)=S_A(s+1).}
+\]
+This is a rational-function calculation whose two sides are polynomials;
+no division at an individual root of $F$ is being asserted.
+
+\paragraph{3. The companion relation.}
+The rational function $A(s)F(s)L_m(s)$ can be written
+\[
+ \frac{(-1)^m m!}{\prod_i b_i!}
+ \frac{\prod_i(s+y_i-1)_{b_i+1}}
+ {(s-1)\cdots(s-m)}.
+\]
+Its denominator is nonzero at $s=-\eta$, including $\eta=0$;
+the factor $s$ has already been cancelled.  Since
+$\eta\ge\operatorname{med}(y_i-1)$ and
+$\eta\le\min_i(x_i-1)$, at least two numerator factors vanish there.
+Hence $(AF L_m)'(-\eta)=0$, and differentiation of the expression for
+$S_A$ gives
+\[
+ S_A'(-\eta)=\sum_{j=1}^m\frac{u_j}{(j+\eta)^2}.
+\]
+On the other hand,
+\[
+ \sum_{j=0}^m(A(j)-D(j))c_jH_{j+\eta}^{(2)}
+ =\sum_{j=1}^m\frac{u_j}{(j+\eta)^2},
+\]
+by finite telescoping.  The polynomial contribution is
+$J_\eta(S_A-S_D)=-S_A'(-\eta)$, and the second component also
+telescopes.  Thus
+\[
+ \boxed{\ell_\eta(Q)=0.}
+\]
+Only this degree-three relation is needed when multiplying the basis
+$1,s,s^2$ by $s$.  It is not necessary, and has not been claimed, that
+$\ell_\eta(fQ)=0$ for every polynomial $f$.
+
+\paragraph{4. Independence of the admissible shift.}
+If both $\eta$ and $\eta+1$ lie in $I_w$, subtracting the first
+components yields
+\[
+ \ell_{\eta+1}(f)_1-\ell_\eta(f)_1
+ =\sum_j\frac{f(j)c_j}{(j+\eta+1)^2}
+   -S_f'(-\eta-1)
+ =-(fF L_m)'(-\eta-1).
+\]
+At $s=-\eta-1$, the function $L_m$ has no pole.  At least two of the
+factors of $F$ vanish: their integer roots cover the intervals
+$y_i,\ldots,x_i-1$, and
+$\eta+1\ge\operatorname{med}(y_i)$ and
+$\eta+1\le\min_i(x_i-1)$.  The derivative is therefore zero.
+The second component contains no $\eta$.  It follows that
+$\ell_\eta(f)$ is independent of $\eta\in I_w$.
+
+\paragraph{5. The three types of contiguous move.}
+Write
+\[
+ T_w=\begin{pmatrix}0&0&-a_0/a_3\\1&0&-a_1/a_3\\0&1&-a_2/a_3\end{pmatrix},
+ \qquad
+ Y_w=\frac2C\bigl(\ell_\eta(1),\ell_\eta(s),\ell_\eta(s^2)\bigr).
+\]
+The companion relation proves that right multiplication by $T_w$
+replaces the three columns by
+$2\ell_\eta(s)/C,2\ell_\eta(s^2)/C,2\ell_\eta(s^3)/C$.
+For an upper increase $x_i\mapsto x_i+1$,
+\[
+ F_{\rm new}(s)=\frac{s+x_i}{b_i+1}F(s),\qquad
+ C_{\rm new}=\frac{x_i}{b_i+1}C.
+\]
+The definitions are linear in $fF$, so at any common admissible shift
+\[
+ \ell_{\rm new}(f)=\frac1{b_i+1}\ell_{\rm old}((s+x_i)f),
+ \qquad Y_{\rm new}=Y_w(I+T_w/x_i).
+\]
+For a lower decrease $y_i\mapsto y_i-1$, with $y_i\ge2$, the same
+calculation replaces $x_i$ by $y_i-1$.  A lower increase is its inverse
+at the target, whenever that inverse exists.  The admissible shift
+interval expands under an upper increase or lower decrease, so the two
+intervals have a common element; shift independence then removes the
+choice.
+
+For the negative upper parameter, let the subscript on $\ell_m$ record
+$m$ while $F,C,\eta$ stay fixed.  When $m\ge1$,
+\[
+ \omega_j(j-m)=-m(-1)^j\binom{m-1}{j},\qquad
+ \sum_{j=0}^m\omega_j=0.
+\]
+In a divided difference the identity
+\[
+ \frac{(s-m)f(s)F(s)-(j-m)f(j)F(j)}{s-j}
+ =(j-m)\frac{f(s)F(s)-f(j)F(j)}{s-j}+f(s)F(s)
+\]
+therefore implies
+\[
+ S_{m,F}[(s-m)f]=-mS_{m-1,F}[f],\qquad
+ \ell_m((s-m)f)=-m\ell_{m-1}(f).
+\]
+Consequently
+\[
+ Y_{m-1}=Y_m(I-T_m/m),\qquad
+ Y_m=Y_{m-1}(I-T_m/m)^{-1}
+\]
+when the inverse is defined.  This is exactly the native decrease
+$x_3=-(m-1)\mapsto-m$, evaluated at the target.
+
+\paragraph{6. Identification with the actual row state.}
+At $(1,1,1,0;1,1,1)$, one has $F=C=1$, $m=\eta=0$ and
+\[
+ S_{f=1}=0,\quad S_{f=s}=1,\quad S_{f=s^2}=s,\qquad
+ J_0(1)=1,\quad J_0(s)=-\tfrac12.
+\]
+Thus $Y_w=\bigl(\begin{smallmatrix}0&2&-1\\2&0&0\end{smallmatrix}\bigr)=R$.
+Induction along any regular admissible path from this initial vertex,
+using the generator equalities just established, gives $Y_w=RW$.
+In particular, the formula applies along the stated four-block paths
+provided all intermediate vertices satisfy the displayed domain and
+inverse conditions.  The argument is uniform in the integer parameters;
+the previously recorded finite checks are supporting diagnostics, not
+its logical justification.  This algebraic identification does not
+establish the additional prime-shell divisibility or any analytic
+irrationality-measure estimate.
+
+
+\paragraph{7. Domain check for the present trajectory.}
+For $t=3$ or $4$, use the four blocks
+\[
+ (1,1,1,0;0,0,0)^{tN},\quad
+ (0,0,0,0;2,1,3)^N,\quad
+ (10-t,9-t,11-t,0;0,0,0)^N,\quad
+ (0,0,0,-1;0,0,0)^{11N},
+\]
+where the superscript denotes the number of block steps and every elementary
+move is evaluated at its current vertex.  During the lower-parameter block,
+every old lower value is at most $3N$, whereas the three positive upper
+values are $tN+1\ge3N+1$.  Hence the lower inverses are nonsingular.
+All positive upper values are at least every lower value throughout the
+four blocks, so $b_i\ge0$ and the shift interval is nonempty even at
+intermediate coordinate moves.  Also
+\[
+ a_3=m-\sum_i b_i-3.
+\]
+It is negative in the first three blocks, where $m=0$, and in the last
+block, where $\sum_i b_i=24N$ and $0\le m\le11N$.
+For the final inverse at $m\ge1$, its determinant is
+\[
+ \det(I-T_m/m)=\frac{Q_m(m)}{a_3m^3}
+ =\frac{\prod_i(m+y_i-1)}{a_3m^2}\ne0.
+\]
+The endpoint is therefore covered by the preceding uniform induction:
+\[
+ w=(10N+1,9N+1,11N+1,-11N;2N+1,N+1,3N+1),
+ \quad 2N\le\eta\le9N.
+\]
+Here $F(s)=\binom{s+10N}{8N}\binom{s+9N}{8N}
+\binom{s+11N}{8N}$.  This establishes the finite formula for the two
+specified native rows on this trajectory, independently of any additional
+prime-shell argument.
+
+
+\section{Baseline arithmetic}\label{app:baseline}
+
+% Independent audit: this lemma is conditional only on the finite CMF readout identity.
+\paragraph{A baseline arithmetic lemma, with no extra-shell assumption.}
+Let $N\ge1$, $m=11N$, $r\in\{0,1,2\}$, $E_r=13N+r$, and
+\[
+ F(s)=\binom{s+10N}{8N}\binom{s+9N}{8N}\binom{s+11N}{8N},\qquad
+ c_j=(-1)^j\binom{m}{j}F(j).
+\]
+Put
+\[
+ S_r(s)=\sum_{j=0}^m(-1)^j\binom mj
+              \frac{s^rF(s)-j^rF(j)}{s-j},\qquad
+ J_\eta(P)=\sum_{t=0}^{\deg P}\frac{(-1)^t}{t+1}
+                 \Delta^t P(-\eta).
+\]
+As usual $0^0=1$. The finite CMF readout identity established in Appendix~\ref{app:finite} is
+\[
+ C_NRW(N)e_r=2\binom{\sum_{j=0}^m j^r c_jH_{j+2N}^{(2)}+J_{2N}(S_r)}
+                         {\sum_{j=0}^m j^r c_j}.
+ \tag{F}
+\]
+The argument below proves arithmetic statements about the displayed finite
+sums; its application to the matrix walk uses (F).
+
+Set $D_{N,r}=d_{12N}d_{E_r}$ and define $\rho,\phi,G_N$ as defined in the main text. Then
+\[
+ \frac{D_{N,r}}{G_N}\,C_NRW(N)e_r\in\mathbb Z^2.
+ \tag{B}
+\]
+
+\emph{Denominator calculation.}
+If $f(s)=\binom{s+u}{b}$ and $j\in\mathbb Z$, then
+$d_b(f(s)-f(j))/(s-j)$ is integer-valued. Indeed, the degree is at most
+$b-1$, and its values at $j+1,\ldots,j+b$ are integers, since their
+nonzero denominators divide $d_b$. Newton interpolation at these
+consecutive integers proves the assertion at every integer.
+A telescoping product difference now implies that $d_{8N}S_r$ is
+integer-valued. The additional factor $s^r$ creates no denominator.
+Expanding each divided difference into monomials and using
+$\sum_j(-1)^j\binom mjj^t=0$ for $t<m$ gives
+$\deg S_r\le24N-m+r-1=E_r-1$.
+Thus $d_{8N}d_{E_r}J_{2N}(S_r)$ is an integer, and so is
+$D_{N,r}J_{2N}(S_r)$.
+
+For the harmonic term, fix a prime $p$ and a summand $j$.
+If the highest power $P=p^a\le j+2N$ is at most $12N$, then
+$v_p(D_{N,r})\ge2a$, which clears every reciprocal square in that
+summand. Otherwise $12N<P\le j+2N\le13N$.
+We have $p^{a-1}\le P/2\le13N/2<12N$, so
+$v_p(D_{N,r})\ge2a-1$.
+Also $j\ge P-2N$ and
+\[
+ 8N<P,\qquad j+N\le12N<P,\qquad
+ P\le j+9N\le20N<2P.
+\]
+The carry at the power $P$ in $\binom{j+9N}{8N}$ contributes a factor
+$p$. All other prime-power contributions to its valuation are nonnegative.
+Thus $p\mid c_j$, providing the missing factor. This proves that both
+entries of $D_{N,r}C_NRW(N)e_r$ are integers.
+
+\emph{Common divisor.}
+Fix a prime $\sqrt{50N}<p\le12N$, and put $h=\phi(N/p)$.
+All factorial arguments in $c_j$ are at most $22N<p^2$, hence
+\[
+ v_p(c_j)=\rho(N/p,j/p)\ge h.
+ \tag{C}
+\]
+The minimum over $0\le y<1$ suffices because $\rho$ is periodic in $y$.
+Use the sign-correct partial fraction identity
+\[
+ \sum_{j=0}^m\frac{(-1)^j\binom mj}{s-j}
+   =\frac{(-1)^m m!}{\prod_{j=0}^m(s-j)}
+\]
+to write
+\[
+ S_r(s)=s^rF(s)\frac{(-1)^m m!}{\prod_{j=0}^m(s-j)}
+                -\sum_{j=0}^m\frac{j^rc_j}{s-j}.
+ \tag{P}
+\]
+Evaluate at the $E_r$ consecutive nodes $s=-1,-2,\ldots,-E_r$.
+All nonzero integer factors that occur have absolute value at most
+$E_r+m=24N+r<50N<p^2$.
+If $F(s)\ne0$, counting signed consecutive factors gives exactly
+\[
+ v_p\!\left(F(s)\frac{m!}{\prod_{j=0}^m(s-j)}\right)
+       =\rho(N/p,s/p)-1\ge h-1.
+\]
+For clarity, the factor $m!/\prod(s-j)$ contributes
+$\lfloor m/p\rfloor-\lfloor(m-s)/p\rfloor+
+\lfloor(-s-1)/p\rfloor$; for integer $s$ this is the first carry in
+$\rho$ minus one. Each nonzero binomial polynomial factor is counted
+by the corresponding difference of floors, also for negative arguments.
+If $F(s)=0$, the first term of (P) vanishes.
+Every other term of (P) has valuation at least $h-1$ by (C), because
+$0<|s-j|<p^2$. Therefore $v_p(S_r(s))\ge h-1$ at all these nodes.
+
+Since $d_{12N}S_r$ is integer-valued, its Newton coefficients at the
+consecutive nodes are integers. Since $v_p(d_{12N})=1$, they are all
+multiples of $p^h$. Translating an integer-valued binomial basis by an
+integer preserves this divisibility, so the same holds for the
+coefficients at $-2N$. The weights $1/(t+1)$ in $J_{2N}$ are cleared
+by $d_{E_r}$ without losing $p^h$.
+For the harmonic sum, $D_{N,r}$ contributes $p^2$,
+all harmonic indices are less than $p^2$, and (C) supplies $p^h$.
+The second row is a sum of the same integer coefficients.
+Consequently $p^h$ divides both normalized entries.
+
+It remains to check $12N<p\le13N$. Here
+$x=N/p\in[1/13,1/12)$, and $\rho(x,0)=0$:
+$\lfloor11x\rfloor=\lfloor10x\rfloor=\lfloor9x\rfloor=
+\lfloor8x\rfloor=\lfloor3x\rfloor=\lfloor2x\rfloor=
+\lfloor x\rfloor=0$. Every binomial carry is nonnegative, so
+$\phi(x)=0$. Such primes contribute nothing to $G_N$.
+Together with the established identity (F), this completes the proof of (B).
+
+
+
+\section{Integral normalizations at the block boundaries}\label{app:blocks}
+
+\paragraph{One complete multiplication route with matching normalizations.}
+Use the four directions
+\[
+ (1,1,1,0;0,0,0),\quad(0,0,0,0;2,1,3),\quad
+ (7,6,8,0;0,0,0),\quad(0,0,0,-1;0,0,0)
+\]
+for $3N,N,N,11N$ steps, respectively, with coordinate moves within
+each step in the displayed order. The endpoint direction is
+$(10,9,11,-11;2,1,3)$.
+The completed-step vertices are
+\[
+\begin{aligned}
+ w^{(1)}_k&=(k+1,k+1,k+1,0;1,1,1), &&0\le k\le3N,\\
+ w^{(2)}_k&=(3N+1,3N+1,3N+1,0;2k+1,k+1,3k+1),&&0\le k\le N,\\
+ w^{(3)}_k&=(3N+7k+1,3N+6k+1,3N+8k+1,0;
+                2N+1,N+1,3N+1),&&0\le k\le N,\\
+ w^{(4)}_k&=(10N+1,9N+1,11N+1,-k;2N+1,N+1,3N+1),&&0\le k\le11N.
+\end{aligned}
+\]
+Every required lower inverse exists: its old lower parameter is at
+most $3N$, strictly below all three positive uppers. Each required
+upper decrease has a negative target parameter.
+The coefficient $-a_3=\sum_{i=0}^3 x_i-\sum_{j=0}^2(y_j-1)$ is positive at every
+intermediate vertex: it starts at three; increasing the positive
+uppers increases it, the complete lower block leaves it at $3N+3$,
+and the final negative-upper block leaves it at $13N+3$.
+At completed steps its values are
+$3k+3$, $9N-6k+3$, $3N+21k+3$, and $24N-k+3$.
+Thus the described route has no singular generator.
+
+Let $Y_i(k)$ be the actual two rows transported from $R$ along this
+route, so $Y_i(k+1)=Y_i(k)B_i(k)$ and $Y_{i+1}(0)=Y_i(r_i)$.
+At each vertex use
+\[
+ F(s)=\prod_{a=0}^2\binom{s+x_a-1}{x_a-y_a},\qquad C=F(0),
+\]
+and the finite readout formula (F), with the current $m=-x_3$ and
+shift $\eta$. Write $B=\max(x_a-y_a)$, $E=\sum(x_a-y_a)-m+2$,
+and $H=m+\eta$. The polynomial contribution is cleared by $d_Bd_E$.
+If both lcm indices dominate $H$, they also clear the harmonic
+contribution. The following choices therefore keep all six entries
+integral and match at every boundary:
+\[
+\begin{array}{c|c|c|c|c|c}
+\text{block}&m&\eta&B&E&L_i(k)\\\hline
+1&0&0&k&3k+2&d_kd_{3k+2}\ (k>0)\\
+2&0&2k&3N-k&9N-6k+2&d_{3N}d_{9N-6k+2}\\
+3&0&2N&2N+6k&3N+21k+2&d_{\max(3N,2N+6k)}d_{3N+21k+2}\\
+4&k&2N&8N&24N-k+2&d_{\max(8N,\min(12N,k+2N))}d_{24N-k+2}
+\end{array}
+\]
+Set $L_1(0)=1$. In block 1 the harmonic term is zero.
+In block 2 both indices dominate $H=2k$, and the first also
+bounds $B=3N-k$.
+In block 3 the three widths are
+$N+7k,2N+6k,8k$; their maximum is $2N+6k$ for $0\le k\le N$.
+Both lcm indices dominate $H=2N$.
+
+In block 4 put $H=k+2N$ and $E=24N-k+2$.
+We have $E\ge H$, and the first lcm index dominates the binomial
+width $8N$. If $H\le12N$, both lcm indices dominate $H$.
+Otherwise a missing reciprocal-square factor can occur only for
+a prime power $P$ with $12N<P\le H\le13N$.
+The preceding harmonic carry argument applies without alteration:
+for a contributing $j\le k$ with $j+2N\ge P$,
+$8N<P$, $j+N\le12N<P$, and
+$P\le j+9N\le20N<2P$.
+The binomial $\binom{j+9N}{8N}$ supplies the missing prime factor.
+Thus $Z_i(k)=L_i(k)C_i(k)Y_i(k)$ is integral in every block.
+
+The $C$ factors are evaluated from the same vertex, so they agree
+at each boundary. The lcm factors there are, successively,
+\[
+ d_{3N}d_{9N+2},\qquad d_{3N}d_{3N+2},\qquad
+ d_{8N}d_{24N+2}.
+\]
+Therefore $Z_{i+1}(0)=Z_i(r_i)$, with $Z_1(0)=R$.
+The final normalization is $C_Nd_{12N}d_{13N+2}$ for all six
+entries together. For one chosen column $r$, the same proof uses
+its degree bound $E_r=\sum(x_a-y_a)-m+r$, replacing the final
+second index by $13N+r$; at the initial point retain the explicit
+normalization one. This gives the sharper columnwise endpoint
+$C_Nd_{12N}d_{13N+r}$.
+
+The shifts used above are admissible: each lies between the median
+of the three lower offsets and the minimum positive-upper offset.
+They are $0$, $2k$, $2N$, and $2N$ in the four blocks, respectively.
+All binomial widths are nonnegative. These conditions are exactly
+those used by the finite readout identity and its shift invariance.
+
+
+\section{All six prime intervals}\label{app:all-shells}
+
+\paragraph{All six extra prime shells: a uniform finite-field argument.}
+This argument uses the established finite CMF readout, its admissible-shift
+identity, and the baseline common-divisor lemma. It proves the full
+additional divisor $H_{N,r}$, rather than extrapolating finite-depth tests.
+Fix $r\in\{0,1,2\}$ and a prime $p$ with $p^2>50N$ lying in one of the
+six column-corrected shells. Put
+\[
+ a=\lfloor8N/p\rfloor,\quad b=8N-ap,\qquad
+ M=\lfloor11N/p\rfloor,\quad d=11N-Mp,\qquad h=\phi(N/p).
+\]
+The integer $h$ is the minimum carry count. The shell bounds and
+$p^2>50N$ imply $p>50N/p>6$, so $p$ is odd; also
+$a\le8N/p<p$ and $M\le11N/p<p$; also $a+1<p$. Work over $\mathbb F_p$ and
+write
+\[
+ f_u(X)=\binom{X+uN}{b}\quad(u=9,10,11),\qquad
+ f= f_9f_{10}f_{11},\quad g(X)=\prod_{j=0}^d(X-j),\quad z(X)=X^p-X.
+\]
+The binomials here are polynomials of degree $b<p$; their factorial
+denominators are units.
+For a residue $k\in\{0,\ldots,p-1\}$ define
+\[
+ e(k)=\mathbf1_{k>d},\quad
+ \lambda_u(k)=\lfloor(k+uN)/p\rfloor,\quad
+ \delta_u(k)=\mathbf1_{(k+uN)\bmod p<b},\qquad
+ \chi(k)=e(k)+\sum_u\delta_u(k).
+\]
+Then $\chi(k)=\rho(N/p,k/p)\ge h$.
+Each $f_u$ has a simple zero at $k$ exactly when $\delta_u(k)=1$.
+Consequently
+\[
+ \mathcal Q(X)=\frac{f(X)}{z(X)^{h-1}g(X)}\in\mathbb F_p[X].
+ \tag{Q}
+\]
+When $h=0$, this means $\mathcal Q=fz/g$, a polynomial because $g\mid z$.
+For $h\ge1$, the multiplicity of each root $k$ in the denominator
+is $h$ for $k\le d$ and $h-1$ for $k>d$, no larger than its
+multiplicity in $f$.
+Also $\mathcal Q(k)=0$ whenever $\chi(k)>h$.
+
+\emph{The finite chamber table.}
+Write $x=N/p$. On each open interval in the following table, the
+minimum carry is the displayed $h$, and every residue with
+$\chi(k)=h$ has the same displayed triple $(e,\lambda,\delta)$.
+The triples are ordered by $u=9,10,11$.
+\[
+\begin{array}{c|cc|c|c|c|c|c}
+ x\text{ interval}&a&M&h&e&\lambda&\delta&K=3a-M+h\\\hline
+(1/8,2/13)&1&1&0&0&(1,1,1)&(0,0,0)&2\\
+(2/9,3/13)&1&2&2&0&(2,2,2)&(1,1,0)&3\\
+(3/10,4/13)&2&3&1&0&(2,3,3)&(0,1,0)&4\\
+(3/8,5/13)&3&4&0&0&(3,3,4)&(0,0,0)&5\\
+(4/9,5/11)&3&4&1&0&(4,5,5)&(0,1,0)&6\\
+(5/11,6/13)&3&5&2&1&(4,5,5)&(0,1,0)&6\\
+(8/9,10/11)&7&9&0&0&(8,9,10)&(0,0,0)&12\\
+(10/11,12/13)&7&10&1&1&(8,9,10)&(0,0,0)&12
+\end{array}
+\tag{T}
+\]
+These are elementary floor inequalities, and can be checked by splitting
+$0\le y<1$ at the moving boundaries
+$\{cx\}$ for
+$c\in\{11,-9,-10,-11,-1,-2,-3\}$.
+Their ordering changes only when $cx$ or $(c-c')x$ is an integer.
+The accompanying exact rational arrangement certificate checks every
+open chamber and every interior boundary; it comprises 390 constant
+floor cells, not a sampling of integer depths.
+The omitted splitting values $x=5/11,10/11$ cannot occur for an eligible
+prime: they force $(N,p)=(5,11)$ or $(10,11)$ after reduction, and
+both violate $p^2>50N$.
+
+For the selected column, its shell condition is $13N+r<Kp$.
+Thus
+\[
+ \deg(X^r\mathcal Q)=13N+r-(K-1)p-1<p-1,
+ \qquad\sum_{k\in\mathbb F_p}k^r\mathcal Q(k)=0.
+ \tag{V}
+\]
+The last identity is the finite-field sum of a polynomial of degree
+less than $p-1$, including its constant term.
+
+\emph{Local factorization of the exact rational kernel.}
+Let
+\[
+ F(s)=\prod_{u=9,10,11}\binom{s+uN}{8N},\qquad
+ L(s)=\frac{(-1)^{11N}(11N)!}{\prod_{j=0}^{11N}(s-j)},\qquad
+ R(s)=F(s)L(s).
+\]
+On the support $\chi(k)=h$, take $e,\lambda,\delta$ from (T) and set
+\[
+ P(V)=\prod_u (a+1)^{\delta_u}
+                   \binom{\lambda_u+V}{a+\delta_u},\quad
+ D_e(V)=\prod_{l=0}^{M-e}(V-l),\quad
+ U(V)=\frac{P(V)}{D_e(V)},\quad
+ \kappa=(-1)^{d-M+h-1}M!d!.
+\]
+These are independent of $k$. The factors in $D_e$ are distinct because
+$M<p$. In the local coordinate $s=k+pV$, direct separation of the
+factors divisible by $p$ gives
+\[
+ p^{1-h}R(k+pV)\equiv\kappa \mathcal Q(k)U(V)\pmod p.
+ \tag{R}
+\]
+Here and below congruences of rational functions are taken away from
+$V=0,\ldots,M-e$ before the removable factors are cancelled.
+Here are the details of the factor count, including the case $e=1$.
+For each binomial, if $\delta_u=0$ its normalized leading term is
+$f_u(k)\binom{\lambda_u+V}{a}$.
+If $\delta_u=1$, division by one $p$ gives
+\[
+ f'_u(k)(a+1)\binom{\lambda_u+V}{a+1}.
+\]
+This follows by splitting the $a$ or $a+1$ numerator factors divisible
+by $p$; equivalently it is the first nonzero Lucas congruence.
+It remains valid when an individual high-digit binomial vanishes.
+For $L$, the $p$-factors in its denominator number $M+1-e$.
+After their removal the remaining denominator is
+$(-1)^M g'(k)$ if $e=0$, and $(-1)^M g(k)$ if $e=1$.
+The numerator unit is $(-1)^dM!d!$.
+Finally the product of the low-digit $f_u$ values or derivatives,
+divided by $g'(k)$ or $g(k)$, is $(-1)^{h-1}\mathcal Q(k)$ by (Q).
+These identities prove (R). For $\chi(k)>h$, the left side has zero
+leading term and $\mathcal Q(k)=0$, so (R) continues to hold with zero right
+side. All factor counts are exact at the first $p$-power level because
+$p^2>50N$ bounds the relevant original factorial arguments.
+
+Let $A_l=\operatorname{res}_{V=l}U(V)$, and let $B(V)$ be the polynomial
+part of $U$:
+\[
+ U(V)=B(V)+\sum_{l=0}^{M-e}\frac{A_l}{V-l}.
+\]
+Set $c_j=0$ for indices outside $0\le j\le11N$. Taking residues in (R), using
+$R(s)=S_0(s)+\sum_j c_j/(s-j)$, yields
+\[
+ p^{-h}c_{k+lp}\equiv\kappa \mathcal Q(k)A_l\pmod p.
+ \tag{C'}
+\]
+For residue classes outside the minimal-carry support, every
+$c_{k+lp}/p^h$ vanishes modulo $p$, including any extra endpoint term
+$l=M$ when the supporting pattern has $e=1$.
+For a general column, the exact kernel identity is
+\[
+ S_r(s)=s^rR(s)-\sum_{j=0}^{11N}\frac{j^rc_j}{s-j}.
+\]
+Multiplying by $p^{1-h}$ and subtracting the congruent-residue terms
+from (R) now gives
+\[
+ p^{1-h}S_r(k+pV)
+      \equiv\kappa k^r\mathcal Q(k)B(V)\pmod p.
+ \tag{S'}
+\]
+Noncongruent terms in the residue sum vanish modulo $p$, since every
+$c_j$ is divisible by $p^h$. This kernel argument is necessary when
+$e=1$: termwise divided differences of $F$ would overlook contributing
+noncongruent terms. Both sides of (S') are polynomials after subtraction,
+so the identity includes the derivative nodes $V=l$.
+More explicitly, the baseline interpolation argument established that
+$T_r=p^{1-h}S_r$ is integer-valued over $\mathbb Z_{(p)}$.
+Its degree is below $p^2$; substituting $s=k+pV$ into its Newton basis
+therefore gives coefficients in $\mathbb Z_{(p)}$ (the numerator contains
+at least $\lfloor t/p\rfloor$ factors of $p$ for the basis element of
+degree $t$). Thus reduction and cancellation at these nodes are legitimate.
+
+\emph{An admissible prime-dependent readout.}
+Choose $\eta=Ap$, where $A=1$ if $p\ge2N$, and $A=2$ otherwise.
+Every shell prime satisfies $2N\le\eta\le9N$, so this is an allowed
+readout of the same matrix endpoint. For $j=k+lp$, the multiples of
+$p$ not exceeding $j+\eta$ are exactly $p,\ldots,(l+A)p$.
+The residue of $p^{2-h}$ times the harmonic part is therefore
+\[
+ \kappa\left(\sum_l A_l\sum_{t=1}^{l+A}t^{-2}\right)
+           \sum_{k\in\mathbb F_p}k^r\mathcal Q(k)=0.
+\]
+The integers $1,\ldots,l+A$ are units modulo $p$, because the
+harmonic indices are below $p^2$. Thus the harmonic part has valuation
+at least $h-1$.
+
+For the polynomial part, write $T_r=p^{1-h}S_r$.
+The only weights in $J_\eta(T_r)$ possibly divisible by $p$ have index
+$tp-1$, since $\deg S_r+1\le13N+r<p^2$.
+At the Newton nodes $s=-Ap+up+k$, (S') gives
+$T_r(s)\equiv\kappa k^r\mathcal Q(k)B(u-A)$.
+Lucas's congruence gives
+\[
+ (-1)^{tp-1-(up+k)}\binom{tp-1}{up+k}
+       \equiv(-1)^{t-1-u}\binom{t-1}{u}\pmod p.
+\]
+Consequently each $\Delta^{tp-1}T_r(-Ap)$ is a constant multiple of
+$\sum_k k^r\mathcal Q(k)$, and is zero modulo $p$ by (V).
+All weights in $J_\eta(T_r)$ are therefore cleared without losing a
+factor of $p$: $J_\eta(T_r)\in\mathbb Z_{(p)}$.
+The polynomial part, too, has valuation at least $h-1$.
+
+The first entry of $C_NRW(N)e_r$ has valuation at least $h-1$;
+the second is a sum of $c_j$ and has valuation at least $h$.
+Since $v_p(d_{12N}d_{13N+r})=2$ and $v_p(G_N)=h$, both entries of
+$C_Nd_{12N}d_{13N+r}RW(N)e_r/G_N$ are divisible by $p$.
+Taking the product over all eligible primes in the six shells proves
+\[
+ \boxed{\frac{C_Nd_{12N}d_{13N+r}}{G_NH_{N,r}}
+                    RW(N)e_r\in\mathbb Z^2.}
+\]
+The analytic section supplies the growth, error, and independence arguments needed to turn this arithmetic statement into an irrationality-measure bound.
+
+
+
+\section{A reproducible rational enclosure for the arithmetic rate}\label{app:rate}
+The moving breakpoints in the minimization over $y$ are
+$\{sx\}$, for
+$s\in\{11,-10,-9,-11,-2,-1,-3\}$, together with $0$ and $1$.
+Their cyclic ordering can change only when $sx$ or $(s-t)x$ is an
+integer. The separate floor $\lfloor8x\rfloor$ changes only when
+$8x$ is integral. Thus it suffices to partition $[0,1]$ at every
+$k/c$ for
+\[
+ c\in\{1,2,3,6,7,8,9,10,11,12,13,14,20,21,22\}.
+\]
+On each resulting open cell the minimum is constant: no breakpoint
+crossing or individual floor change can occur. At a sample $x$ the
+minimum is obtained by checking the $y$ breakpoints themselves and
+one point in each gap. Values at the isolated $x$ boundaries do not
+affect the integral. There are $94$ cells; the exact program computes
+their heights $h_i$ and endpoints $a_i,b_i$. It gives
+\[
+ M:=\int_0^1\phi(x)\,dx=\frac{3517}{4095}.
+\]
+For a positive-height cell and integer $k\ge0$, its contribution is
+$h_i((k+a_i)^{-1}-(k+b_i)^{-1})$.
+The program sums the first $K=2000$ periods, rounding each positive
+term down to a multiple of $10^{-15}$. There are $106000$ such terms;
+their rounded sum is $12127998763267375/10^{15}$.
+Periodicity and $k\le k+x\le k+1$ give the tail enclosure
+\[
+ \frac{M}{K+1}\le
+ \int_K^\infty\frac{\phi(x)}{x^2}\,dx
+ \le\frac{M}{K-1}.
+\]
+Adding the rounding error and the tail yields
+\[
+ \frac{159010385641752609841}{13110552000000000000}
+ \le\gamma\le
+ \frac{158851460347347083647}{13097448000000000000}.
+\]
+Numerically these endpoints are $12.12842797479104$ and
+$12.128428404323277$. In particular
+\[
+ 25-\gamma-\frac{233}{120}
+ \le\frac{143297092558247390159}{13110552000000000000}
+ <\frac{10929906}{1000000}.
+\]
+The final inequality is checked by integer cross multiplication in the supplied Python program. The finite partition and
+directed summation are implemented with Python's exact
+\texttt{Fraction} type and integer division; their uniform reduction
+is the argument above, and their exhaustive evaluation is in
+\texttt{rate\_certificate.py}. The proof uses these exact finite computations and the displayed uniform reductions.
+
+
+
+\section{Short code accompanying the claims}
+The full scripts, dependency pin, results, and commands are in
+\texttt{code/}. The core RamanujanTools loop is reproduced here.
+It checks finite native multiplication identities supporting the uniform generator argument.
+\begin{lstlisting}[language=Python]
+from ramanujantools import Position
+from ramanujantools.cmf.pfq import pFq
+import sympy as sp
+from flint import fmpq, fmpq_mat
+
+axes = sp.symbols('x0 x1 x2 x3 y0 y1 y2')
+cmf = pFq(4, 3, 1)
+
+def ordered_walk(N, t=3):
+    w = [1, 1, 1, 0, 1, 1, 1]
+    W = fmpq_mat([[1,0,0], [0,1,0], [0,0,1]])
+    blocks = [(t*N, (1,1,1,0,0,0,0)),
+              (N, (0,0,0,0,2,1,3)),
+              (N, (10-t,9-t,11-t,0,0,0,0)),
+              (11*N, (0,0,0,-1,0,0,0))]
+    for count, direction in blocks:
+        for _ in range(count):
+            for i, amount in enumerate(direction):
+                for _ in range(abs(amount)):
+                    E = cmf.M(axes[i], amount >= 0).subs(
+                        Position(dict(zip(axes, w))))
+                    E = fmpq_mat([[fmpq(str(E[a,b]))
+                          for b in range(3)] for a in range(3)])
+                    W = W * E
+                    w[i] += 1 if amount > 0 else -1
+    return W
+
+for N in (1, 2, 3):
+    assert ordered_walk(N, 3) == ordered_walk(N, 4)
+\end{lstlisting}
+
+Run \texttt{python run\_checks.py} in the accompanying package to
+execute the exact certificates and the finite diagnostics. The README
+describes each program and its role. No proof-assistant files are included.
+
+
+\begin{thebibliography}{9}
+\bibitem{RhinViola1996}
+G.~Rhin and C.~Viola,
+\emph{On a permutation group related to $\zeta(2)$},
+Acta Arithmetica \textbf{77} (1996), 23--56.
+\href{https://doi.org/10.4064/aa-77-1-23-56}{doi:10.4064/aa-77-1-23-56}.
+\href{https://www.math.ru.nl/~zudilin/zw/Rhin-Viola_AA_1996.pdf}{Full text}.
+
+\bibitem{Zudilin2014}
+W.~Zudilin,
+\emph{Two hypergeometric tales and a new irrationality measure of $\zeta(2)$},
+Annales math\'ematiques du Qu\'ebec \textbf{38} (2014), 101--117.
+\href{https://arxiv.org/abs/1310.1526v3}{arXiv:1310.1526v3}.
+
+\bibitem{David2023}
+O.~David,
+\emph{The conservative matrix field} (2023).
+\href{https://arxiv.org/abs/2303.09318v3}{arXiv:2303.09318v3}.
+
+\bibitem{Weinbaum2026}
+S.~Weinbaum, E.~Leibtag, R.~Kalisch, M.~Shalyt and I.~Kaminer,
+\emph{On Conservative Matrix Fields: Continuous Asymptotics and Arithmetic},
+revised July 15, 2026.
+\href{https://arxiv.org/abs/2507.08138v2}{arXiv:2507.08138v2}.
+\end{thebibliography}
+
+
+\end{document}

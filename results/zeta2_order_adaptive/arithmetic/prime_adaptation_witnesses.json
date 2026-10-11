@@ -1,0 +1,224 @@
+[
+  {
+    "N": 320,
+    "strict_row_adaptation_gain": 0,
+    "crossing_order_witnesses": [
+      {
+        "prime_favoring_B": 53,
+        "prime_favoring_A": 23,
+        "order_A": "u3_3_3_l0_0_0_m0",
+        "order_B": "u8_8_8_l1_0_1_m0",
+        "direction_A": [
+          3,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "direction_B": [
+          8,
+          8,
+          8,
+          0,
+          1,
+          0,
+          1
+        ],
+        "p_bounds": {
+          "A": -7,
+          "B": -4,
+          "baseline": -7
+        },
+        "q_bounds": {
+          "A": -6,
+          "B": -10,
+          "baseline": -10
+        },
+        "valuation_scope": "common rational content of the two raw output rows, including the existing six-shell baseline"
+      },
+      {
+        "prime_favoring_B": 47,
+        "prime_favoring_A": 31,
+        "order_A": "u3_3_3_l0_0_0_m0",
+        "order_B": "u9_9_9_l0_0_0_m0",
+        "direction_A": [
+          3,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "direction_B": [
+          9,
+          9,
+          9,
+          0,
+          0,
+          0,
+          0
+        ],
+        "p_bounds": {
+          "A": -6,
+          "B": -4,
+          "baseline": -6
+        },
+        "q_bounds": {
+          "A": -6,
+          "B": -8,
+          "baseline": -8
+        },
+        "valuation_scope": "common rational content of the two raw output rows, including the existing six-shell baseline"
+      },
+      {
+        "prime_favoring_B": 19,
+        "prime_favoring_A": 103,
+        "order_A": "u3_3_3_l0_0_0_m0",
+        "order_B": "u4_4_4_l0_0_0_m0",
+        "direction_A": [
+          3,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "direction_B": [
+          4,
+          4,
+          4,
+          0,
+          0,
+          0,
+          0
+        ],
+        "p_bounds": {
+          "A": -7,
+          "B": -5,
+          "baseline": -7
+        },
+        "q_bounds": {
+          "A": -2,
+          "B": -4,
+          "baseline": -4
+        },
+        "valuation_scope": "common rational content of the two raw output rows, including the existing six-shell baseline"
+      }
+    ]
+  },
+  {
+    "N": 640,
+    "strict_row_adaptation_gain": 0,
+    "crossing_order_witnesses": [
+      {
+        "prime_favoring_B": 23,
+        "prime_favoring_A": 73,
+        "order_A": "u10_9_11_l2_1_3_m0",
+        "order_B": "u3_3_3_l0_0_0_m0",
+        "direction_A": [
+          10,
+          9,
+          11,
+          0,
+          2,
+          1,
+          3
+        ],
+        "direction_B": [
+          3,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "p_bounds": {
+          "A": -9,
+          "B": -6,
+          "baseline": -9
+        },
+        "q_bounds": {
+          "A": -4,
+          "B": -7,
+          "baseline": -7
+        },
+        "valuation_scope": "common rational content of the two raw output rows, including the existing six-shell baseline"
+      },
+      {
+        "prime_favoring_B": 53,
+        "prime_favoring_A": 79,
+        "order_A": "u10_9_11_l2_1_3_m0",
+        "order_B": "u6_6_6_l0_0_0_m0",
+        "direction_A": [
+          10,
+          9,
+          11,
+          0,
+          2,
+          1,
+          3
+        ],
+        "direction_B": [
+          6,
+          6,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        "p_bounds": {
+          "A": -6,
+          "B": -4,
+          "baseline": -7
+        },
+        "q_bounds": {
+          "A": -4,
+          "B": -8,
+          "baseline": -8
+        },
+        "valuation_scope": "common rational content of the two raw output rows, including the existing six-shell baseline"
+      },
+      {
+        "prime_favoring_B": 37,
+        "prime_favoring_A": 73,
+        "order_A": "u10_9_11_l2_1_3_m0",
+        "order_B": "u3_3_3_l0_0_0_m0",
+        "direction_A": [
+          10,
+          9,
+          11,
+          0,
+          2,
+          1,
+          3
+        ],
+        "direction_B": [
+          3,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "p_bounds": {
+          "A": -7,
+          "B": -5,
+          "baseline": -8
+        },
+        "q_bounds": {
+          "A": -4,
+          "B": -7,
+          "baseline": -7
+        },
+        "valuation_scope": "common rational content of the two raw output rows, including the existing six-shell baseline"
+      }
+    ]
+  }
+]

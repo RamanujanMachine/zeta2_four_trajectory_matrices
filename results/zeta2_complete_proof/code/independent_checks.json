@@ -1,0 +1,175 @@
+{
+  "all_assertions_passed": true,
+  "cases": [
+    {
+      "N": 3,
+      "prime": 23,
+      "column": 0,
+      "exact_finite_sum_nodes": 23
+    },
+    {
+      "N": 3,
+      "prime": 23,
+      "column": 1,
+      "exact_finite_sum_nodes": 23
+    },
+    {
+      "N": 3,
+      "prime": 23,
+      "column": 2,
+      "exact_finite_sum_nodes": 23
+    },
+    {
+      "N": 4,
+      "prime": 29,
+      "column": 0,
+      "exact_finite_sum_nodes": 29
+    },
+    {
+      "N": 4,
+      "prime": 29,
+      "column": 1,
+      "exact_finite_sum_nodes": 29
+    },
+    {
+      "N": 4,
+      "prime": 29,
+      "column": 2,
+      "exact_finite_sum_nodes": 29
+    },
+    {
+      "N": 4,
+      "prime": 31,
+      "column": 0,
+      "exact_finite_sum_nodes": 31
+    },
+    {
+      "N": 4,
+      "prime": 31,
+      "column": 1,
+      "exact_finite_sum_nodes": 31
+    },
+    {
+      "N": 4,
+      "prime": 31,
+      "column": 2,
+      "exact_finite_sum_nodes": 31
+    },
+    {
+      "N": 5,
+      "prime": 37,
+      "column": 0,
+      "exact_finite_sum_nodes": 37
+    },
+    {
+      "N": 5,
+      "prime": 37,
+      "column": 1,
+      "exact_finite_sum_nodes": 37
+    },
+    {
+      "N": 5,
+      "prime": 37,
+      "column": 2,
+      "exact_finite_sum_nodes": 37
+    },
+    {
+      "N": 8,
+      "prime": 53,
+      "column": 0,
+      "exact_finite_sum_nodes": 53
+    },
+    {
+      "N": 8,
+      "prime": 53,
+      "column": 1,
+      "exact_finite_sum_nodes": 53
+    },
+    {
+      "N": 8,
+      "prime": 59,
+      "column": 0,
+      "exact_finite_sum_nodes": 59
+    },
+    {
+      "N": 8,
+      "prime": 59,
+      "column": 1,
+      "exact_finite_sum_nodes": 59
+    },
+    {
+      "N": 8,
+      "prime": 59,
+      "column": 2,
+      "exact_finite_sum_nodes": 59
+    },
+    {
+      "N": 8,
+      "prime": 61,
+      "column": 0,
+      "exact_finite_sum_nodes": 61
+    },
+    {
+      "N": 8,
+      "prime": 61,
+      "column": 1,
+      "exact_finite_sum_nodes": 61
+    },
+    {
+      "N": 8,
+      "prime": 61,
+      "column": 2,
+      "exact_finite_sum_nodes": 61
+    },
+    {
+      "N": 12,
+      "prime": 79,
+      "column": 0,
+      "exact_finite_sum_nodes": 79
+    },
+    {
+      "N": 12,
+      "prime": 79,
+      "column": 1,
+      "exact_finite_sum_nodes": 79
+    },
+    {
+      "N": 12,
+      "prime": 83,
+      "column": 0,
+      "exact_finite_sum_nodes": 83
+    },
+    {
+      "N": 12,
+      "prime": 83,
+      "column": 1,
+      "exact_finite_sum_nodes": 83
+    },
+    {
+      "N": 12,
+      "prime": 83,
+      "column": 2,
+      "exact_finite_sum_nodes": 83
+    },
+    {
+      "N": 12,
+      "prime": 89,
+      "column": 0,
+      "exact_finite_sum_nodes": 89
+    },
+    {
+      "N": 12,
+      "prime": 89,
+      "column": 1,
+      "exact_finite_sum_nodes": 89
+    },
+    {
+      "N": 12,
+      "prime": 89,
+      "column": 2,
+      "exact_finite_sum_nodes": 89
+    }
+  ],
+  "case_count": 28,
+  "exact_sum_node_count": 1500
+}

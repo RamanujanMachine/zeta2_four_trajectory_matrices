@@ -1,0 +1,19 @@
+{
+  "N": 640,
+  "best_single_path": "u10_9_11_l2_1_3_m0",
+  "best_single_direction": [
+    10,
+    9,
+    11,
+    0,
+    2,
+    1,
+    3
+  ],
+  "best_single_gain_factor": "53656758323572033770351785532061205873508048359735431063928574104968309083161300190149225848750590445779105984375",
+  "prime_adaptation_gain_over_best_single": "4689573862548643387295944573533940705",
+  "prime_adaptation_log_gain": 84.43840506525339,
+  "row_adaptation_common_gain_factor": "1"
+}
+prime witness: [{'primes': [5, 59], 'baseline_bounds': [-18, -8], 'optimal_common_bounds': [-11, -5], 'first_path': 'u3_3_3_l0_0_0_m0', 'first_direction': [3, 3, 3, 0, 0, 0, 0], 'first_path_row_bounds': [[-11, -1], [-10, -2]], 'second_path': 'u4_4_4_l0_0_0_m0', 'second_direction': [4, 4, 4, 0, 0, 0, 0], 'second_path_row_bounds': [[-17, -1], [-5, -2]], 'maximizing_path_sets_disjoint': True}]
+row conflict: [{'prime': 7043, 'maximal_row_bounds': [-2, 0], 'numerator_best_path': 'u6_6_6_l2_1_3_m9', 'numerator_path_bounds': [-2, -2], 'denominator_best_path': 'u3_3_3_l0_0_0_m0', 'denominator_path_bounds': [-3, 0], 'common_same_path_bound': -2, 'common_independent_rows_bound': -2}]

@@ -1,0 +1,622 @@
+{
+  "status": "NUMERICAL_CANDIDATE",
+  "N": 160,
+  "rows": [
+    {
+      "column": 0,
+      "reduced_log_q": 7843.998864011277,
+      "delta": 0.2774250481897843,
+      "numerical_implied_mu": 4.604577187694702,
+      "normalized_gcd": "127517329707912093090397075446759926153191551720",
+      "normalized_gcd_log": 108.46458145937208,
+      "extra_gain_per_N": 0.6779036341210756,
+      "classified_gain_per_N": {
+        "excluded_small_prime": 0.6152272332839664,
+        "eligible_prime": 0.06267640083710908,
+        "beyond_cutoff": 0
+      },
+      "trial_factor_limit": 8000,
+      "unfactored_remainder": "1",
+      "factors": [
+        {
+          "p": 2,
+          "v": 3,
+          "p_over_N": 0.0125,
+          "numerator_v": 3,
+          "denominator_v": 24,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "80"
+        },
+        {
+          "p": 3,
+          "v": 6,
+          "p_over_N": 0.01875,
+          "numerator_v": 6,
+          "denominator_v": 18,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/3"
+        },
+        {
+          "p": 5,
+          "v": 1,
+          "p_over_N": 0.03125,
+          "numerator_v": 1,
+          "denominator_v": 9,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "32"
+        },
+        {
+          "p": 7,
+          "v": 4,
+          "p_over_N": 0.04375,
+          "numerator_v": 4,
+          "denominator_v": 10,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/7"
+        },
+        {
+          "p": 11,
+          "v": 5,
+          "p_over_N": 0.06875,
+          "numerator_v": 5,
+          "denominator_v": 11,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/11"
+        },
+        {
+          "p": 13,
+          "v": 1,
+          "p_over_N": 0.08125,
+          "numerator_v": 1,
+          "denominator_v": 5,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/13"
+        },
+        {
+          "p": 17,
+          "v": 1,
+          "p_over_N": 0.10625,
+          "numerator_v": 1,
+          "denominator_v": 5,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/17"
+        },
+        {
+          "p": 19,
+          "v": 1,
+          "p_over_N": 0.11875,
+          "numerator_v": 1,
+          "denominator_v": 6,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/19"
+        },
+        {
+          "p": 23,
+          "v": 2,
+          "p_over_N": 0.14375,
+          "numerator_v": 2,
+          "denominator_v": 6,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/23"
+        },
+        {
+          "p": 29,
+          "v": 1,
+          "p_over_N": 0.18125,
+          "numerator_v": 1,
+          "denominator_v": 5,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/29"
+        },
+        {
+          "p": 37,
+          "v": 4,
+          "p_over_N": 0.23125,
+          "numerator_v": 4,
+          "denominator_v": 8,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/37"
+        },
+        {
+          "p": 41,
+          "v": 2,
+          "p_over_N": 0.25625,
+          "numerator_v": 2,
+          "denominator_v": 7,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/41"
+        },
+        {
+          "p": 43,
+          "v": 2,
+          "p_over_N": 0.26875,
+          "numerator_v": 2,
+          "denominator_v": 6,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/43"
+        },
+        {
+          "p": 59,
+          "v": 1,
+          "p_over_N": 0.36875,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/59"
+        },
+        {
+          "p": 61,
+          "v": 2,
+          "p_over_N": 0.38125,
+          "numerator_v": 2,
+          "denominator_v": 4,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/61"
+        },
+        {
+          "p": 73,
+          "v": 1,
+          "p_over_N": 0.45625,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/73"
+        },
+        {
+          "p": 83,
+          "v": 1,
+          "p_over_N": 0.51875,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/83"
+        },
+        {
+          "p": 139,
+          "v": 1,
+          "p_over_N": 0.86875,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "160/139"
+        },
+        {
+          "p": 163,
+          "v": 1,
+          "p_over_N": 1.01875,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "160/163"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "reduced_log_q": 7852.58041533851,
+      "delta": 0.2761514516715284,
+      "numerical_implied_mu": 4.621201315245889,
+      "normalized_gcd": "133556800783648788542285820369759844128054366316800",
+      "normalized_gcd_log": 115.41861132510091,
+      "extra_gain_per_N": 0.7213663207818807,
+      "classified_gain_per_N": {
+        "excluded_small_prime": 0.6619339150841678,
+        "eligible_prime": 0.059432405697712964,
+        "beyond_cutoff": 0
+      },
+      "trial_factor_limit": 8000,
+      "unfactored_remainder": "1",
+      "factors": [
+        {
+          "p": 2,
+          "v": 8,
+          "p_over_N": 0.0125,
+          "numerator_v": 8,
+          "denominator_v": 29,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "80"
+        },
+        {
+          "p": 3,
+          "v": 6,
+          "p_over_N": 0.01875,
+          "numerator_v": 6,
+          "denominator_v": 18,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/3"
+        },
+        {
+          "p": 5,
+          "v": 2,
+          "p_over_N": 0.03125,
+          "numerator_v": 2,
+          "denominator_v": 10,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "32"
+        },
+        {
+          "p": 7,
+          "v": 4,
+          "p_over_N": 0.04375,
+          "numerator_v": 4,
+          "denominator_v": 11,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/7"
+        },
+        {
+          "p": 11,
+          "v": 6,
+          "p_over_N": 0.06875,
+          "numerator_v": 6,
+          "denominator_v": 12,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/11"
+        },
+        {
+          "p": 13,
+          "v": 1,
+          "p_over_N": 0.08125,
+          "numerator_v": 1,
+          "denominator_v": 5,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/13"
+        },
+        {
+          "p": 17,
+          "v": 1,
+          "p_over_N": 0.10625,
+          "numerator_v": 1,
+          "denominator_v": 5,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/17"
+        },
+        {
+          "p": 19,
+          "v": 1,
+          "p_over_N": 0.11875,
+          "numerator_v": 1,
+          "denominator_v": 6,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/19"
+        },
+        {
+          "p": 23,
+          "v": 2,
+          "p_over_N": 0.14375,
+          "numerator_v": 2,
+          "denominator_v": 6,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/23"
+        },
+        {
+          "p": 29,
+          "v": 1,
+          "p_over_N": 0.18125,
+          "numerator_v": 1,
+          "denominator_v": 5,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/29"
+        },
+        {
+          "p": 37,
+          "v": 4,
+          "p_over_N": 0.23125,
+          "numerator_v": 4,
+          "denominator_v": 8,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/37"
+        },
+        {
+          "p": 41,
+          "v": 2,
+          "p_over_N": 0.25625,
+          "numerator_v": 2,
+          "denominator_v": 7,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/41"
+        },
+        {
+          "p": 43,
+          "v": 2,
+          "p_over_N": 0.26875,
+          "numerator_v": 2,
+          "denominator_v": 6,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/43"
+        },
+        {
+          "p": 59,
+          "v": 1,
+          "p_over_N": 0.36875,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/59"
+        },
+        {
+          "p": 61,
+          "v": 2,
+          "p_over_N": 0.38125,
+          "numerator_v": 2,
+          "denominator_v": 4,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/61"
+        },
+        {
+          "p": 73,
+          "v": 1,
+          "p_over_N": 0.45625,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/73"
+        },
+        {
+          "p": 83,
+          "v": 1,
+          "p_over_N": 0.51875,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/83"
+        },
+        {
+          "p": 97,
+          "v": 1,
+          "p_over_N": 0.60625,
+          "numerator_v": 1,
+          "denominator_v": 4,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "160/97"
+        },
+        {
+          "p": 139,
+          "v": 1,
+          "p_over_N": 0.86875,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "160/139"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "reduced_log_q": 7864.666463507092,
+      "delta": 0.2743262020005208,
+      "numerical_implied_mu": 4.6452952459790975,
+      "normalized_gcd": "700954155940424757110403555830042293455580554240000",
+      "normalized_gcd_log": 117.07652695052239,
+      "extra_gain_per_N": 0.731728293440765,
+      "classified_gain_per_N": {
+        "excluded_small_prime": 0.7008878313586981,
+        "eligible_prime": 0.03084046208206682,
+        "beyond_cutoff": 0
+      },
+      "trial_factor_limit": 8000,
+      "unfactored_remainder": "1",
+      "factors": [
+        {
+          "p": 2,
+          "v": 13,
+          "p_over_N": 0.0125,
+          "numerator_v": 13,
+          "denominator_v": 34,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "80"
+        },
+        {
+          "p": 3,
+          "v": 6,
+          "p_over_N": 0.01875,
+          "numerator_v": 6,
+          "denominator_v": 18,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/3"
+        },
+        {
+          "p": 5,
+          "v": 4,
+          "p_over_N": 0.03125,
+          "numerator_v": 4,
+          "denominator_v": 12,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "32"
+        },
+        {
+          "p": 7,
+          "v": 5,
+          "p_over_N": 0.04375,
+          "numerator_v": 5,
+          "denominator_v": 10,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/7"
+        },
+        {
+          "p": 11,
+          "v": 5,
+          "p_over_N": 0.06875,
+          "numerator_v": 5,
+          "denominator_v": 11,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/11"
+        },
+        {
+          "p": 13,
+          "v": 1,
+          "p_over_N": 0.08125,
+          "numerator_v": 1,
+          "denominator_v": 5,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/13"
+        },
+        {
+          "p": 17,
+          "v": 1,
+          "p_over_N": 0.10625,
+          "numerator_v": 1,
+          "denominator_v": 5,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/17"
+        },
+        {
+          "p": 19,
+          "v": 1,
+          "p_over_N": 0.11875,
+          "numerator_v": 1,
+          "denominator_v": 6,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/19"
+        },
+        {
+          "p": 23,
+          "v": 2,
+          "p_over_N": 0.14375,
+          "numerator_v": 2,
+          "denominator_v": 6,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/23"
+        },
+        {
+          "p": 29,
+          "v": 1,
+          "p_over_N": 0.18125,
+          "numerator_v": 1,
+          "denominator_v": 5,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/29"
+        },
+        {
+          "p": 37,
+          "v": 4,
+          "p_over_N": 0.23125,
+          "numerator_v": 4,
+          "denominator_v": 9,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/37"
+        },
+        {
+          "p": 41,
+          "v": 2,
+          "p_over_N": 0.25625,
+          "numerator_v": 2,
+          "denominator_v": 7,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/41"
+        },
+        {
+          "p": 43,
+          "v": 2,
+          "p_over_N": 0.26875,
+          "numerator_v": 2,
+          "denominator_v": 6,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/43"
+        },
+        {
+          "p": 59,
+          "v": 1,
+          "p_over_N": 0.36875,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/59"
+        },
+        {
+          "p": 61,
+          "v": 2,
+          "p_over_N": 0.38125,
+          "numerator_v": 2,
+          "denominator_v": 4,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/61"
+        },
+        {
+          "p": 73,
+          "v": 1,
+          "p_over_N": 0.45625,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/73"
+        },
+        {
+          "p": 83,
+          "v": 1,
+          "p_over_N": 0.51875,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "excluded_small_prime",
+          "in_shell": false,
+          "x": "160/83"
+        },
+        {
+          "p": 139,
+          "v": 1,
+          "p_over_N": 0.86875,
+          "numerator_v": 1,
+          "denominator_v": 3,
+          "class_": "eligible_prime",
+          "in_shell": false,
+          "x": "160/139"
+        }
+      ]
+    }
+  ],
+  "runtime_seconds": 0.0036904169828630984,
+  "scope": "Exact finite gcd beyond C_N D_(N,r)/(G_N H_(N,r)); no all-N divisibility or asymptotic exponent claimed."
+}

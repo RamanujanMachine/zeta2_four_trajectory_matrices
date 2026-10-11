@@ -1,0 +1,704 @@
+{
+  "N": 40,
+  "best_single_path": "u9_9_9_l0_0_0_m0",
+  "best_single_direction": [
+    9,
+    9,
+    9,
+    0,
+    0,
+    0,
+    0
+  ],
+  "best_single_gain_factor": "16831875676255405385256",
+  "prime_adaptation_gain_over_best_single": "938218875",
+  "prime_adaptation_log_gain": 20.659493821967885,
+  "row_adaptation_common_gain_factor": "1",
+  "incompatible_prime_witnesses": [
+    {
+      "primes": [
+        2,
+        3
+      ],
+      "baseline_bounds": [
+        -19,
+        -20
+      ],
+      "optimal_common_bounds": [
+        -16,
+        -12
+      ],
+      "first_path": "u3_3_3_l0_0_0_m0",
+      "first_direction": [
+        3,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "first_path_row_bounds": [
+        [
+          -16,
+          1
+        ],
+        [
+          -13,
+          -2
+        ]
+      ],
+      "second_path": "u4_4_4_l0_0_0_m0",
+      "second_direction": [
+        4,
+        4,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "second_path_row_bounds": [
+        [
+          -22,
+          1
+        ],
+        [
+          -12,
+          -2
+        ]
+      ],
+      "maximizing_path_sets_disjoint": true
+    },
+    {
+      "primes": [
+        2,
+        29
+      ],
+      "baseline_bounds": [
+        -19,
+        -2
+      ],
+      "optimal_common_bounds": [
+        -16,
+        -1
+      ],
+      "first_path": "u3_3_3_l0_0_0_m0",
+      "first_direction": [
+        3,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "first_path_row_bounds": [
+        [
+          -16,
+          1
+        ],
+        [
+          -2,
+          2
+        ]
+      ],
+      "second_path": "u4_4_4_l0_0_0_m0",
+      "second_direction": [
+        4,
+        4,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "second_path_row_bounds": [
+        [
+          -22,
+          1
+        ],
+        [
+          -1,
+          2
+        ]
+      ],
+      "maximizing_path_sets_disjoint": true
+    },
+    {
+      "primes": [
+        3,
+        5
+      ],
+      "baseline_bounds": [
+        -20,
+        -11
+      ],
+      "optimal_common_bounds": [
+        -12,
+        -8
+      ],
+      "first_path": "u4_4_4_l0_0_0_m0",
+      "first_direction": [
+        4,
+        4,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "first_path_row_bounds": [
+        [
+          -12,
+          -2
+        ],
+        [
+          -10,
+          -2
+        ]
+      ],
+      "second_path": "u6_6_6_l0_0_0_m0",
+      "second_direction": [
+        6,
+        6,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "second_path_row_bounds": [
+        [
+          -17,
+          -2
+        ],
+        [
+          -8,
+          -2
+        ]
+      ],
+      "maximizing_path_sets_disjoint": true
+    },
+    {
+      "primes": [
+        3,
+        11
+      ],
+      "baseline_bounds": [
+        -20,
+        -7
+      ],
+      "optimal_common_bounds": [
+        -12,
+        -5
+      ],
+      "first_path": "u4_4_4_l0_0_0_m0",
+      "first_direction": [
+        4,
+        4,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "first_path_row_bounds": [
+        [
+          -12,
+          -2
+        ],
+        [
+          -6,
+          -1
+        ]
+      ],
+      "second_path": "u3_3_3_l0_0_0_m0",
+      "second_direction": [
+        3,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "second_path_row_bounds": [
+        [
+          -13,
+          -2
+        ],
+        [
+          -5,
+          -1
+        ]
+      ],
+      "maximizing_path_sets_disjoint": true
+    },
+    {
+      "primes": [
+        3,
+        13
+      ],
+      "baseline_bounds": [
+        -20,
+        -7
+      ],
+      "optimal_common_bounds": [
+        -12,
+        -5
+      ],
+      "first_path": "u4_4_4_l0_0_0_m0",
+      "first_direction": [
+        4,
+        4,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "first_path_row_bounds": [
+        [
+          -12,
+          -2
+        ],
+        [
+          -8,
+          -1
+        ]
+      ],
+      "second_path": "u3_3_3_l0_0_0_m0",
+      "second_direction": [
+        3,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "second_path_row_bounds": [
+        [
+          -13,
+          -2
+        ],
+        [
+          -5,
+          -1
+        ]
+      ],
+      "maximizing_path_sets_disjoint": true
+    },
+    {
+      "primes": [
+        3,
+        19
+      ],
+      "baseline_bounds": [
+        -20,
+        -8
+      ],
+      "optimal_common_bounds": [
+        -12,
+        -4
+      ],
+      "first_path": "u4_4_4_l0_0_0_m0",
+      "first_direction": [
+        4,
+        4,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "first_path_row_bounds": [
+        [
+          -12,
+          -2
+        ],
+        [
+          -8,
+          1
+        ]
+      ],
+      "second_path": "u9_9_9_l0_0_0_m0",
+      "second_direction": [
+        9,
+        9,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      "second_path_row_bounds": [
+        [
+          -13,
+          -2
+        ],
+        [
+          -4,
+          1
+        ]
+      ],
+      "maximizing_path_sets_disjoint": true
+    },
+    {
+      "primes": [
+        5,
+        7
+      ],
+      "baseline_bounds": [
+        -11,
+        -13
+      ],
+      "optimal_common_bounds": [
+        -8,
+        -8
+      ],
+      "first_path": "u6_6_6_l0_0_0_m0",
+      "first_direction": [
+        6,
+        6,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "first_path_row_bounds": [
+        [
+          -8,
+          -2
+        ],
+        [
+          -11,
+          -2
+        ]
+      ],
+      "second_path": "u4_4_4_l0_0_0_m0",
+      "second_direction": [
+        4,
+        4,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "second_path_row_bounds": [
+        [
+          -10,
+          -2
+        ],
+        [
+          -8,
+          -2
+        ]
+      ],
+      "maximizing_path_sets_disjoint": true
+    },
+    {
+      "primes": [
+        5,
+        17
+      ],
+      "baseline_bounds": [
+        -11,
+        -6
+      ],
+      "optimal_common_bounds": [
+        -8,
+        -3
+      ],
+      "first_path": "u6_6_6_l0_0_0_m0",
+      "first_direction": [
+        6,
+        6,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "first_path_row_bounds": [
+        [
+          -8,
+          -2
+        ],
+        [
+          -5,
+          1
+        ]
+      ],
+      "second_path": "u4_4_4_l0_0_0_m0",
+      "second_direction": [
+        4,
+        4,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "second_path_row_bounds": [
+        [
+          -10,
+          -2
+        ],
+        [
+          -3,
+          1
+        ]
+      ],
+      "maximizing_path_sets_disjoint": true
+    },
+    {
+      "primes": [
+        5,
+        19
+      ],
+      "baseline_bounds": [
+        -11,
+        -8
+      ],
+      "optimal_common_bounds": [
+        -8,
+        -4
+      ],
+      "first_path": "u6_6_6_l0_0_0_m0",
+      "first_direction": [
+        6,
+        6,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "first_path_row_bounds": [
+        [
+          -8,
+          -2
+        ],
+        [
+          -6,
+          1
+        ]
+      ],
+      "second_path": "u9_9_9_l0_0_0_m0",
+      "second_direction": [
+        9,
+        9,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      "second_path_row_bounds": [
+        [
+          -13,
+          -2
+        ],
+        [
+          -4,
+          1
+        ]
+      ],
+      "maximizing_path_sets_disjoint": true
+    },
+    {
+      "primes": [
+        5,
+        23
+      ],
+      "baseline_bounds": [
+        -11,
+        -5
+      ],
+      "optimal_common_bounds": [
+        -8,
+        -2
+      ],
+      "first_path": "u6_6_6_l0_0_0_m0",
+      "first_direction": [
+        6,
+        6,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "first_path_row_bounds": [
+        [
+          -8,
+          -2
+        ],
+        [
+          -5,
+          0
+        ]
+      ],
+      "second_path": "u3_3_3_l0_0_0_m0",
+      "second_direction": [
+        3,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "second_path_row_bounds": [
+        [
+          -11,
+          -2
+        ],
+        [
+          -2,
+          0
+        ]
+      ],
+      "maximizing_path_sets_disjoint": true
+    }
+  ],
+  "row_maximum_conflicts": [
+    {
+      "prime": 449,
+      "maximal_row_bounds": [
+        -2,
+        0
+      ],
+      "numerator_best_path": "u6_6_6_l2_1_3_m9",
+      "numerator_path_bounds": [
+        -2,
+        -2
+      ],
+      "denominator_best_path": "u3_3_3_l0_0_0_m0",
+      "denominator_path_bounds": [
+        -3,
+        0
+      ],
+      "common_same_path_bound": -2,
+      "common_independent_rows_bound": -2
+    },
+    {
+      "prime": 457,
+      "maximal_row_bounds": [
+        -2,
+        0
+      ],
+      "numerator_best_path": "u6_6_6_l2_1_3_m9",
+      "numerator_path_bounds": [
+        -2,
+        -2
+      ],
+      "denominator_best_path": "u3_3_3_l0_0_0_m0",
+      "denominator_path_bounds": [
+        -3,
+        0
+      ],
+      "common_same_path_bound": -2,
+      "common_independent_rows_bound": -2
+    },
+    {
+      "prime": 461,
+      "maximal_row_bounds": [
+        -2,
+        0
+      ],
+      "numerator_best_path": "u6_6_6_l2_1_3_m9",
+      "numerator_path_bounds": [
+        -2,
+        -2
+      ],
+      "denominator_best_path": "u3_3_3_l0_0_0_m0",
+      "denominator_path_bounds": [
+        -3,
+        0
+      ],
+      "common_same_path_bound": -2,
+      "common_independent_rows_bound": -2
+    },
+    {
+      "prime": 463,
+      "maximal_row_bounds": [
+        -2,
+        0
+      ],
+      "numerator_best_path": "u6_6_6_l2_1_3_m9",
+      "numerator_path_bounds": [
+        -2,
+        -2
+      ],
+      "denominator_best_path": "u3_3_3_l0_0_0_m0",
+      "denominator_path_bounds": [
+        -3,
+        0
+      ],
+      "common_same_path_bound": -2,
+      "common_independent_rows_bound": -2
+    },
+    {
+      "prime": 467,
+      "maximal_row_bounds": [
+        -2,
+        0
+      ],
+      "numerator_best_path": "u6_6_6_l2_1_3_m9",
+      "numerator_path_bounds": [
+        -2,
+        -2
+      ],
+      "denominator_best_path": "u3_3_3_l0_0_0_m0",
+      "denominator_path_bounds": [
+        -3,
+        0
+      ],
+      "common_same_path_bound": -2,
+      "common_independent_rows_bound": -2
+    },
+    {
+      "prime": 479,
+      "maximal_row_bounds": [
+        -2,
+        0
+      ],
+      "numerator_best_path": "u6_6_6_l2_1_3_m9",
+      "numerator_path_bounds": [
+        -2,
+        -2
+      ],
+      "denominator_best_path": "u3_3_3_l0_0_0_m0",
+      "denominator_path_bounds": [
+        -3,
+        0
+      ],
+      "common_same_path_bound": -2,
+      "common_independent_rows_bound": -2
+    },
+    {
+      "prime": 491,
+      "maximal_row_bounds": [
+        -1,
+        0
+      ],
+      "numerator_best_path": "u3_3_3_l0_0_0_m3",
+      "numerator_path_bounds": [
+        -1,
+        -2
+      ],
+      "denominator_best_path": "u3_3_3_l0_0_0_m0",
+      "denominator_path_bounds": [
+        -2,
+        0
+      ],
+      "common_same_path_bound": -2,
+      "common_independent_rows_bound": -1
+    }
+  ]
+}

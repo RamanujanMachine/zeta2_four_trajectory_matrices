@@ -1,0 +1,4359 @@
+{
+  "N": 320,
+  "status": "NUMERICAL_CANDIDATE",
+  "D": "11919373047971252682611779338443224794434163319844381952179092623467681875226064637006582039810436569331489415465331154055069921594772551094513408523776104464187728783215578479544200593673477628112332583479734788738635407020544383557935763213494970887975029244962719004463618748768782611558730360124533059243444273288165773208640788849859740122341634057511986713234360425351994068815740366005448746021387021395785920821146947754523027540885241172752283251991954039343568653441815865006724526319890573846992484713803676598661619695858164449497063956063639346240735232490227978592086299668243005495692409112803480206611417480783656664293145607629415434533545727941118996261169046972166787242809985627063699721660609873394522991940185928835261764518964468939524383190042285459915795982020906224193560687284408850339425716711008969190455312704337318223709974852848063806300349775163826525126365704604845461499203458937565280012455801631102984509722167399291429812671972262706960386459086731472496149573370938409999620241173389023434481963440806343175813911545258816636535170825926478674485930012789892454221798513247323671944059414340887896785830891734944994294462239878249691575569991970249089887198050161988693246909684963183510274702626761029122835193476443765295548683179362929071360676978923014774101037496377410817655515570808190718547931488895620284579147252110598008385955193234280901176876993425385842924228709171391759299497419926202678205875791582296427099222148736134615285029743176382304708719430184430813777690515587284517604207998727763952740250660931900852451293721568531459639307436850405818564276608618047785299078681065735232975800152615433283055669204564588867340443068398970745896099296777301407011590196639935555024009932771450728549654728927048037966920354926830388502193463898449589289337562125069996574660935307939680298785333619589596462438733947556123053475817290351134165513760677501961885939955677141545903307481309757415613533600454755918887711170500690403035409751555941372427734939231115348655607030400460229637949215253104841433033487144748360013832012549393706452968158874979266713439124462617509453920218254376830508572062655135413030654184404855082498763212131519434274045961787109604247714774685527266843072530997334455184336322935092434964423819407565430908640596607267082321352767290995485922425475440026581362226825381870664043354015817831530957346640832427303553050808962173490183550093490551750690454681496510499787029535682226750650242518935498857813870038939480833949746040149986296502394503440961629577674320004074007349734871280194529031401311984389173241444706905244348184299348225251869373741240378737542123121182645358641895918960249173258040590850434138759983490243319875156710043018112334684578039190155986259779222710598821084315710589086028699119362815596325851673464963960680488862976917988073408297563888251108550991632811567902280574109143973674552880805353298690951264026689402406410094352829479733827379104301928390834622417563924889881132641697392211820843963747150719955405350880193212182988381645144892067752792195186035306163824972127942683728923462165641161873075562161892824308509901116315651445394318775092966092724659908333058281807257941346415541120557631665811759618003078943117827513077853376042742046083848811331495806729542142570853344041445369712846261854882700878644970111176947373665683344299382155118743695871764724474904983576838907652634211481230639349028187805231189914425289891663188009086703121448960000000000",
+  "G": "7867008608993674171014468913575368419401082213192888763909966341669358402882169209311314412614406065321824080295806270914269691793223614805066139725067966096603756854450719330523915528755947701519409364538898884220823208641851927901975078247209713657408990941837508742457238841966215057068374285232641897433596712059887463080926721937899923357119527608279236306658194479354997270176541775417781118908466747328005122886044691299036489557994682248283666291970122963267274481056492141837567751586928647942769611507621513804092087577073500656638806447976388585409246768256706842255976155824369859252747446333511464323652216311079784359544751129729044319646868817850371182786462705206193093949682212445230528600145046991776886002083329932206501424514667800326952082949786319613439294717333006756471824605289637005186508055977112686211573384661901485471089120171492154930131494984648590478365323361876469695839966405060778189734929644861272339851259592954987203991926706719655625045822790575246753800706159191696162729438670625319473148138747064981980911247146413762185568718028346469297806470690711224902135093270386578369703671166777985456116013521321326484628818998276131169608943582659866839439594744072928771315393011095753922436490388048928860171395804299417305858032764213413795679450271513592208143212234501815609798527005630573910831015295725077707660434098829064091962225764029604541747593300832400072415035807770564222302377022324906180160872333186701081433979873246086943441042316962777303711038082833080137336954223933710076868108770525634742932394591249085327134351637811342388150738919546343594843581667228459149269",
+  "C": "1962789430255127076626287952297654150936338204576828678162860225090953791390088823388395649492503558137689133255740328555690046781281371809597351789717201479597706621521116273716988332607240075985491873773188888988744032182269907450019360056298549384845452683294609261502108011600047036857922414707654710492863825907324895977080259000229742778952200425285095673029815045872259509779565262481002484002505378398043735100886576611693252658543625726708292968741331484159207641234754199294200281146927005178151215488095744265343755085374379079997197826079425502764870858945473579590541700544802158714518799163328531007048407610006050724429984220557238031097512299241930887293940174453604044344680152089749637068001610453908742574316998222141625668666858953360470268288014518801382731254395126206552854223384244939225908107480505864841913927666386649931508909884975587439764684612285604174317624434259125907269258743692848371579242743507614193784537763311612288426131991028602207340623468729701892479609708338373650808612360278941520639226969911527337239487030005674303862879143181402691142469929822303807915559277537753903046964837966739752592010114893649495036966480403823774510565153959290902624677120278449496169341056742047014787327793174994285608119185873919756523767537777989127591487020442392593454172576261841241219902172821721361668408203845176724548907597027609347735128949624788877288760678380461920421748587661394087070150565114449686738330024124175864527806960056564303756158506532954582398496479559185400403004514303385682049999708716091217761884818196290697952680106000595596037243180102600924228972923353230068026045351035739137668937842960560116741903921240388350386772572089482854682100691249135371138885671562003697420553465868795170731261005675219252249104791072200017852099215007966391550147649435075811127520154195977462387224142221125132109755505218762899723227089820660431284051832784818699977450523921164495307350358472898818323928194295012869678050287159029222256228091685741186169668984147983261312500",
+  "all_six_entries_integral": true,
+  "arithmetic_rate": 13.385074250446465,
+  "log_q_bound": 16484.190293793665,
+  "actual_reduced_log_q": 15668.557979292504,
+  "extra_large_prime_rate": 2.023545609236005,
+  "prime_profile": [
+    {
+      "prime": 127,
+      "ratio_p_over_N": 0.396875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 131,
+      "ratio_p_over_N": 0.409375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 137,
+      "ratio_p_over_N": 0.428125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 139,
+      "ratio_p_over_N": 0.434375,
+      "carry": 1,
+      "bound": -1,
+      "actual": 0,
+      "extra": 1
+    },
+    {
+      "prime": 149,
+      "ratio_p_over_N": 0.465625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 151,
+      "ratio_p_over_N": 0.471875,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 157,
+      "ratio_p_over_N": 0.490625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 163,
+      "ratio_p_over_N": 0.509375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 167,
+      "ratio_p_over_N": 0.521875,
+      "carry": 1,
+      "bound": -1,
+      "actual": 0,
+      "extra": 1
+    },
+    {
+      "prime": 173,
+      "ratio_p_over_N": 0.540625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 179,
+      "ratio_p_over_N": 0.559375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 181,
+      "ratio_p_over_N": 0.565625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 191,
+      "ratio_p_over_N": 0.596875,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 193,
+      "ratio_p_over_N": 0.603125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 197,
+      "ratio_p_over_N": 0.615625,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 199,
+      "ratio_p_over_N": 0.621875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 211,
+      "ratio_p_over_N": 0.659375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 223,
+      "ratio_p_over_N": 0.696875,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 227,
+      "ratio_p_over_N": 0.709375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 229,
+      "ratio_p_over_N": 0.715625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 233,
+      "ratio_p_over_N": 0.728125,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 239,
+      "ratio_p_over_N": 0.746875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 241,
+      "ratio_p_over_N": 0.753125,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 251,
+      "ratio_p_over_N": 0.784375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 257,
+      "ratio_p_over_N": 0.803125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 263,
+      "ratio_p_over_N": 0.821875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 269,
+      "ratio_p_over_N": 0.840625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 271,
+      "ratio_p_over_N": 0.846875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 277,
+      "ratio_p_over_N": 0.865625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 281,
+      "ratio_p_over_N": 0.878125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 283,
+      "ratio_p_over_N": 0.884375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 293,
+      "ratio_p_over_N": 0.915625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 307,
+      "ratio_p_over_N": 0.959375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 311,
+      "ratio_p_over_N": 0.971875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 313,
+      "ratio_p_over_N": 0.978125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 317,
+      "ratio_p_over_N": 0.990625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 331,
+      "ratio_p_over_N": 1.034375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 337,
+      "ratio_p_over_N": 1.053125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 347,
+      "ratio_p_over_N": 1.084375,
+      "carry": 1,
+      "bound": -1,
+      "actual": 0,
+      "extra": 1
+    },
+    {
+      "prime": 349,
+      "ratio_p_over_N": 1.090625,
+      "carry": 1,
+      "bound": -1,
+      "actual": 0,
+      "extra": 1
+    },
+    {
+      "prime": 353,
+      "ratio_p_over_N": 1.103125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 359,
+      "ratio_p_over_N": 1.121875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 367,
+      "ratio_p_over_N": 1.146875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 373,
+      "ratio_p_over_N": 1.165625,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 379,
+      "ratio_p_over_N": 1.184375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 383,
+      "ratio_p_over_N": 1.196875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 389,
+      "ratio_p_over_N": 1.215625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 397,
+      "ratio_p_over_N": 1.240625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 401,
+      "ratio_p_over_N": 1.253125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 409,
+      "ratio_p_over_N": 1.278125,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 419,
+      "ratio_p_over_N": 1.309375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 421,
+      "ratio_p_over_N": 1.315625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 431,
+      "ratio_p_over_N": 1.346875,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 433,
+      "ratio_p_over_N": 1.353125,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 439,
+      "ratio_p_over_N": 1.371875,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 443,
+      "ratio_p_over_N": 1.384375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 449,
+      "ratio_p_over_N": 1.403125,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 457,
+      "ratio_p_over_N": 1.428125,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 461,
+      "ratio_p_over_N": 1.440625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 463,
+      "ratio_p_over_N": 1.446875,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 467,
+      "ratio_p_over_N": 1.459375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 479,
+      "ratio_p_over_N": 1.496875,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 487,
+      "ratio_p_over_N": 1.521875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 491,
+      "ratio_p_over_N": 1.534375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 499,
+      "ratio_p_over_N": 1.559375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 503,
+      "ratio_p_over_N": 1.571875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 509,
+      "ratio_p_over_N": 1.590625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 521,
+      "ratio_p_over_N": 1.628125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 523,
+      "ratio_p_over_N": 1.634375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 541,
+      "ratio_p_over_N": 1.690625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 547,
+      "ratio_p_over_N": 1.709375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 557,
+      "ratio_p_over_N": 1.740625,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 563,
+      "ratio_p_over_N": 1.759375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 569,
+      "ratio_p_over_N": 1.778125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 571,
+      "ratio_p_over_N": 1.784375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 577,
+      "ratio_p_over_N": 1.803125,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 587,
+      "ratio_p_over_N": 1.834375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 593,
+      "ratio_p_over_N": 1.853125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 599,
+      "ratio_p_over_N": 1.871875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 601,
+      "ratio_p_over_N": 1.878125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 607,
+      "ratio_p_over_N": 1.896875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 613,
+      "ratio_p_over_N": 1.915625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 617,
+      "ratio_p_over_N": 1.928125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 619,
+      "ratio_p_over_N": 1.934375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 631,
+      "ratio_p_over_N": 1.971875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 641,
+      "ratio_p_over_N": 2.003125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 643,
+      "ratio_p_over_N": 2.009375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 647,
+      "ratio_p_over_N": 2.021875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 653,
+      "ratio_p_over_N": 2.040625,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 659,
+      "ratio_p_over_N": 2.059375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 661,
+      "ratio_p_over_N": 2.065625,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 673,
+      "ratio_p_over_N": 2.103125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 677,
+      "ratio_p_over_N": 2.115625,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 683,
+      "ratio_p_over_N": 2.134375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 691,
+      "ratio_p_over_N": 2.159375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 701,
+      "ratio_p_over_N": 2.190625,
+      "carry": 2,
+      "bound": 0,
+      "actual": 1,
+      "extra": 1
+    },
+    {
+      "prime": 709,
+      "ratio_p_over_N": 2.215625,
+      "carry": 1,
+      "bound": -1,
+      "actual": 0,
+      "extra": 1
+    },
+    {
+      "prime": 719,
+      "ratio_p_over_N": 2.246875,
+      "carry": 1,
+      "bound": -1,
+      "actual": 0,
+      "extra": 1
+    },
+    {
+      "prime": 727,
+      "ratio_p_over_N": 2.271875,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 733,
+      "ratio_p_over_N": 2.290625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 739,
+      "ratio_p_over_N": 2.309375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 743,
+      "ratio_p_over_N": 2.321875,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 751,
+      "ratio_p_over_N": 2.346875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 757,
+      "ratio_p_over_N": 2.365625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 761,
+      "ratio_p_over_N": 2.378125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 769,
+      "ratio_p_over_N": 2.403125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 773,
+      "ratio_p_over_N": 2.415625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 787,
+      "ratio_p_over_N": 2.459375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 797,
+      "ratio_p_over_N": 2.490625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 809,
+      "ratio_p_over_N": 2.528125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 811,
+      "ratio_p_over_N": 2.534375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 821,
+      "ratio_p_over_N": 2.565625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 823,
+      "ratio_p_over_N": 2.571875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 827,
+      "ratio_p_over_N": 2.584375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 829,
+      "ratio_p_over_N": 2.590625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 839,
+      "ratio_p_over_N": 2.621875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 853,
+      "ratio_p_over_N": 2.665625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 857,
+      "ratio_p_over_N": 2.678125,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 859,
+      "ratio_p_over_N": 2.684375,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 863,
+      "ratio_p_over_N": 2.696875,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 877,
+      "ratio_p_over_N": 2.740625,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 881,
+      "ratio_p_over_N": 2.753125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 883,
+      "ratio_p_over_N": 2.759375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 887,
+      "ratio_p_over_N": 2.771875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 907,
+      "ratio_p_over_N": 2.834375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 911,
+      "ratio_p_over_N": 2.846875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 919,
+      "ratio_p_over_N": 2.871875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 929,
+      "ratio_p_over_N": 2.903125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 937,
+      "ratio_p_over_N": 2.928125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 941,
+      "ratio_p_over_N": 2.940625,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 947,
+      "ratio_p_over_N": 2.959375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 953,
+      "ratio_p_over_N": 2.978125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 967,
+      "ratio_p_over_N": 3.021875,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 971,
+      "ratio_p_over_N": 3.034375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 977,
+      "ratio_p_over_N": 3.053125,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 983,
+      "ratio_p_over_N": 3.071875,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 991,
+      "ratio_p_over_N": 3.096875,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 997,
+      "ratio_p_over_N": 3.115625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1009,
+      "ratio_p_over_N": 3.153125,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1013,
+      "ratio_p_over_N": 3.165625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1019,
+      "ratio_p_over_N": 3.184375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1021,
+      "ratio_p_over_N": 3.190625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1031,
+      "ratio_p_over_N": 3.221875,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1033,
+      "ratio_p_over_N": 3.228125,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1039,
+      "ratio_p_over_N": 3.246875,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1049,
+      "ratio_p_over_N": 3.278125,
+      "carry": 1,
+      "bound": -1,
+      "actual": 0,
+      "extra": 1
+    },
+    {
+      "prime": 1051,
+      "ratio_p_over_N": 3.284375,
+      "carry": 1,
+      "bound": -1,
+      "actual": 0,
+      "extra": 1
+    },
+    {
+      "prime": 1061,
+      "ratio_p_over_N": 3.315625,
+      "carry": 1,
+      "bound": -1,
+      "actual": 0,
+      "extra": 1
+    },
+    {
+      "prime": 1063,
+      "ratio_p_over_N": 3.321875,
+      "carry": 1,
+      "bound": -1,
+      "actual": 0,
+      "extra": 1
+    },
+    {
+      "prime": 1069,
+      "ratio_p_over_N": 3.340625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1087,
+      "ratio_p_over_N": 3.396875,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1091,
+      "ratio_p_over_N": 3.409375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1093,
+      "ratio_p_over_N": 3.415625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1097,
+      "ratio_p_over_N": 3.428125,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1103,
+      "ratio_p_over_N": 3.446875,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1109,
+      "ratio_p_over_N": 3.465625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1117,
+      "ratio_p_over_N": 3.490625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1123,
+      "ratio_p_over_N": 3.509375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1129,
+      "ratio_p_over_N": 3.528125,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1151,
+      "ratio_p_over_N": 3.596875,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1153,
+      "ratio_p_over_N": 3.603125,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1163,
+      "ratio_p_over_N": 3.634375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1171,
+      "ratio_p_over_N": 3.659375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1181,
+      "ratio_p_over_N": 3.690625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1187,
+      "ratio_p_over_N": 3.709375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1193,
+      "ratio_p_over_N": 3.728125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1201,
+      "ratio_p_over_N": 3.753125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1213,
+      "ratio_p_over_N": 3.790625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1217,
+      "ratio_p_over_N": 3.803125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1223,
+      "ratio_p_over_N": 3.821875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1229,
+      "ratio_p_over_N": 3.840625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1231,
+      "ratio_p_over_N": 3.846875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1237,
+      "ratio_p_over_N": 3.865625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1249,
+      "ratio_p_over_N": 3.903125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1259,
+      "ratio_p_over_N": 3.934375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1277,
+      "ratio_p_over_N": 3.990625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1279,
+      "ratio_p_over_N": 3.996875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1283,
+      "ratio_p_over_N": 4.009375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1289,
+      "ratio_p_over_N": 4.028125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1291,
+      "ratio_p_over_N": 4.034375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1297,
+      "ratio_p_over_N": 4.053125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1301,
+      "ratio_p_over_N": 4.065625,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1303,
+      "ratio_p_over_N": 4.071875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1307,
+      "ratio_p_over_N": 4.084375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1319,
+      "ratio_p_over_N": 4.121875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1321,
+      "ratio_p_over_N": 4.128125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1327,
+      "ratio_p_over_N": 4.146875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1361,
+      "ratio_p_over_N": 4.253125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1367,
+      "ratio_p_over_N": 4.271875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1373,
+      "ratio_p_over_N": 4.290625,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1381,
+      "ratio_p_over_N": 4.315625,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1399,
+      "ratio_p_over_N": 4.371875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 1,
+      "extra": 1
+    },
+    {
+      "prime": 1409,
+      "ratio_p_over_N": 4.403125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 1,
+      "extra": 1
+    },
+    {
+      "prime": 1423,
+      "ratio_p_over_N": 4.446875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 1,
+      "extra": 1
+    },
+    {
+      "prime": 1427,
+      "ratio_p_over_N": 4.459375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 1,
+      "extra": 1
+    },
+    {
+      "prime": 1429,
+      "ratio_p_over_N": 4.465625,
+      "carry": 2,
+      "bound": 0,
+      "actual": 1,
+      "extra": 1
+    },
+    {
+      "prime": 1433,
+      "ratio_p_over_N": 4.478125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 1,
+      "extra": 1
+    },
+    {
+      "prime": 1439,
+      "ratio_p_over_N": 4.496875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 1,
+      "extra": 1
+    },
+    {
+      "prime": 1447,
+      "ratio_p_over_N": 4.521875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1451,
+      "ratio_p_over_N": 4.534375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1453,
+      "ratio_p_over_N": 4.540625,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1459,
+      "ratio_p_over_N": 4.559375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1471,
+      "ratio_p_over_N": 4.596875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1481,
+      "ratio_p_over_N": 4.628125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1483,
+      "ratio_p_over_N": 4.634375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1487,
+      "ratio_p_over_N": 4.646875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1489,
+      "ratio_p_over_N": 4.653125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1493,
+      "ratio_p_over_N": 4.665625,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1499,
+      "ratio_p_over_N": 4.684375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1511,
+      "ratio_p_over_N": 4.721875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1523,
+      "ratio_p_over_N": 4.759375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1531,
+      "ratio_p_over_N": 4.784375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1543,
+      "ratio_p_over_N": 4.821875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1549,
+      "ratio_p_over_N": 4.840625,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1553,
+      "ratio_p_over_N": 4.853125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1559,
+      "ratio_p_over_N": 4.871875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1567,
+      "ratio_p_over_N": 4.896875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1571,
+      "ratio_p_over_N": 4.909375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1579,
+      "ratio_p_over_N": 4.934375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1583,
+      "ratio_p_over_N": 4.946875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1597,
+      "ratio_p_over_N": 4.990625,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 1601,
+      "ratio_p_over_N": 5.003125,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1607,
+      "ratio_p_over_N": 5.021875,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1609,
+      "ratio_p_over_N": 5.028125,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1613,
+      "ratio_p_over_N": 5.040625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1619,
+      "ratio_p_over_N": 5.059375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1621,
+      "ratio_p_over_N": 5.065625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1627,
+      "ratio_p_over_N": 5.084375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1637,
+      "ratio_p_over_N": 5.115625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1657,
+      "ratio_p_over_N": 5.178125,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1663,
+      "ratio_p_over_N": 5.196875,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1667,
+      "ratio_p_over_N": 5.209375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1669,
+      "ratio_p_over_N": 5.215625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1693,
+      "ratio_p_over_N": 5.290625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1697,
+      "ratio_p_over_N": 5.303125,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1699,
+      "ratio_p_over_N": 5.309375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1709,
+      "ratio_p_over_N": 5.340625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1721,
+      "ratio_p_over_N": 5.378125,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1723,
+      "ratio_p_over_N": 5.384375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1733,
+      "ratio_p_over_N": 5.415625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1741,
+      "ratio_p_over_N": 5.440625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1747,
+      "ratio_p_over_N": 5.459375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1753,
+      "ratio_p_over_N": 5.478125,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1759,
+      "ratio_p_over_N": 5.496875,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 1777,
+      "ratio_p_over_N": 5.553125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1783,
+      "ratio_p_over_N": 5.571875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1787,
+      "ratio_p_over_N": 5.584375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1789,
+      "ratio_p_over_N": 5.590625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1801,
+      "ratio_p_over_N": 5.628125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1811,
+      "ratio_p_over_N": 5.659375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1823,
+      "ratio_p_over_N": 5.696875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1831,
+      "ratio_p_over_N": 5.721875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1847,
+      "ratio_p_over_N": 5.771875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1861,
+      "ratio_p_over_N": 5.815625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1867,
+      "ratio_p_over_N": 5.834375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1871,
+      "ratio_p_over_N": 5.846875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1873,
+      "ratio_p_over_N": 5.853125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1877,
+      "ratio_p_over_N": 5.865625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1879,
+      "ratio_p_over_N": 5.871875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1889,
+      "ratio_p_over_N": 5.903125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1901,
+      "ratio_p_over_N": 5.940625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1907,
+      "ratio_p_over_N": 5.959375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1913,
+      "ratio_p_over_N": 5.978125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1931,
+      "ratio_p_over_N": 6.034375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1933,
+      "ratio_p_over_N": 6.040625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1949,
+      "ratio_p_over_N": 6.090625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1951,
+      "ratio_p_over_N": 6.096875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1973,
+      "ratio_p_over_N": 6.165625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1979,
+      "ratio_p_over_N": 6.184375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1987,
+      "ratio_p_over_N": 6.209375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1993,
+      "ratio_p_over_N": 6.228125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1997,
+      "ratio_p_over_N": 6.240625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 1999,
+      "ratio_p_over_N": 6.246875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 2003,
+      "ratio_p_over_N": 6.259375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 2011,
+      "ratio_p_over_N": 6.284375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 2017,
+      "ratio_p_over_N": 6.303125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 2027,
+      "ratio_p_over_N": 6.334375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 2029,
+      "ratio_p_over_N": 6.340625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 2039,
+      "ratio_p_over_N": 6.371875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 2053,
+      "ratio_p_over_N": 6.415625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 2063,
+      "ratio_p_over_N": 6.446875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 2069,
+      "ratio_p_over_N": 6.465625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 2081,
+      "ratio_p_over_N": 6.503125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 2083,
+      "ratio_p_over_N": 6.509375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2087,
+      "ratio_p_over_N": 6.521875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2089,
+      "ratio_p_over_N": 6.528125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2099,
+      "ratio_p_over_N": 6.559375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2111,
+      "ratio_p_over_N": 6.596875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2113,
+      "ratio_p_over_N": 6.603125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2129,
+      "ratio_p_over_N": 6.653125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2131,
+      "ratio_p_over_N": 6.659375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2137,
+      "ratio_p_over_N": 6.678125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2141,
+      "ratio_p_over_N": 6.690625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2143,
+      "ratio_p_over_N": 6.696875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2153,
+      "ratio_p_over_N": 6.728125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2161,
+      "ratio_p_over_N": 6.753125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2179,
+      "ratio_p_over_N": 6.809375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2203,
+      "ratio_p_over_N": 6.884375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2207,
+      "ratio_p_over_N": 6.896875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2213,
+      "ratio_p_over_N": 6.915625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2221,
+      "ratio_p_over_N": 6.940625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2237,
+      "ratio_p_over_N": 6.990625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2239,
+      "ratio_p_over_N": 6.996875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2243,
+      "ratio_p_over_N": 7.009375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2251,
+      "ratio_p_over_N": 7.034375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2267,
+      "ratio_p_over_N": 7.084375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2269,
+      "ratio_p_over_N": 7.090625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2273,
+      "ratio_p_over_N": 7.103125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2281,
+      "ratio_p_over_N": 7.128125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2287,
+      "ratio_p_over_N": 7.146875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2293,
+      "ratio_p_over_N": 7.165625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2297,
+      "ratio_p_over_N": 7.178125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2309,
+      "ratio_p_over_N": 7.215625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2311,
+      "ratio_p_over_N": 7.221875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2333,
+      "ratio_p_over_N": 7.290625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2339,
+      "ratio_p_over_N": 7.309375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2341,
+      "ratio_p_over_N": 7.315625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2347,
+      "ratio_p_over_N": 7.334375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2351,
+      "ratio_p_over_N": 7.346875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2357,
+      "ratio_p_over_N": 7.365625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2371,
+      "ratio_p_over_N": 7.409375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2377,
+      "ratio_p_over_N": 7.428125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2381,
+      "ratio_p_over_N": 7.440625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2383,
+      "ratio_p_over_N": 7.446875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2389,
+      "ratio_p_over_N": 7.465625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2393,
+      "ratio_p_over_N": 7.478125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2399,
+      "ratio_p_over_N": 7.496875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2411,
+      "ratio_p_over_N": 7.534375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2417,
+      "ratio_p_over_N": 7.553125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2423,
+      "ratio_p_over_N": 7.571875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2437,
+      "ratio_p_over_N": 7.615625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2441,
+      "ratio_p_over_N": 7.628125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2447,
+      "ratio_p_over_N": 7.646875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2459,
+      "ratio_p_over_N": 7.684375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2467,
+      "ratio_p_over_N": 7.709375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2473,
+      "ratio_p_over_N": 7.728125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2477,
+      "ratio_p_over_N": 7.740625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2503,
+      "ratio_p_over_N": 7.821875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2521,
+      "ratio_p_over_N": 7.878125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2531,
+      "ratio_p_over_N": 7.909375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2539,
+      "ratio_p_over_N": 7.934375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2543,
+      "ratio_p_over_N": 7.946875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2549,
+      "ratio_p_over_N": 7.965625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2551,
+      "ratio_p_over_N": 7.971875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2557,
+      "ratio_p_over_N": 7.990625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -1,
+      "extra": 1
+    },
+    {
+      "prime": 2579,
+      "ratio_p_over_N": 8.059375,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2591,
+      "ratio_p_over_N": 8.096875,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2593,
+      "ratio_p_over_N": 8.103125,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2609,
+      "ratio_p_over_N": 8.153125,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2617,
+      "ratio_p_over_N": 8.178125,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2621,
+      "ratio_p_over_N": 8.190625,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2633,
+      "ratio_p_over_N": 8.228125,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2647,
+      "ratio_p_over_N": 8.271875,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2657,
+      "ratio_p_over_N": 8.303125,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2659,
+      "ratio_p_over_N": 8.309375,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2663,
+      "ratio_p_over_N": 8.321875,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2671,
+      "ratio_p_over_N": 8.346875,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2677,
+      "ratio_p_over_N": 8.365625,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2683,
+      "ratio_p_over_N": 8.384375,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2687,
+      "ratio_p_over_N": 8.396875,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2689,
+      "ratio_p_over_N": 8.403125,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2693,
+      "ratio_p_over_N": 8.415625,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2699,
+      "ratio_p_over_N": 8.434375,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2707,
+      "ratio_p_over_N": 8.459375,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2711,
+      "ratio_p_over_N": 8.471875,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2713,
+      "ratio_p_over_N": 8.478125,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2719,
+      "ratio_p_over_N": 8.496875,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2729,
+      "ratio_p_over_N": 8.528125,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2731,
+      "ratio_p_over_N": 8.534375,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2741,
+      "ratio_p_over_N": 8.565625,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2749,
+      "ratio_p_over_N": 8.590625,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2753,
+      "ratio_p_over_N": 8.603125,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2767,
+      "ratio_p_over_N": 8.646875,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2777,
+      "ratio_p_over_N": 8.678125,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2789,
+      "ratio_p_over_N": 8.715625,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2791,
+      "ratio_p_over_N": 8.721875,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2797,
+      "ratio_p_over_N": 8.740625,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2801,
+      "ratio_p_over_N": 8.753125,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2803,
+      "ratio_p_over_N": 8.759375,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2819,
+      "ratio_p_over_N": 8.809375,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2833,
+      "ratio_p_over_N": 8.853125,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2837,
+      "ratio_p_over_N": 8.865625,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2843,
+      "ratio_p_over_N": 8.884375,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2851,
+      "ratio_p_over_N": 8.909375,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2857,
+      "ratio_p_over_N": 8.928125,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2861,
+      "ratio_p_over_N": 8.940625,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2879,
+      "ratio_p_over_N": 8.996875,
+      "carry": 3,
+      "bound": 1,
+      "actual": 1,
+      "extra": 0
+    },
+    {
+      "prime": 2887,
+      "ratio_p_over_N": 9.021875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 2897,
+      "ratio_p_over_N": 9.053125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 2903,
+      "ratio_p_over_N": 9.071875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 2909,
+      "ratio_p_over_N": 9.090625,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 2917,
+      "ratio_p_over_N": 9.115625,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 2927,
+      "ratio_p_over_N": 9.146875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 2939,
+      "ratio_p_over_N": 9.184375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 2953,
+      "ratio_p_over_N": 9.228125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 2957,
+      "ratio_p_over_N": 9.240625,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 2963,
+      "ratio_p_over_N": 9.259375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 2969,
+      "ratio_p_over_N": 9.278125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 2971,
+      "ratio_p_over_N": 9.284375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 2999,
+      "ratio_p_over_N": 9.371875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 3001,
+      "ratio_p_over_N": 9.378125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 3011,
+      "ratio_p_over_N": 9.409375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 3019,
+      "ratio_p_over_N": 9.434375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 3023,
+      "ratio_p_over_N": 9.446875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 3037,
+      "ratio_p_over_N": 9.490625,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 3041,
+      "ratio_p_over_N": 9.503125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 3049,
+      "ratio_p_over_N": 9.528125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 3061,
+      "ratio_p_over_N": 9.565625,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 3067,
+      "ratio_p_over_N": 9.584375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 3079,
+      "ratio_p_over_N": 9.621875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 3083,
+      "ratio_p_over_N": 9.634375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 3089,
+      "ratio_p_over_N": 9.653125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 3109,
+      "ratio_p_over_N": 9.715625,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 3119,
+      "ratio_p_over_N": 9.746875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 3121,
+      "ratio_p_over_N": 9.753125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 3137,
+      "ratio_p_over_N": 9.803125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 3163,
+      "ratio_p_over_N": 9.884375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 3167,
+      "ratio_p_over_N": 9.896875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 3169,
+      "ratio_p_over_N": 9.903125,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 3181,
+      "ratio_p_over_N": 9.940625,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 3187,
+      "ratio_p_over_N": 9.959375,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 3191,
+      "ratio_p_over_N": 9.971875,
+      "carry": 2,
+      "bound": 0,
+      "actual": 0,
+      "extra": 0
+    },
+    {
+      "prime": 3203,
+      "ratio_p_over_N": 10.009375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3209,
+      "ratio_p_over_N": 10.028125,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3217,
+      "ratio_p_over_N": 10.053125,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3221,
+      "ratio_p_over_N": 10.065625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3229,
+      "ratio_p_over_N": 10.090625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3251,
+      "ratio_p_over_N": 10.159375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3253,
+      "ratio_p_over_N": 10.165625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3257,
+      "ratio_p_over_N": 10.178125,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3259,
+      "ratio_p_over_N": 10.184375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3271,
+      "ratio_p_over_N": 10.221875,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3299,
+      "ratio_p_over_N": 10.309375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3301,
+      "ratio_p_over_N": 10.315625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3307,
+      "ratio_p_over_N": 10.334375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3313,
+      "ratio_p_over_N": 10.353125,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3319,
+      "ratio_p_over_N": 10.371875,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3323,
+      "ratio_p_over_N": 10.384375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3329,
+      "ratio_p_over_N": 10.403125,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3331,
+      "ratio_p_over_N": 10.409375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3343,
+      "ratio_p_over_N": 10.446875,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3347,
+      "ratio_p_over_N": 10.459375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3359,
+      "ratio_p_over_N": 10.496875,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3361,
+      "ratio_p_over_N": 10.503125,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3371,
+      "ratio_p_over_N": 10.534375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3373,
+      "ratio_p_over_N": 10.540625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3389,
+      "ratio_p_over_N": 10.590625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3391,
+      "ratio_p_over_N": 10.596875,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3407,
+      "ratio_p_over_N": 10.646875,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3413,
+      "ratio_p_over_N": 10.665625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3433,
+      "ratio_p_over_N": 10.728125,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3449,
+      "ratio_p_over_N": 10.778125,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3457,
+      "ratio_p_over_N": 10.803125,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3461,
+      "ratio_p_over_N": 10.815625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3463,
+      "ratio_p_over_N": 10.821875,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3467,
+      "ratio_p_over_N": 10.834375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3469,
+      "ratio_p_over_N": 10.840625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3491,
+      "ratio_p_over_N": 10.909375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3499,
+      "ratio_p_over_N": 10.934375,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3511,
+      "ratio_p_over_N": 10.971875,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3517,
+      "ratio_p_over_N": 10.990625,
+      "carry": 1,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3527,
+      "ratio_p_over_N": 11.021875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3529,
+      "ratio_p_over_N": 11.028125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3533,
+      "ratio_p_over_N": 11.040625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3539,
+      "ratio_p_over_N": 11.059375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3541,
+      "ratio_p_over_N": 11.065625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3547,
+      "ratio_p_over_N": 11.084375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3557,
+      "ratio_p_over_N": 11.115625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3559,
+      "ratio_p_over_N": 11.121875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3571,
+      "ratio_p_over_N": 11.159375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3581,
+      "ratio_p_over_N": 11.190625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3583,
+      "ratio_p_over_N": 11.196875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3593,
+      "ratio_p_over_N": 11.228125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3607,
+      "ratio_p_over_N": 11.271875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3613,
+      "ratio_p_over_N": 11.290625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3617,
+      "ratio_p_over_N": 11.303125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3623,
+      "ratio_p_over_N": 11.321875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3631,
+      "ratio_p_over_N": 11.346875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3637,
+      "ratio_p_over_N": 11.365625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3643,
+      "ratio_p_over_N": 11.384375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3659,
+      "ratio_p_over_N": 11.434375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3671,
+      "ratio_p_over_N": 11.471875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3673,
+      "ratio_p_over_N": 11.478125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3677,
+      "ratio_p_over_N": 11.490625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3691,
+      "ratio_p_over_N": 11.534375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3697,
+      "ratio_p_over_N": 11.553125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3701,
+      "ratio_p_over_N": 11.565625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3709,
+      "ratio_p_over_N": 11.590625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3719,
+      "ratio_p_over_N": 11.621875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3727,
+      "ratio_p_over_N": 11.646875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3733,
+      "ratio_p_over_N": 11.665625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3739,
+      "ratio_p_over_N": 11.684375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3761,
+      "ratio_p_over_N": 11.753125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3767,
+      "ratio_p_over_N": 11.771875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3769,
+      "ratio_p_over_N": 11.778125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3779,
+      "ratio_p_over_N": 11.809375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3793,
+      "ratio_p_over_N": 11.853125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3797,
+      "ratio_p_over_N": 11.865625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3803,
+      "ratio_p_over_N": 11.884375,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3821,
+      "ratio_p_over_N": 11.940625,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3823,
+      "ratio_p_over_N": 11.946875,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3833,
+      "ratio_p_over_N": 11.978125,
+      "carry": 0,
+      "bound": -2,
+      "actual": -2,
+      "extra": 0
+    },
+    {
+      "prime": 3847,
+      "ratio_p_over_N": 12.021875,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3851,
+      "ratio_p_over_N": 12.034375,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3853,
+      "ratio_p_over_N": 12.040625,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3863,
+      "ratio_p_over_N": 12.071875,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3877,
+      "ratio_p_over_N": 12.115625,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3881,
+      "ratio_p_over_N": 12.128125,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3889,
+      "ratio_p_over_N": 12.153125,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3907,
+      "ratio_p_over_N": 12.209375,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3911,
+      "ratio_p_over_N": 12.221875,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3917,
+      "ratio_p_over_N": 12.240625,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3919,
+      "ratio_p_over_N": 12.246875,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3923,
+      "ratio_p_over_N": 12.259375,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3929,
+      "ratio_p_over_N": 12.278125,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3931,
+      "ratio_p_over_N": 12.284375,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3943,
+      "ratio_p_over_N": 12.321875,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3947,
+      "ratio_p_over_N": 12.334375,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3967,
+      "ratio_p_over_N": 12.396875,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 3989,
+      "ratio_p_over_N": 12.465625,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 4001,
+      "ratio_p_over_N": 12.503125,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 4003,
+      "ratio_p_over_N": 12.509375,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 4007,
+      "ratio_p_over_N": 12.521875,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 4013,
+      "ratio_p_over_N": 12.540625,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 4019,
+      "ratio_p_over_N": 12.559375,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 4021,
+      "ratio_p_over_N": 12.565625,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 4027,
+      "ratio_p_over_N": 12.584375,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 4049,
+      "ratio_p_over_N": 12.653125,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 4051,
+      "ratio_p_over_N": 12.659375,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 4057,
+      "ratio_p_over_N": 12.678125,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 4073,
+      "ratio_p_over_N": 12.728125,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 4079,
+      "ratio_p_over_N": 12.746875,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 4091,
+      "ratio_p_over_N": 12.784375,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 4093,
+      "ratio_p_over_N": 12.790625,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 4099,
+      "ratio_p_over_N": 12.809375,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 4111,
+      "ratio_p_over_N": 12.846875,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 4127,
+      "ratio_p_over_N": 12.896875,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 4129,
+      "ratio_p_over_N": 12.903125,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 4133,
+      "ratio_p_over_N": 12.915625,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 4139,
+      "ratio_p_over_N": 12.934375,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 4153,
+      "ratio_p_over_N": 12.978125,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 4157,
+      "ratio_p_over_N": 12.990625,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    },
+    {
+      "prime": 4159,
+      "ratio_p_over_N": 12.996875,
+      "carry": 0,
+      "bound": -1,
+      "actual": -1,
+      "extra": 0
+    }
+  ],
+  "runtime_seconds": 0.21263937500771135
+}

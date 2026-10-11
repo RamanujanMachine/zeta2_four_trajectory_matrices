@@ -1,0 +1,6 @@
+{'N': 1, 'plateau': 3, 'unit_moves': 47, 'all_nine_entries_equal': True, 'seconds': 0.036939124984201044}
+{'N': 1, 'plateau': 4, 'unit_moves': 47, 'all_nine_entries_equal': True, 'seconds': 0.013035916024819016}
+{'N': 2, 'plateau': 3, 'unit_moves': 94, 'all_nine_entries_equal': True, 'seconds': 0.05195608298527077}
+{'N': 2, 'plateau': 4, 'unit_moves': 94, 'all_nine_entries_equal': True, 'seconds': 0.046671749965753406}
+{'N': 3, 'plateau': 3, 'unit_moves': 141, 'all_nine_entries_equal': True, 'seconds': 0.08310845802770928}
+{'N': 3, 'plateau': 4, 'unit_moves': 141, 'all_nine_entries_equal': True, 'seconds': 0.07737529103178531}

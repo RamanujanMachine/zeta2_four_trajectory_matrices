@@ -1,0 +1,48 @@
+{
+  "square_endpoint": [
+    [
+      6,
+      0
+    ],
+    [
+      0,
+      6
+    ]
+  ],
+  "prime_row_bounds": [
+    {
+      "row": 1,
+      "prime": 2,
+      "XY_bound": 1,
+      "YX_bound": 0,
+      "actual_content": 1,
+      "best_order": "XY"
+    },
+    {
+      "row": 2,
+      "prime": 2,
+      "XY_bound": 0,
+      "YX_bound": 1,
+      "actual_content": 1,
+      "best_order": "YX"
+    },
+    {
+      "row": 1,
+      "prime": 3,
+      "XY_bound": 0,
+      "YX_bound": 1,
+      "actual_content": 1,
+      "best_order": "YX"
+    },
+    {
+      "row": 2,
+      "prime": 3,
+      "XY_bound": 1,
+      "YX_bound": 0,
+      "actual_content": 1,
+      "best_order": "XY"
+    }
+  ],
+  "finite_grid_checks": 64,
+  "singular_squares_skipped": 0
+}

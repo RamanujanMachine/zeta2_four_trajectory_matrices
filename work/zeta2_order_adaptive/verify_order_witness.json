@@ -1,0 +1,96 @@
+{
+  "N": 80,
+  "all_nine_endpoint_entries_equal": true,
+  "cut_directions": {
+    "A": [
+      3,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "B": [
+      4,
+      4,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "C": [
+      6,
+      6,
+      6,
+      -9,
+      2,
+      1,
+      3
+    ]
+  },
+  "row_valuation_certificates": {
+    "A": {
+      "2": [
+        -19,
+        1
+      ],
+      "59": [
+        -3,
+        0
+      ],
+      "883": [
+        -3,
+        0
+      ]
+    },
+    "B": {
+      "2": [
+        -25,
+        1
+      ],
+      "59": [
+        -2,
+        0
+      ],
+      "883": [
+        -4,
+        0
+      ]
+    },
+    "C": {
+      "2": [
+        -37,
+        -18
+      ],
+      "59": [
+        -4,
+        -1
+      ],
+      "883": [
+        -2,
+        -2
+      ]
+    }
+  },
+  "all_assertions_passed": true,
+  "scope": "Exact finite preference witnesses. No asymptotic claim from these tests.",
+  "strict_row_witness": {
+    "N": 40,
+    "p": 491,
+    "row_bounds": [
+      [
+        -1,
+        -2
+      ],
+      [
+        -2,
+        0
+      ]
+    ],
+    "best_shared_of_two": -2,
+    "independent_rows": -1,
+    "previous_arithmetic_bound": -1
+  }
+}

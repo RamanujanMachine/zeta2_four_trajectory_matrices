@@ -1,0 +1,147 @@
+name = "Zeta2FourTrajectoryMatrices"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["Zeta2FourTrajectoryMatrices"]
+
+[leanOptions]
+pp.unicode.fun = true # pretty-prints `fun a ↦ b`
+relaxedAutoImplicit = false
+weak.linter.mathlibStandardSet = true
+maxSynthPendingDepth = 3
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.35.0-rc4"
+
+[[lean_lib]]
+name = "Zeta2FourTrajectoryMatrices"
+
+[[lean_lib]]
+name = "defs"
+
+[[lean_lib]]
+name = "blueprint"
+
+[[lean_lib]]
+name = "blueprint_first_three"
+
+[[lean_lib]]
+name = "blueprint_next_two"
+
+[[lean_lib]]
+name = "blueprint_irr_criterion"
+
+[[lean_lib]]
+name = "blueprint_limit_spectrum"
+
+[[lean_lib]]
+name = "blueprint_bounded_gap"
+
+[[lean_lib]]
+name = "blueprint_gamma_core"
+
+[[lean_lib]]
+name = "blueprint_gamma_cells1"
+
+[[lean_lib]]
+name = "blueprint_gamma_cells2"
+
+[[lean_lib]]
+name = "blueprint_gamma_cells3"
+
+[[lean_lib]]
+name = "blueprint_gamma_cells4"
+
+[[lean_lib]]
+name = "blueprint_gamma_cells5"
+
+[[lean_lib]]
+name = "blueprint_gamma_cells6"
+
+[[lean_lib]]
+name = "blueprint_gamma_table"
+
+[[lean_lib]]
+name = "blueprint_gamma_sum"
+
+[[lean_lib]]
+name = "blueprint_gamma_sumA"
+
+[[lean_lib]]
+name = "blueprint_gamma_sumB"
+
+[[lean_lib]]
+name = "blueprint_gamma_int"
+
+[[lean_lib]]
+name = "blueprint_gamma_bounds"
+
+[[lean_lib]]
+name = "blueprint_gamma_cells7"
+
+[[lean_lib]]
+name = "blueprint_gamma_cells8"
+
+[[lean_lib]]
+name = "barnes_identities"
+
+[[lean_lib]]
+name = "error_integral"
+
+[[lean_lib]]
+name = "error_coarse_bound"
+
+[[lean_lib]]
+name = "readout_rates"
+
+[[lean_lib]]
+name = "arithmetic_normalization"
+
+[[lean_lib]]
+name = "arith_rate"
+
+[[lean_lib]]
+name = "arithmetic_normalization_chamber"
+
+[[lean_lib]]
+name = "arithmetic_normalization_jval"
+
+[[lean_lib]]
+name = "arith_rate_cells"
+
+[[lean_lib]]
+name = "arithmetic_normalization_kernel"
+
+[[lean_lib]]
+name = "arithmetic_normalization_kernel2"
+
+[[lean_lib]]
+name = "arithmetic_normalization_kernel3"
+
+[[lean_lib]]
+name = "arithmetic_normalization_sprime"
+
+[[lean_lib]]
+name = "arithmetic_normalization_sprime2"
+
+[[lean_lib]]
+name = "error_coarse_bound_gamma"
+
+[[lean_lib]]
+name = "error_coarse_bound_shift"
+
+[[lean_lib]]
+name = "barnes_step_aux"
+
+[[lean_lib]]
+name = "barnes_step_aux2"
+
+[[lean_lib]]
+name = "readout_rates_cone"
+
+[[lean_lib]]
+name = "readout_rates_cone2"
+
+[[lean_lib]]
+name = "readout_rates_cone3"

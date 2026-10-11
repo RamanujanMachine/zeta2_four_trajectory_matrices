@@ -1,0 +1,59 @@
+{
+  "N": 320,
+  "status": "NUMERICAL_CANDIDATE",
+  "source_checkpoint": "work/zeta2_order_adaptive/orders/paths_320.jsonl",
+  "orders_consumed": 89,
+  "prime_range": [
+    2,
+    4162
+  ],
+  "six_shell_log_q_bound": 15860.979328136407,
+  "actual_reduced_log_q": 15668.557979292504,
+  "runtime_seconds": 5.13680762500735,
+  "caveat": "Finite checkpoint certificates with bounded residue retention; no new asymptotic exponent or all-N result is inferred."
+}
+{
+  "retained_digit_cap": 0,
+  "log_q_bound": 15681.089752077674,
+  "pure_order_log_q_bound": 16310.149319204667,
+  "log_gain_over_six_shell": 179.88957605873455,
+  "gap_above_actual_log_q": 12.531772785169476,
+  "strict_row_adaptation_log_gain": 0.0,
+  "pure_order_strict_row_adaptation_log_gain": 0.0,
+  "same_order_for_both_rows_log_q_bound": 15681.089752077674,
+  "best_fixed_order": "u3_3_3_l0_0_0_m0",
+  "best_fixed_order_log_q_bound": 15733.582982967204,
+  "strict_prime_adaptation_log_gain": 52.49323088952928,
+  "large_prime_log_gain_over_six_shell": 26.34021561846989,
+  "strict_gain_prime_count": 28
+}
+{
+  "retained_digit_cap": 1,
+  "log_q_bound": 15673.163149478492,
+  "pure_order_log_q_bound": 15957.77547886443,
+  "log_gain_over_six_shell": 187.8161786579159,
+  "gap_above_actual_log_q": 4.605170185988092,
+  "strict_row_adaptation_log_gain": 0.0,
+  "pure_order_strict_row_adaptation_log_gain": 0.0,
+  "same_order_for_both_rows_log_q_bound": 15673.163149478492,
+  "best_fixed_order": "u10_9_11_l2_1_3_m0",
+  "best_fixed_order_log_q_bound": 15694.128537287817,
+  "strict_prime_adaptation_log_gain": 20.965387809325474,
+  "large_prime_log_gain_over_six_shell": 31.964233124657227,
+  "strict_gain_prime_count": 30
+}
+{
+  "retained_digit_cap": 2,
+  "log_q_bound": 15670.860564385497,
+  "pure_order_log_q_bound": 15955.472893771435,
+  "log_gain_over_six_shell": 190.11876375090998,
+  "gap_above_actual_log_q": 2.302585092994046,
+  "strict_row_adaptation_log_gain": 0.0,
+  "pure_order_strict_row_adaptation_log_gain": 0.0,
+  "same_order_for_both_rows_log_q_bound": 15670.860564385497,
+  "best_fixed_order": "u10_9_11_l2_1_3_m0",
+  "best_fixed_order_log_q_bound": 15676.689510003107,
+  "strict_prime_adaptation_log_gain": 5.8289456176102075,
+  "large_prime_log_gain_over_six_shell": 31.964233124657227,
+  "strict_gain_prime_count": 30
+}

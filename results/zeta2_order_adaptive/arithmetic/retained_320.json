@@ -1,0 +1,6758 @@
+{
+  "N": 320,
+  "status": "NUMERICAL_CANDIDATE",
+  "source_checkpoint": "work/zeta2_order_adaptive/orders/paths_320.jsonl",
+  "orders_consumed": 89,
+  "prime_range": [
+    2,
+    4162
+  ],
+  "six_shell_log_q_bound": 15860.979328136407,
+  "actual_reduced_log_q": 15668.557979292504,
+  "levels": [
+    {
+      "retained_digit_cap": 0,
+      "combined_content": "1/491115698753953081558393358873927948138873033283363770181213034552484955342058749676963634154167134370065210949800110070296020778416864429135643228763873265528642958776619289231048234028860148218509818756333341095231945666187469610092545411586656604955674414295873084793938964265049466030955047715510086049221170887235998537470939231401087943836520157443771227309630713708180010998800425503633024829057413700705285905138775601064496678596427717342687429512165930063300438239772647693090766853667970464695957337868386637506773237357581459555935437426692574579528096231657672034710935637121632271611544682513853562664890020958132458466769392958190458602841553565141028172980272934090685195933296870409146515807200165527356225625547067501715662721923285438504888508660087841023764085609855013411311960937505612064453912750934418404892905094021497623338111554168996834990252381441706517921041552694312699539984262561284988449095157040836217617494199059602761670031008186053643082841794999769643768699415387326760960492796651033652079108392017126853379741709100055689049252451383407073131818853751638094871713288068796054556109264482081092626329755155822565719167237700883781803712799553610599413937622135499760886071753651432457701702010898933341568094995157590997283847465657270947141690776548226704021540401826120815930728602316855476120634728917604904189633285222480415362813205622308978513270459067918765671238722607663075305763372316329043430752953070519848496487597675887375408878101728328605756665247627533490229773200608879909355988816997760137278012912648388009380718368978454970246754791349464476244594777148742182517830444076159761642518099824384944562554288636876268419537253069386966078567552418729572579560646906224600906566075696463989153942848861750396290384376431949611319764264697385629662398356459559351837985883516961308964847733893819498824327406004868218721766180868493318944964088848214235804628865317616213204443710888015565242253838486190283938940459674513725361605471095013439312249745642134855434747291822167022212615868153997034641132547533282905714438453172834496777386027733486521306200452059813801267417744778357279578455675087396310761740517163647516907727627813250032731437720186818804613087918155598754077811028758795372742657219041500280691869720569345659641707818107888695850448584164208139217880878591462004659155859158753874600391977550416535955120361010315245194514336454433527390376498092562834569185364856085532534046356227098101435893924797578260308411479067762085064957128618540819364827573937485591860997514325086305399568269473442168908754081084089776953053905686893435254673348923870419872037386132547935412069614575766100657569712459664475914031355717758927283297615083475809375938363842725477916224847174163110594104460971593339166897977587921677078652492148334749406683248417591121659590891283549732812371271024877518149363340940114854616946337557147969018960332425143359354424519451904550597534125533653639688037996786532325529699699258056287938995073800868960270253669232476322957481142472655837314952477006034119857057076756704428549596302631245530340999450738693786229973711807356794432332503788408102370495229516001659938003629945599382648453081452864912370838378064244156234032424822845005739148935643160561959092555306867623628063344698971086243120387995721181668378860646550309306428637698553175838499097755146544506578258204795280462297908211299083292468862656245779580417934867475125364340898747018442199950406105688738652433802670971785528327619323056208882339962880000000000000",
+      "log_q_bound": 15681.089752077674,
+      "pure_order_log_q_bound": 16310.149319204667,
+      "log_gain_over_six_shell": 179.88957605873455,
+      "gap_above_actual_log_q": 12.531772785169476,
+      "strict_row_adaptation_log_gain": 0.0,
+      "pure_order_strict_row_adaptation_log_gain": 0.0,
+      "same_order_for_both_rows_log_q_bound": 15681.089752077674,
+      "best_fixed_order": "u3_3_3_l0_0_0_m0",
+      "best_fixed_order_log_q_bound": 15733.582982967204,
+      "strict_prime_adaptation_log_gain": 52.49323088952928,
+      "large_prime_log_gain_over_six_shell": 26.34021561846989,
+      "strict_gain_prime_count": 28,
+      "witnesses": [
+        {
+          "prime": 3,
+          "old_common_valuation": -26,
+          "new_common_valuation": -17,
+          "actual_common_valuation": -17,
+          "gain_exponent": 9,
+          "best_same_order_common_valuation": -17,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -17,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -17,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                2,
+                0
+              ],
+              "modulus": 3,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -17
+            },
+            {
+              "valuation": -3,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -3,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 3,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -3
+            }
+          ]
+        },
+        {
+          "prime": 5,
+          "old_common_valuation": -16,
+          "new_common_valuation": -13,
+          "actual_common_valuation": -10,
+          "gain_exponent": 3,
+          "best_same_order_common_valuation": -13,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -13,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -13,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                2,
+                3
+              ],
+              "modulus": 5,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -10
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 5,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 7,
+          "old_common_valuation": -13,
+          "new_common_valuation": -10,
+          "actual_common_valuation": -10,
+          "gain_exponent": 3,
+          "best_same_order_common_valuation": -10,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -10,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -10,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                4,
+                4
+              ],
+              "modulus": 7,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -10
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 7,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 11,
+          "old_common_valuation": -11,
+          "new_common_valuation": -8,
+          "actual_common_valuation": -8,
+          "gain_exponent": 3,
+          "best_same_order_common_valuation": -8,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -8,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -8,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                9,
+                0
+              ],
+              "modulus": 11,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -8
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 11,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 13,
+          "old_common_valuation": -10,
+          "new_common_valuation": -6,
+          "actual_common_valuation": -6,
+          "gain_exponent": 4,
+          "best_same_order_common_valuation": -6,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -6,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -6,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                11,
+                9
+              ],
+              "modulus": 13,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -6
+            },
+            {
+              "valuation": 0,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 0,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 13,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 0
+            }
+          ]
+        },
+        {
+          "prime": 17,
+          "old_common_valuation": -9,
+          "new_common_valuation": -6,
+          "actual_common_valuation": -6,
+          "gain_exponent": 3,
+          "best_same_order_common_valuation": -6,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -6,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -6,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                9,
+                5,
+                1
+              ],
+              "modulus": 17,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -6
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 17,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 19,
+          "old_common_valuation": -7,
+          "new_common_valuation": -5,
+          "actual_common_valuation": -5,
+          "gain_exponent": 2,
+          "best_same_order_common_valuation": -5,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -5,
+              "name": "u4_4_4_l0_0_0_m0",
+              "base_valuation": -5,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                11,
+                5,
+                0
+              ],
+              "modulus": 19,
+              "direction_to_cut": [
+                4,
+                4,
+                4,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                1281,
+                1281,
+                1281,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -5
+            },
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 19,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -1
+            }
+          ]
+        },
+        {
+          "prime": 23,
+          "old_common_valuation": -10,
+          "new_common_valuation": -6,
+          "actual_common_valuation": -6,
+          "gain_exponent": 4,
+          "best_same_order_common_valuation": -6,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -6,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -6,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                19,
+                1,
+                0
+              ],
+              "modulus": 23,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -6
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 23,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 29,
+          "old_common_valuation": -4,
+          "new_common_valuation": -3,
+          "actual_common_valuation": -3,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -3,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -3,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -3,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                21,
+                10,
+                0
+              ],
+              "modulus": 29,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -3
+            },
+            {
+              "valuation": 1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 29,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 1
+            }
+          ]
+        },
+        {
+          "prime": 31,
+          "old_common_valuation": -8,
+          "new_common_valuation": -6,
+          "actual_common_valuation": -6,
+          "gain_exponent": 2,
+          "best_same_order_common_valuation": -6,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -6,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -6,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                28,
+                19
+              ],
+              "modulus": 31,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -6
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 31,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 37,
+          "old_common_valuation": -8,
+          "new_common_valuation": -6,
+          "actual_common_valuation": -6,
+          "gain_exponent": 2,
+          "best_same_order_common_valuation": -6,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -6,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -6,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                24,
+                6
+              ],
+              "modulus": 37,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -6
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 37,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 41,
+          "old_common_valuation": -7,
+          "new_common_valuation": -6,
+          "actual_common_valuation": -6,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -6,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -6,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -6,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                3,
+                40
+              ],
+              "modulus": 41,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -6
+            },
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 41,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -1
+            }
+          ]
+        },
+        {
+          "prime": 43,
+          "old_common_valuation": -5,
+          "new_common_valuation": -4,
+          "actual_common_valuation": -4,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -4,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -4,
+              "name": "u4_4_4_l0_0_0_m0",
+              "base_valuation": -4,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                26,
+                12
+              ],
+              "modulus": 43,
+              "direction_to_cut": [
+                4,
+                4,
+                4,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                1281,
+                1281,
+                1281,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -4
+            },
+            {
+              "valuation": 0,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 0,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 43,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 0
+            }
+          ]
+        },
+        {
+          "prime": 47,
+          "old_common_valuation": -6,
+          "new_common_valuation": -4,
+          "actual_common_valuation": -4,
+          "gain_exponent": 2,
+          "best_same_order_common_valuation": -4,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -4,
+              "name": "u9_9_9_l0_0_0_m0",
+              "base_valuation": -4,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                12,
+                21,
+                0
+              ],
+              "modulus": 47,
+              "direction_to_cut": [
+                9,
+                9,
+                9,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                2881,
+                2881,
+                2881,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -4
+            },
+            {
+              "valuation": 0,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 0,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 47,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 0
+            }
+          ]
+        },
+        {
+          "prime": 53,
+          "old_common_valuation": -7,
+          "new_common_valuation": -4,
+          "actual_common_valuation": -4,
+          "gain_exponent": 3,
+          "best_same_order_common_valuation": -4,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -4,
+              "name": "u8_8_8_l1_0_1_m0",
+              "base_valuation": -4,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                13,
+                32
+              ],
+              "modulus": 53,
+              "direction_to_cut": [
+                8,
+                8,
+                8,
+                0,
+                1,
+                0,
+                1
+              ],
+              "cut_vertex": [
+                2561,
+                2561,
+                2561,
+                0,
+                321,
+                1,
+                321
+              ],
+              "row": 0,
+              "actual_valuation": -4
+            },
+            {
+              "valuation": 0,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 0,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 53,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 0
+            }
+          ]
+        },
+        {
+          "prime": 59,
+          "old_common_valuation": -6,
+          "new_common_valuation": -5,
+          "actual_common_valuation": -5,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -5,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -5,
+              "name": "u8_8_8_l0_0_0_m0",
+              "base_valuation": -5,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                40,
+                0
+              ],
+              "modulus": 59,
+              "direction_to_cut": [
+                8,
+                8,
+                8,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                2561,
+                2561,
+                2561,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -5
+            },
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 59,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -1
+            }
+          ]
+        },
+        {
+          "prime": 61,
+          "old_common_valuation": -7,
+          "new_common_valuation": -5,
+          "actual_common_valuation": -5,
+          "gain_exponent": 2,
+          "best_same_order_common_valuation": -5,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -5,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -5,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                19,
+                4
+              ],
+              "modulus": 61,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -5
+            },
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 61,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -1
+            }
+          ]
+        },
+        {
+          "prime": 73,
+          "old_common_valuation": -2,
+          "new_common_valuation": -1,
+          "actual_common_valuation": -1,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -1,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                14,
+                70,
+                0
+              ],
+              "modulus": 73,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -1
+            },
+            {
+              "valuation": 1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 73,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 1
+            }
+          ]
+        },
+        {
+          "prime": 83,
+          "old_common_valuation": -5,
+          "new_common_valuation": -4,
+          "actual_common_valuation": -4,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -4,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -4,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -4,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                3,
+                53,
+                0
+              ],
+              "modulus": 83,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -4
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 83,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 89,
+          "old_common_valuation": -4,
+          "new_common_valuation": -3,
+          "actual_common_valuation": -3,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -3,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -3,
+              "name": "u6_6_6_l0_0_0_m0",
+              "base_valuation": -3,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                86,
+                24,
+                0
+              ],
+              "modulus": 89,
+              "direction_to_cut": [
+                6,
+                6,
+                6,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                1921,
+                1921,
+                1921,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -3
+            },
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 89,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -1
+            }
+          ]
+        },
+        {
+          "prime": 97,
+          "old_common_valuation": -3,
+          "new_common_valuation": -2,
+          "actual_common_valuation": -2,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -2,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                78,
+                46,
+                0
+              ],
+              "modulus": 97,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -2
+            },
+            {
+              "valuation": 0,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 0,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 97,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 0
+            }
+          ]
+        },
+        {
+          "prime": 103,
+          "old_common_valuation": -4,
+          "new_common_valuation": -2,
+          "actual_common_valuation": -2,
+          "gain_exponent": 2,
+          "best_same_order_common_valuation": -2,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                92,
+                42,
+                0
+              ],
+              "modulus": 103,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -2
+            },
+            {
+              "valuation": 0,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 0,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 103,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 0
+            }
+          ]
+        },
+        {
+          "prime": 113,
+          "old_common_valuation": -5,
+          "new_common_valuation": -4,
+          "actual_common_valuation": -4,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -4,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -4,
+              "name": "u4_4_4_l0_0_0_m0",
+              "base_valuation": -4,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                111,
+                102,
+                0
+              ],
+              "modulus": 113,
+              "direction_to_cut": [
+                4,
+                4,
+                4,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                1281,
+                1281,
+                1281,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -4
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 113,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 139,
+          "old_common_valuation": -3,
+          "new_common_valuation": -2,
+          "actual_common_valuation": -2,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -2,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": true,
+          "rows": [
+            {
+              "valuation": -2,
+              "name": "u4_4_4_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                89,
+                45,
+                0
+              ],
+              "modulus": 139,
+              "direction_to_cut": [
+                4,
+                4,
+                4,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                1281,
+                1281,
+                1281,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -2
+            },
+            {
+              "valuation": 0,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 0,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 139,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 0
+            }
+          ]
+        },
+        {
+          "prime": 149,
+          "old_common_valuation": -2,
+          "new_common_valuation": -1,
+          "actual_common_valuation": -1,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -1,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": true,
+          "rows": [
+            {
+              "valuation": -1,
+              "name": "u8_8_8_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                110,
+                99,
+                0
+              ],
+              "modulus": 149,
+              "direction_to_cut": [
+                8,
+                8,
+                8,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                2561,
+                2561,
+                2561,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -1
+            },
+            {
+              "valuation": 1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 149,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 1
+            }
+          ]
+        },
+        {
+          "prime": 167,
+          "old_common_valuation": -4,
+          "new_common_valuation": -3,
+          "actual_common_valuation": -3,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -3,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": true,
+          "rows": [
+            {
+              "valuation": -3,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -3,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                59,
+                72,
+                0
+              ],
+              "modulus": 167,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -3
+            },
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 167,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -1
+            }
+          ]
+        },
+        {
+          "prime": 281,
+          "old_common_valuation": -2,
+          "new_common_valuation": -1,
+          "actual_common_valuation": -1,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -1,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": true,
+          "rows": [
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                174,
+                255,
+                0
+              ],
+              "modulus": 281,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -1
+            },
+            {
+              "valuation": 1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 281,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 1
+            }
+          ]
+        },
+        {
+          "prime": 283,
+          "old_common_valuation": -2,
+          "new_common_valuation": -1,
+          "actual_common_valuation": -1,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -1,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": true,
+          "rows": [
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                44,
+                81,
+                0
+              ],
+              "modulus": 283,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -1
+            },
+            {
+              "valuation": 1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 283,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "retained_digit_cap": 1,
+      "combined_content": "1/177298086192762845327939840748710450591650914542730602953506510668767131892439981832838857095367196523489245830252747317796397392930275967196983115077210565172795291977118876978717774017639042678162389442719617723910449698984646068625467657612511409731290402272878369961710817424205583404676912532675121317408364941240432685007559289314472181890440490051902970147881124082375455234223980326221308602547802780038009352035659061756135985052861991820464775997171815907328678064899872813390168539230314247182656078652847161554791782439560093702503768024076741725461406581825874380762070627119722841737019740979730528037866433558892584284032271826061537401747853272614089593133672539382918843297219086790305601374440492970164702391894248195565221199250283551806818956194977559936376926212944048162928505753612134319297441426330114947614767181957219358605816445548374308660740931928413905386657600250654404166059300563640790053824966440735096612813790274224823707592421727817199668895954873563048291949247432247928144582237058134892447331549464666734072108920252727685577347455373071145534952654783984871794842342263103268792819229054902921525750814135676016505114526245806419423723032329823321088064123514620852305441066300156121913971845089867632335052344822235017069981034533310811242487644963258737913913502464303543657302744518720388491203873255453034003477720296924337676105850405165696214177061035349734899364159786159954984030098309144059000271824213184060829056894467829377403927112537302745760528970262647469397030036320895274135736035017241926815167116479562458260187136815326704060200285685727247741730966479690318598494745153848289401631082969092037748214544634251360440266156342738976923670596541057607429444276861452924515005803500528515940051569986191478805192915679404191812189265233713223704836951790454639652702485024173757749042503210765162030443106860963255856233278291874844384463569981304778268819084952208019207380401042604897199369616782018153046548902409571742007799809059571638740884384708351933369944870693923112712135692474367160520264457593242926250699802589470937464760298820753256789242040454806426450331315804461111761175333966569065256946035077129067475713945058935029866945025338201734517360259261949008692350551898482084022619934672021761982624447858969552217223039028118662761894795727150952786238584329047655111608613414712590108444757238417522005458614083146297904156800164055425050677436134499218256023597420969506329980634017002924706098889818620310580653963562368983777962862317162750673222950879958697422742784954904803393345945658282371447203639380537825614820904580105933304936227048328671433948514849295283542263398763814476771685816772442049066437312533486977358591196781038198330663669257301616576254457463596790828196556307434418471804324038960894252221116299037815670282761161585242476386603351461997405188184485515349512405538245528828381569074930378328165689650694997602655026902329207418988279467701680014327811551186473763729133465436121403588084864188039335837636703694034773630859618221175392532473818413730729190273312908557555433067257267597664383032292685449020299629498847421225426834838912782708437001887911913956656318999980360787959730354315113686776475948759654930048387156975756319761425608535437025978011752818363763042622146100711583481270898193401148616743270991534407691851493753990316187183789803302001626923558918698657206605743036570066170566376410197032339501059518944088579184439980873083826696897511078967022539278942589092248493725387384912953913344000000000000",
+      "log_q_bound": 15673.163149478492,
+      "pure_order_log_q_bound": 15957.77547886443,
+      "log_gain_over_six_shell": 187.8161786579159,
+      "gap_above_actual_log_q": 4.605170185988092,
+      "strict_row_adaptation_log_gain": 0.0,
+      "pure_order_strict_row_adaptation_log_gain": 0.0,
+      "same_order_for_both_rows_log_q_bound": 15673.163149478492,
+      "best_fixed_order": "u10_9_11_l2_1_3_m0",
+      "best_fixed_order_log_q_bound": 15694.128537287817,
+      "strict_prime_adaptation_log_gain": 20.965387809325474,
+      "large_prime_log_gain_over_six_shell": 31.964233124657227,
+      "strict_gain_prime_count": 30,
+      "witnesses": [
+        {
+          "prime": 2,
+          "old_common_valuation": -25,
+          "new_common_valuation": -24,
+          "actual_common_valuation": -22,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -24,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -24,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -25,
+              "retained_digits": 1,
+              "normalized_term_residues": [
+                0,
+                1,
+                1
+              ],
+              "modulus": 2,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -22
+            },
+            {
+              "valuation": 1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 2,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 1
+            }
+          ]
+        },
+        {
+          "prime": 3,
+          "old_common_valuation": -26,
+          "new_common_valuation": -17,
+          "actual_common_valuation": -17,
+          "gain_exponent": 9,
+          "best_same_order_common_valuation": -17,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -17,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -17,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                2,
+                0
+              ],
+              "modulus": 3,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -17
+            },
+            {
+              "valuation": -3,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -3,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 3,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -3
+            }
+          ]
+        },
+        {
+          "prime": 5,
+          "old_common_valuation": -16,
+          "new_common_valuation": -12,
+          "actual_common_valuation": -10,
+          "gain_exponent": 4,
+          "best_same_order_common_valuation": -12,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -12,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -13,
+              "retained_digits": 1,
+              "normalized_term_residues": [
+                0,
+                2,
+                3
+              ],
+              "modulus": 5,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -10
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 5,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 7,
+          "old_common_valuation": -13,
+          "new_common_valuation": -10,
+          "actual_common_valuation": -10,
+          "gain_exponent": 3,
+          "best_same_order_common_valuation": -10,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -10,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -10,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                4,
+                4
+              ],
+              "modulus": 7,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -10
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 7,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 11,
+          "old_common_valuation": -11,
+          "new_common_valuation": -8,
+          "actual_common_valuation": -8,
+          "gain_exponent": 3,
+          "best_same_order_common_valuation": -8,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -8,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -8,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                9,
+                0
+              ],
+              "modulus": 11,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -8
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 11,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 13,
+          "old_common_valuation": -10,
+          "new_common_valuation": -6,
+          "actual_common_valuation": -6,
+          "gain_exponent": 4,
+          "best_same_order_common_valuation": -6,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -6,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -6,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                11,
+                9
+              ],
+              "modulus": 13,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -6
+            },
+            {
+              "valuation": 0,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 0,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 13,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 0
+            }
+          ]
+        },
+        {
+          "prime": 17,
+          "old_common_valuation": -9,
+          "new_common_valuation": -6,
+          "actual_common_valuation": -6,
+          "gain_exponent": 3,
+          "best_same_order_common_valuation": -6,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -6,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -6,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                9,
+                5,
+                1
+              ],
+              "modulus": 17,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -6
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 17,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 19,
+          "old_common_valuation": -7,
+          "new_common_valuation": -5,
+          "actual_common_valuation": -5,
+          "gain_exponent": 2,
+          "best_same_order_common_valuation": -5,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -5,
+              "name": "u4_4_4_l0_0_0_m0",
+              "base_valuation": -5,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                11,
+                5,
+                0
+              ],
+              "modulus": 19,
+              "direction_to_cut": [
+                4,
+                4,
+                4,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                1281,
+                1281,
+                1281,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -5
+            },
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 19,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -1
+            }
+          ]
+        },
+        {
+          "prime": 23,
+          "old_common_valuation": -10,
+          "new_common_valuation": -6,
+          "actual_common_valuation": -6,
+          "gain_exponent": 4,
+          "best_same_order_common_valuation": -6,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -6,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -6,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                19,
+                1,
+                0
+              ],
+              "modulus": 23,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -6
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 23,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 29,
+          "old_common_valuation": -4,
+          "new_common_valuation": -3,
+          "actual_common_valuation": -3,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -3,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -3,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -3,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                21,
+                10,
+                0
+              ],
+              "modulus": 29,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -3
+            },
+            {
+              "valuation": 1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 29,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 1
+            }
+          ]
+        },
+        {
+          "prime": 31,
+          "old_common_valuation": -8,
+          "new_common_valuation": -6,
+          "actual_common_valuation": -6,
+          "gain_exponent": 2,
+          "best_same_order_common_valuation": -6,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -6,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -6,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                28,
+                19
+              ],
+              "modulus": 31,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -6
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 31,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 37,
+          "old_common_valuation": -8,
+          "new_common_valuation": -6,
+          "actual_common_valuation": -6,
+          "gain_exponent": 2,
+          "best_same_order_common_valuation": -6,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -6,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -6,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                24,
+                6
+              ],
+              "modulus": 37,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -6
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 37,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 41,
+          "old_common_valuation": -7,
+          "new_common_valuation": -6,
+          "actual_common_valuation": -6,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -6,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -6,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -6,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                3,
+                40
+              ],
+              "modulus": 41,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -6
+            },
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 41,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -1
+            }
+          ]
+        },
+        {
+          "prime": 43,
+          "old_common_valuation": -5,
+          "new_common_valuation": -4,
+          "actual_common_valuation": -4,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -4,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -4,
+              "name": "u4_4_4_l0_0_0_m0",
+              "base_valuation": -4,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                26,
+                12
+              ],
+              "modulus": 43,
+              "direction_to_cut": [
+                4,
+                4,
+                4,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                1281,
+                1281,
+                1281,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -4
+            },
+            {
+              "valuation": 0,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 0,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 43,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 0
+            }
+          ]
+        },
+        {
+          "prime": 47,
+          "old_common_valuation": -6,
+          "new_common_valuation": -4,
+          "actual_common_valuation": -4,
+          "gain_exponent": 2,
+          "best_same_order_common_valuation": -4,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -4,
+              "name": "u4_4_4_l0_0_0_m0",
+              "base_valuation": -5,
+              "retained_digits": 1,
+              "normalized_term_residues": [
+                0,
+                14,
+                33
+              ],
+              "modulus": 47,
+              "direction_to_cut": [
+                4,
+                4,
+                4,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                1281,
+                1281,
+                1281,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -4
+            },
+            {
+              "valuation": 0,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 0,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 47,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 0
+            }
+          ]
+        },
+        {
+          "prime": 53,
+          "old_common_valuation": -7,
+          "new_common_valuation": -4,
+          "actual_common_valuation": -4,
+          "gain_exponent": 3,
+          "best_same_order_common_valuation": -4,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -4,
+              "name": "u8_8_8_l1_0_1_m0",
+              "base_valuation": -4,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                13,
+                32
+              ],
+              "modulus": 53,
+              "direction_to_cut": [
+                8,
+                8,
+                8,
+                0,
+                1,
+                0,
+                1
+              ],
+              "cut_vertex": [
+                2561,
+                2561,
+                2561,
+                0,
+                321,
+                1,
+                321
+              ],
+              "row": 0,
+              "actual_valuation": -4
+            },
+            {
+              "valuation": 0,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 0,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 53,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 0
+            }
+          ]
+        },
+        {
+          "prime": 59,
+          "old_common_valuation": -6,
+          "new_common_valuation": -5,
+          "actual_common_valuation": -5,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -5,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -5,
+              "name": "u4_4_4_l0_0_0_m0",
+              "base_valuation": -6,
+              "retained_digits": 1,
+              "normalized_term_residues": [
+                0,
+                21,
+                38
+              ],
+              "modulus": 59,
+              "direction_to_cut": [
+                4,
+                4,
+                4,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                1281,
+                1281,
+                1281,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -5
+            },
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 59,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -1
+            }
+          ]
+        },
+        {
+          "prime": 61,
+          "old_common_valuation": -7,
+          "new_common_valuation": -5,
+          "actual_common_valuation": -5,
+          "gain_exponent": 2,
+          "best_same_order_common_valuation": -5,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -5,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -5,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                19,
+                4
+              ],
+              "modulus": 61,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -5
+            },
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 61,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -1
+            }
+          ]
+        },
+        {
+          "prime": 73,
+          "old_common_valuation": -2,
+          "new_common_valuation": -1,
+          "actual_common_valuation": -1,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -1,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                14,
+                70,
+                0
+              ],
+              "modulus": 73,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -1
+            },
+            {
+              "valuation": 1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 73,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 1
+            }
+          ]
+        },
+        {
+          "prime": 83,
+          "old_common_valuation": -5,
+          "new_common_valuation": -4,
+          "actual_common_valuation": -4,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -4,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -4,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -4,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                3,
+                53,
+                0
+              ],
+              "modulus": 83,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -4
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 83,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 89,
+          "old_common_valuation": -4,
+          "new_common_valuation": -3,
+          "actual_common_valuation": -3,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -3,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -3,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -4,
+              "retained_digits": 1,
+              "normalized_term_residues": [
+                0,
+                8,
+                81
+              ],
+              "modulus": 89,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -3
+            },
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 89,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -1
+            }
+          ]
+        },
+        {
+          "prime": 97,
+          "old_common_valuation": -3,
+          "new_common_valuation": -2,
+          "actual_common_valuation": -2,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -2,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                78,
+                46,
+                0
+              ],
+              "modulus": 97,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -2
+            },
+            {
+              "valuation": 0,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 0,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 97,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 0
+            }
+          ]
+        },
+        {
+          "prime": 103,
+          "old_common_valuation": -4,
+          "new_common_valuation": -2,
+          "actual_common_valuation": -2,
+          "gain_exponent": 2,
+          "best_same_order_common_valuation": -2,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                92,
+                42,
+                0
+              ],
+              "modulus": 103,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -2
+            },
+            {
+              "valuation": 0,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 0,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 103,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 0
+            }
+          ]
+        },
+        {
+          "prime": 113,
+          "old_common_valuation": -5,
+          "new_common_valuation": -4,
+          "actual_common_valuation": -4,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -4,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -4,
+              "name": "u4_4_4_l0_0_0_m0",
+              "base_valuation": -4,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                111,
+                102,
+                0
+              ],
+              "modulus": 113,
+              "direction_to_cut": [
+                4,
+                4,
+                4,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                1281,
+                1281,
+                1281,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -4
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 113,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 139,
+          "old_common_valuation": -3,
+          "new_common_valuation": -2,
+          "actual_common_valuation": -2,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -2,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": true,
+          "rows": [
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -3,
+              "retained_digits": 1,
+              "normalized_term_residues": [
+                0,
+                94,
+                45
+              ],
+              "modulus": 139,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -2
+            },
+            {
+              "valuation": 0,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 0,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 139,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 0
+            }
+          ]
+        },
+        {
+          "prime": 149,
+          "old_common_valuation": -2,
+          "new_common_valuation": -1,
+          "actual_common_valuation": -1,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -1,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": true,
+          "rows": [
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l1_1_2_m0",
+              "base_valuation": -2,
+              "retained_digits": 1,
+              "normalized_term_residues": [
+                0,
+                105,
+                44
+              ],
+              "modulus": 149,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                1,
+                1,
+                2
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                321,
+                321,
+                641
+              ],
+              "row": 0,
+              "actual_valuation": -1
+            },
+            {
+              "valuation": 1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 149,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 1
+            }
+          ]
+        },
+        {
+          "prime": 167,
+          "old_common_valuation": -4,
+          "new_common_valuation": -3,
+          "actual_common_valuation": -3,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -3,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": true,
+          "rows": [
+            {
+              "valuation": -3,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -3,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                59,
+                72,
+                0
+              ],
+              "modulus": 167,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -3
+            },
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 167,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -1
+            }
+          ]
+        },
+        {
+          "prime": 277,
+          "old_common_valuation": -2,
+          "new_common_valuation": -1,
+          "actual_common_valuation": -1,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -1,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": true,
+          "rows": [
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 1,
+              "normalized_term_residues": [
+                141,
+                136,
+                0
+              ],
+              "modulus": 277,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -1
+            },
+            {
+              "valuation": 0,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 0,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 277,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 0
+            }
+          ]
+        },
+        {
+          "prime": 281,
+          "old_common_valuation": -2,
+          "new_common_valuation": -1,
+          "actual_common_valuation": -1,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -1,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": true,
+          "rows": [
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                174,
+                255,
+                0
+              ],
+              "modulus": 281,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -1
+            },
+            {
+              "valuation": 1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 281,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 1
+            }
+          ]
+        },
+        {
+          "prime": 283,
+          "old_common_valuation": -2,
+          "new_common_valuation": -1,
+          "actual_common_valuation": -1,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -1,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": true,
+          "rows": [
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                44,
+                81,
+                0
+              ],
+              "modulus": 283,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -1
+            },
+            {
+              "valuation": 1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 283,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "retained_digit_cap": 2,
+      "combined_content": "1/17729808619276284532793984074871045059165091454273060295350651066876713189243998183283885709536719652348924583025274731779639739293027596719698311507721056517279529197711887697871777401763904267816238944271961772391044969898464606862546765761251140973129040227287836996171081742420558340467691253267512131740836494124043268500755928931447218189044049005190297014788112408237545523422398032622130860254780278003800935203565906175613598505286199182046477599717181590732867806489987281339016853923031424718265607865284716155479178243956009370250376802407674172546140658182587438076207062711972284173701974097973052803786643355889258428403227182606153740174785327261408959313367253938291884329721908679030560137444049297016470239189424819556522119925028355180681895619497755993637692621294404816292850575361213431929744142633011494761476718195721935860581644554837430866074093192841390538665760025065440416605930056364079005382496644073509661281379027422482370759242172781719966889595487356304829194924743224792814458223705813489244733154946466673407210892025272768557734745537307114553495265478398487179484234226310326879281922905490292152575081413567601650511452624580641942372303232982332108806412351462085230544106630015612191397184508986763233505234482223501706998103453331081124248764496325873791391350246430354365730274451872038849120387325545303400347772029692433767610585040516569621417706103534973489936415978615995498403009830914405900027182421318406082905689446782937740392711253730274576052897026264746939703003632089527413573603501724192681516711647956245826018713681532670406020028568572724774173096647969031859849474515384828940163108296909203774821454463425136044026615634273897692367059654105760742944427686145292451500580350052851594005156998619147880519291567940419181218926523371322370483695179045463965270248502417375774904250321076516203044310686096325585623327829187484438446356998130477826881908495220801920738040104260489719936961678201815304654890240957174200779980905957163874088438470835193336994487069392311271213569247436716052026445759324292625069980258947093746476029882075325678924204045480642645033131580446111176117533396656906525694603507712906747571394505893502986694502533820173451736025926194900869235055189848208402261993467202176198262444785896955221722303902811866276189479572715095278623858432904765511160861341471259010844475723841752200545861408314629790415680016405542505067743613449921825602359742096950632998063401700292470609888981862031058065396356236898377796286231716275067322295087995869742274278495490480339334594565828237144720363938053782561482090458010593330493622704832867143394851484929528354226339876381447677168581677244204906643731253348697735859119678103819833066366925730161657625445746359679082819655630743441847180432403896089425222111629903781567028276116158524247638660335146199740518818448551534951240553824552882838156907493037832816568965069499760265502690232920741898827946770168001432781155118647376372913346543612140358808486418803933583763670369403477363085961822117539253247381841373072919027331290855755543306725726759766438303229268544902029962949884742122542683483891278270843700188791191395665631899998036078795973035431511368677647594875965493004838715697575631976142560853543702597801175281836376304262214610071158348127089819340114861674327099153440769185149375399031618718378980330200162692355891869865720660574303657006617056637641019703233950105951894408857918443998087308382669689751107896702253927894258909224849372538738491295391334400000000000",
+      "log_q_bound": 15670.860564385497,
+      "pure_order_log_q_bound": 15955.472893771435,
+      "log_gain_over_six_shell": 190.11876375090998,
+      "gap_above_actual_log_q": 2.302585092994046,
+      "strict_row_adaptation_log_gain": 0.0,
+      "pure_order_strict_row_adaptation_log_gain": 0.0,
+      "same_order_for_both_rows_log_q_bound": 15670.860564385497,
+      "best_fixed_order": "u10_9_11_l2_1_3_m0",
+      "best_fixed_order_log_q_bound": 15676.689510003107,
+      "strict_prime_adaptation_log_gain": 5.8289456176102075,
+      "large_prime_log_gain_over_six_shell": 31.964233124657227,
+      "strict_gain_prime_count": 30,
+      "witnesses": [
+        {
+          "prime": 2,
+          "old_common_valuation": -25,
+          "new_common_valuation": -23,
+          "actual_common_valuation": -22,
+          "gain_exponent": 2,
+          "best_same_order_common_valuation": -23,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -23,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -25,
+              "retained_digits": 2,
+              "normalized_term_residues": [
+                0,
+                1,
+                3
+              ],
+              "modulus": 4,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -22
+            },
+            {
+              "valuation": 1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 2,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 1
+            }
+          ]
+        },
+        {
+          "prime": 3,
+          "old_common_valuation": -26,
+          "new_common_valuation": -17,
+          "actual_common_valuation": -17,
+          "gain_exponent": 9,
+          "best_same_order_common_valuation": -17,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -17,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -17,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                2,
+                0
+              ],
+              "modulus": 3,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -17
+            },
+            {
+              "valuation": -3,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -3,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 3,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -3
+            }
+          ]
+        },
+        {
+          "prime": 5,
+          "old_common_valuation": -16,
+          "new_common_valuation": -11,
+          "actual_common_valuation": -10,
+          "gain_exponent": 5,
+          "best_same_order_common_valuation": -11,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -11,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -13,
+              "retained_digits": 2,
+              "normalized_term_residues": [
+                0,
+                7,
+                18
+              ],
+              "modulus": 25,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -10
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 5,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 7,
+          "old_common_valuation": -13,
+          "new_common_valuation": -10,
+          "actual_common_valuation": -10,
+          "gain_exponent": 3,
+          "best_same_order_common_valuation": -10,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -10,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -10,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                4,
+                4
+              ],
+              "modulus": 7,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -10
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 7,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 11,
+          "old_common_valuation": -11,
+          "new_common_valuation": -8,
+          "actual_common_valuation": -8,
+          "gain_exponent": 3,
+          "best_same_order_common_valuation": -8,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -8,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -8,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                9,
+                0
+              ],
+              "modulus": 11,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -8
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 11,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 13,
+          "old_common_valuation": -10,
+          "new_common_valuation": -6,
+          "actual_common_valuation": -6,
+          "gain_exponent": 4,
+          "best_same_order_common_valuation": -6,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -6,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -6,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                11,
+                9
+              ],
+              "modulus": 13,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -6
+            },
+            {
+              "valuation": 0,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 0,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 13,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 0
+            }
+          ]
+        },
+        {
+          "prime": 17,
+          "old_common_valuation": -9,
+          "new_common_valuation": -6,
+          "actual_common_valuation": -6,
+          "gain_exponent": 3,
+          "best_same_order_common_valuation": -6,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -6,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -6,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                9,
+                5,
+                1
+              ],
+              "modulus": 17,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -6
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 17,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 19,
+          "old_common_valuation": -7,
+          "new_common_valuation": -5,
+          "actual_common_valuation": -5,
+          "gain_exponent": 2,
+          "best_same_order_common_valuation": -5,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -5,
+              "name": "u3_3_3_l1_0_1_m0",
+              "base_valuation": -7,
+              "retained_digits": 2,
+              "normalized_term_residues": [
+                38,
+                240,
+                83
+              ],
+              "modulus": 361,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                1,
+                0,
+                1
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                321,
+                1,
+                321
+              ],
+              "row": 0,
+              "actual_valuation": -5
+            },
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 19,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -1
+            }
+          ]
+        },
+        {
+          "prime": 23,
+          "old_common_valuation": -10,
+          "new_common_valuation": -6,
+          "actual_common_valuation": -6,
+          "gain_exponent": 4,
+          "best_same_order_common_valuation": -6,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -6,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -6,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                19,
+                1,
+                0
+              ],
+              "modulus": 23,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -6
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 23,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 29,
+          "old_common_valuation": -4,
+          "new_common_valuation": -3,
+          "actual_common_valuation": -3,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -3,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -3,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -3,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                21,
+                10,
+                0
+              ],
+              "modulus": 29,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -3
+            },
+            {
+              "valuation": 1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 29,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 1
+            }
+          ]
+        },
+        {
+          "prime": 31,
+          "old_common_valuation": -8,
+          "new_common_valuation": -6,
+          "actual_common_valuation": -6,
+          "gain_exponent": 2,
+          "best_same_order_common_valuation": -6,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -6,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -6,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                28,
+                19
+              ],
+              "modulus": 31,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -6
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 31,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 37,
+          "old_common_valuation": -8,
+          "new_common_valuation": -6,
+          "actual_common_valuation": -6,
+          "gain_exponent": 2,
+          "best_same_order_common_valuation": -6,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -6,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -6,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                24,
+                6
+              ],
+              "modulus": 37,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -6
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 37,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 41,
+          "old_common_valuation": -7,
+          "new_common_valuation": -6,
+          "actual_common_valuation": -6,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -6,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -6,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -6,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                3,
+                40
+              ],
+              "modulus": 41,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -6
+            },
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 41,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -1
+            }
+          ]
+        },
+        {
+          "prime": 43,
+          "old_common_valuation": -5,
+          "new_common_valuation": -4,
+          "actual_common_valuation": -4,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -4,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -4,
+              "name": "u3_3_3_l1_1_2_m0",
+              "base_valuation": -6,
+              "retained_digits": 2,
+              "normalized_term_residues": [
+                0,
+                431,
+                1418
+              ],
+              "modulus": 1849,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                1,
+                1,
+                2
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                321,
+                321,
+                641
+              ],
+              "row": 0,
+              "actual_valuation": -4
+            },
+            {
+              "valuation": 0,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 0,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 43,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 0
+            }
+          ]
+        },
+        {
+          "prime": 47,
+          "old_common_valuation": -6,
+          "new_common_valuation": -4,
+          "actual_common_valuation": -4,
+          "gain_exponent": 2,
+          "best_same_order_common_valuation": -4,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -4,
+              "name": "u3_3_3_l1_1_2_m0",
+              "base_valuation": -6,
+              "retained_digits": 2,
+              "normalized_term_residues": [
+                0,
+                908,
+                1301
+              ],
+              "modulus": 2209,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                1,
+                1,
+                2
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                321,
+                321,
+                641
+              ],
+              "row": 0,
+              "actual_valuation": -4
+            },
+            {
+              "valuation": 0,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 0,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 47,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 0
+            }
+          ]
+        },
+        {
+          "prime": 53,
+          "old_common_valuation": -7,
+          "new_common_valuation": -4,
+          "actual_common_valuation": -4,
+          "gain_exponent": 3,
+          "best_same_order_common_valuation": -4,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -4,
+              "name": "u3_3_3_l1_0_1_m0",
+              "base_valuation": -6,
+              "retained_digits": 2,
+              "normalized_term_residues": [
+                0,
+                1314,
+                1495
+              ],
+              "modulus": 2809,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                1,
+                0,
+                1
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                321,
+                1,
+                321
+              ],
+              "row": 0,
+              "actual_valuation": -4
+            },
+            {
+              "valuation": 0,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 0,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 53,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 0
+            }
+          ]
+        },
+        {
+          "prime": 59,
+          "old_common_valuation": -6,
+          "new_common_valuation": -5,
+          "actual_common_valuation": -5,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -5,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -5,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -7,
+              "retained_digits": 2,
+              "normalized_term_residues": [
+                0,
+                1324,
+                2157
+              ],
+              "modulus": 3481,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -5
+            },
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 59,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -1
+            }
+          ]
+        },
+        {
+          "prime": 61,
+          "old_common_valuation": -7,
+          "new_common_valuation": -5,
+          "actual_common_valuation": -5,
+          "gain_exponent": 2,
+          "best_same_order_common_valuation": -5,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -5,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -5,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                0,
+                19,
+                4
+              ],
+              "modulus": 61,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -5
+            },
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 61,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -1
+            }
+          ]
+        },
+        {
+          "prime": 73,
+          "old_common_valuation": -2,
+          "new_common_valuation": -1,
+          "actual_common_valuation": -1,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -1,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                14,
+                70,
+                0
+              ],
+              "modulus": 73,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -1
+            },
+            {
+              "valuation": 1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 73,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 1
+            }
+          ]
+        },
+        {
+          "prime": 83,
+          "old_common_valuation": -5,
+          "new_common_valuation": -4,
+          "actual_common_valuation": -4,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -4,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -4,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -4,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                3,
+                53,
+                0
+              ],
+              "modulus": 83,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -4
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 83,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 89,
+          "old_common_valuation": -4,
+          "new_common_valuation": -3,
+          "actual_common_valuation": -3,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -3,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -3,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -4,
+              "retained_digits": 1,
+              "normalized_term_residues": [
+                0,
+                8,
+                81
+              ],
+              "modulus": 89,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -3
+            },
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 89,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -1
+            }
+          ]
+        },
+        {
+          "prime": 97,
+          "old_common_valuation": -3,
+          "new_common_valuation": -2,
+          "actual_common_valuation": -2,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -2,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                78,
+                46,
+                0
+              ],
+              "modulus": 97,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -2
+            },
+            {
+              "valuation": 0,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 0,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 97,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 0
+            }
+          ]
+        },
+        {
+          "prime": 103,
+          "old_common_valuation": -4,
+          "new_common_valuation": -2,
+          "actual_common_valuation": -2,
+          "gain_exponent": 2,
+          "best_same_order_common_valuation": -2,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                92,
+                42,
+                0
+              ],
+              "modulus": 103,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -2
+            },
+            {
+              "valuation": 0,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 0,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 103,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 0
+            }
+          ]
+        },
+        {
+          "prime": 113,
+          "old_common_valuation": -5,
+          "new_common_valuation": -4,
+          "actual_common_valuation": -4,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -4,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": false,
+          "rows": [
+            {
+              "valuation": -4,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -6,
+              "retained_digits": 2,
+              "normalized_term_residues": [
+                0,
+                2145,
+                10624
+              ],
+              "modulus": 12769,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -4
+            },
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 113,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -2
+            }
+          ]
+        },
+        {
+          "prime": 139,
+          "old_common_valuation": -3,
+          "new_common_valuation": -2,
+          "actual_common_valuation": -2,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -2,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": true,
+          "rows": [
+            {
+              "valuation": -2,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -3,
+              "retained_digits": 1,
+              "normalized_term_residues": [
+                0,
+                94,
+                45
+              ],
+              "modulus": 139,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -2
+            },
+            {
+              "valuation": 0,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 0,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 139,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 0
+            }
+          ]
+        },
+        {
+          "prime": 149,
+          "old_common_valuation": -2,
+          "new_common_valuation": -1,
+          "actual_common_valuation": -1,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -1,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": true,
+          "rows": [
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -3,
+              "retained_digits": 2,
+              "normalized_term_residues": [
+                0,
+                19410,
+                2791
+              ],
+              "modulus": 22201,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -1
+            },
+            {
+              "valuation": 1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 149,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 1
+            }
+          ]
+        },
+        {
+          "prime": 167,
+          "old_common_valuation": -4,
+          "new_common_valuation": -3,
+          "actual_common_valuation": -3,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -3,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": true,
+          "rows": [
+            {
+              "valuation": -3,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -3,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                59,
+                72,
+                0
+              ],
+              "modulus": 167,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -3
+            },
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 167,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": -1
+            }
+          ]
+        },
+        {
+          "prime": 277,
+          "old_common_valuation": -2,
+          "new_common_valuation": -1,
+          "actual_common_valuation": -1,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -1,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": true,
+          "rows": [
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -2,
+              "retained_digits": 1,
+              "normalized_term_residues": [
+                141,
+                136,
+                0
+              ],
+              "modulus": 277,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -1
+            },
+            {
+              "valuation": 0,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 0,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 277,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 0
+            }
+          ]
+        },
+        {
+          "prime": 281,
+          "old_common_valuation": -2,
+          "new_common_valuation": -1,
+          "actual_common_valuation": -1,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -1,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": true,
+          "rows": [
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                174,
+                255,
+                0
+              ],
+              "modulus": 281,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -1
+            },
+            {
+              "valuation": 1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 281,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 1
+            }
+          ]
+        },
+        {
+          "prime": 283,
+          "old_common_valuation": -2,
+          "new_common_valuation": -1,
+          "actual_common_valuation": -1,
+          "gain_exponent": 1,
+          "best_same_order_common_valuation": -1,
+          "strict_row_adaptation_gain": 0,
+          "large_prime": true,
+          "rows": [
+            {
+              "valuation": -1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": -1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                44,
+                81,
+                0
+              ],
+              "modulus": 283,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 0,
+              "actual_valuation": -1
+            },
+            {
+              "valuation": 1,
+              "name": "u3_3_3_l0_0_0_m0",
+              "base_valuation": 1,
+              "retained_digits": 0,
+              "normalized_term_residues": [
+                1,
+                0,
+                0
+              ],
+              "modulus": 283,
+              "direction_to_cut": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "cut_vertex": [
+                961,
+                961,
+                961,
+                0,
+                1,
+                1,
+                1
+              ],
+              "row": 1,
+              "actual_valuation": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "runtime_seconds": 5.13680762500735,
+  "caveat": "Finite checkpoint certificates with bounded residue retention; no new asymptotic exponent or all-N result is inferred."
+}

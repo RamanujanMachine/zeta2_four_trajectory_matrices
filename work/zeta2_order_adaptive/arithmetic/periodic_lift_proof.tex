@@ -1,0 +1,146 @@
+\paragraph{A uniform periodic extension of the arithmetic divisor.}
+The following statement extends the exact finite-field readout argument.
+It is not a theorem asserting optimality, or necessity, of different
+multiplication routes for the two initial rows.
+Let
+\[
+ \mathcal T=\{(2,8,1),(3,9,2),(4,10,3),
+                (5,8,3),(6,9,4),(12,9,8)\}.
+\]
+For $N\ge1$ and $r\in\{0,1,2\}$ define $H^*_{N,r}$ to be the product
+of primes $p$ with $p^2>50N$ for which, with $t=\lfloor N/p\rfloor$,
+at least one $(k,A,B)\in\mathcal T$ satisfies
+\[
+ \frac{13N+r}{13t+k}<p<\frac{AN}{At+B}.
+ \tag{L1}
+\]
+Every prime occurs once. The inequalities imply $p<8N$, so the product
+is finite. Its $t=0$ part is precisely the previous divisor $H_{N,r}$.
+If there are no eligible primes, the product is one.
+
+\begin{theorem}
+With the same initial rows, trajectory, and factors $C_N,G_N$ as in
+the preceding argument, for every integer $N\ge1$ and every
+$r\in\{0,1,2\}$,
+\[
+ \boxed{\frac{C_Nd_{12N}d_{13N+r}}{G_NH^*_{N,r}}
+             RW(N)e_r\in\mathbb Z^2.}
+\]
+\end{theorem}
+
+\begin{proof}
+The baseline integer normalization with $G_N$ has already been established.
+It suffices to prove one additional factor $p$ for each prime in (L1).
+Put $x=N/p=t+f$, where $0\le f<1$. The upper inequality in (L1) says
+$f>B/A$; the lower says
+\[
+ f<\frac{k}{13}-\frac{r}{13p}.
+\]
+Thus $f$ lies in the same one of the six open intervals as in the
+finite chamber table for the original shell argument.
+The two intervals with an internal split are divided at $5/11$ and
+$10/11$, exactly as before.
+
+Write
+\[
+ a=\lfloor8x\rfloor=8t+a_0,\quad
+ M=\lfloor11x\rfloor=11t+M_0,\quad
+ b=8N-ap,\quad d=11N-Mp,\quad h=\phi(x)=\phi(f).
+\]
+The equality for $h$ follows directly from the periodic floor formula.
+For $0\le j<p$, the carry indicators $e=\mathbf1_{j>d}$ and
+$\delta_u=\mathbf1_{(j+uN)\bmod p<b}$ depend only on $f$ and $j/p$.
+On their minimal-carry support they therefore have the same fixed
+values as in the earlier table. The upper digits translate by
+\[
+ \lambda_u=\lfloor j/p+ux\rfloor=ut+\lambda_{u,0}
+ \qquad (u=9,10,11).
+\]
+In particular they are still independent of the supporting residue $j$.
+The two exceptional fractional split points cannot occur: if
+$f=5/11$ or $10/11$, primality forces $p=11$ and
+$N=11t+5$ or $11t+10$, contrary to $p^2>50N$.
+
+Over $\mathbb F_p$ use the same polynomial quotient
+\[
+ \mathcal Q(X)=
+ \frac{\prod_{u=9,10,11}\binom{X+uN}{b}}
+ {(X^p-X)^{h-1}\prod_{j=0}^d(X-j)}.
+\]
+For $h=0$ the displayed formula means multiplication by $X^p-X$.
+The carry multiplicities establish polynomial divisibility exactly as
+before. Its decisive degree parameter is now
+\[
+ K=3a-M+h=13t+(3a_0-M_0+h)=13t+k.
+\]
+Hence (L1) gives
+\[
+ \deg(X^r\mathcal Q)=13N+r-(K-1)p-1<p-1,
+ \qquad \sum_{j\in\mathbb F_p}j^r\mathcal Q(j)=0.
+ \tag{L2}
+\]
+
+For clarity, the local kernel argument also remains valid with these
+larger upper digits. Set
+\[
+ P(V)=\prod_{u=9,10,11}(a+1)^{\delta_u}
+              \binom{\lambda_u+V}{a+\delta_u},\qquad
+ U(V)=\frac{P(V)}{\prod_{l=0}^{M-e}(V-l)},\qquad
+ \kappa=(-1)^{d-M+h-1}M!d!.
+\]
+The cutoff implies $p>50x$; the shell intervals imply $x>1/8$.
+Thus $p$ is odd, $a+1<p$, and $M<p$, so all factorial denominators
+and distinct kernel poles used here are legitimate over $\mathbb F_p$.
+The exact separation of factors divisible by $p$ gives, as previously,
+\[
+ p^{1-h}R_{\rm ker}(j+pV)
+       \equiv\kappa\mathcal Q(j)U(V)\pmod p,
+\]
+where $R_{\rm ker}(s)=F(s)(-1)^{11N}(11N)!/
+\prod_{l=0}^{11N}(s-l)$ is the rational kernel, not the initial-row matrix.
+Taking residues supplies the leading coefficients $c_l/p^h$.
+Subtracting their partial fractions gives
+\[
+ p^{1-h}S_r(j+pV)
+       \equiv\kappa j^r\mathcal Q(j)[U(V)]_+\pmod p,
+ \tag{L3}
+\]
+with $[U]_+$ its polynomial part. This subtraction includes the
+$e=1$ cases and the noncongruent contributions in the original
+kernel. Residue classes outside the minimal-carry support give zero.
+The previously established integer-valued normalization and degree
+bound below $p^2$ justify (L3) also at its removable derivative nodes.
+
+Choose the prime-dependent shift
+\[
+ \eta=p\left\lceil\frac{2N}{p}\right\rceil=Lp.
+\]
+If $p\le2N$, then $2N\le\eta<4N$; if $p>2N$, then
+$\eta=p<8N$. Thus $2N\le\eta\le9N$ in every case, as required by
+the exact readout. In the genuinely new periods $t\ge1$, one has
+$p<N$ and the stronger bound $\eta<3N$.
+All harmonic indices are below $20N<p^2$ (below $14N$ for $t\ge1$),
+and the Newton degree plus one is at most $13N+r<p^2$.
+Also $M+L\le13x+1<p$, so the high-digit harmonic reciprocals are units.
+The integer factors at the relevant shifted Newton nodes have
+absolute values below $24N+r<50N<p^2$.
+
+The harmonic leading residue factors as a constant times the sum in
+(L2), because the multiples of $p$ up to $j+(l+L)p$ are indexed by
+$l+L$, independently of $j\in\{0,\ldots,p-1\}$.
+For the polynomial part, (L3) and Lucas's congruence show that every
+Newton coefficient with index $vp-1$ has the same factor
+$\sum_jj^r\mathcal Q(j)$ and hence vanishes modulo $p$.
+These are the only possibly nonintegral weights in the polynomial
+functional. Both contributions therefore have valuation at least
+$h-1$; the second row has valuation at least $h$.
+Finally $v_p(d_{12N}d_{13N+r})=2$ and $v_p(G_N)=h$, so both
+normalized entries acquire the asserted extra $p$.
+Multiplying these prime divisibilities proves the statement for all $N$,
+including the cases where the eligible product is empty.
+\end{proof}
+
+The arithmetic improvement in this theorem comes from the same exact
+matrix readout and its prime-dependent polynomial analysis. Separate
+finite experiments may expose these factors through specific
+multiplication orders; their success alone is not the proof above.

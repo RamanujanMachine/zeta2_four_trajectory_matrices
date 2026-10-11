@@ -1,0 +1,278 @@
+{
+  "initial_rows_match": true,
+  "states": [
+    {
+      "vertex": [
+        3,
+        4,
+        5,
+        0,
+        1,
+        2,
+        3
+      ],
+      "eta_range": [
+        1,
+        2
+      ],
+      "kernel_sign": 1,
+      "shift_companion_eta_generator_and_native_checks": true
+    },
+    {
+      "vertex": [
+        3,
+        4,
+        5,
+        -1,
+        1,
+        2,
+        3
+      ],
+      "eta_range": [
+        1,
+        2
+      ],
+      "kernel_sign": -1,
+      "shift_companion_eta_generator_and_native_checks": true
+    },
+    {
+      "vertex": [
+        3,
+        4,
+        5,
+        -2,
+        1,
+        2,
+        3
+      ],
+      "eta_range": [
+        1,
+        2
+      ],
+      "kernel_sign": 1,
+      "shift_companion_eta_generator_and_native_checks": true
+    },
+    {
+      "vertex": [
+        3,
+        4,
+        5,
+        -3,
+        1,
+        2,
+        3
+      ],
+      "eta_range": [
+        1,
+        2
+      ],
+      "kernel_sign": -1,
+      "shift_companion_eta_generator_and_native_checks": true
+    },
+    {
+      "vertex": [
+        2,
+        4,
+        6,
+        0,
+        1,
+        2,
+        2
+      ],
+      "eta_range": [
+        1,
+        1
+      ],
+      "kernel_sign": 1,
+      "shift_companion_eta_generator_and_native_checks": true
+    },
+    {
+      "vertex": [
+        2,
+        4,
+        6,
+        -1,
+        1,
+        2,
+        2
+      ],
+      "eta_range": [
+        1,
+        1
+      ],
+      "kernel_sign": -1,
+      "shift_companion_eta_generator_and_native_checks": true
+    },
+    {
+      "vertex": [
+        2,
+        4,
+        6,
+        -2,
+        1,
+        2,
+        2
+      ],
+      "eta_range": [
+        1,
+        1
+      ],
+      "kernel_sign": 1,
+      "shift_companion_eta_generator_and_native_checks": true
+    },
+    {
+      "vertex": [
+        2,
+        4,
+        6,
+        -3,
+        1,
+        2,
+        2
+      ],
+      "eta_range": [
+        1,
+        1
+      ],
+      "kernel_sign": -1,
+      "shift_companion_eta_generator_and_native_checks": true
+    },
+    {
+      "vertex": [
+        5,
+        3,
+        4,
+        0,
+        2,
+        1,
+        3
+      ],
+      "eta_range": [
+        1,
+        2
+      ],
+      "kernel_sign": 1,
+      "shift_companion_eta_generator_and_native_checks": true
+    },
+    {
+      "vertex": [
+        5,
+        3,
+        4,
+        -1,
+        2,
+        1,
+        3
+      ],
+      "eta_range": [
+        1,
+        2
+      ],
+      "kernel_sign": -1,
+      "shift_companion_eta_generator_and_native_checks": true
+    },
+    {
+      "vertex": [
+        5,
+        3,
+        4,
+        -2,
+        2,
+        1,
+        3
+      ],
+      "eta_range": [
+        1,
+        2
+      ],
+      "kernel_sign": 1,
+      "shift_companion_eta_generator_and_native_checks": true
+    },
+    {
+      "vertex": [
+        5,
+        3,
+        4,
+        -3,
+        2,
+        1,
+        3
+      ],
+      "eta_range": [
+        1,
+        2
+      ],
+      "kernel_sign": -1,
+      "shift_companion_eta_generator_and_native_checks": true
+    },
+    {
+      "vertex": [
+        1,
+        2,
+        4,
+        0,
+        1,
+        1,
+        1
+      ],
+      "eta_range": [
+        0,
+        0
+      ],
+      "kernel_sign": 1,
+      "shift_companion_eta_generator_and_native_checks": true
+    },
+    {
+      "vertex": [
+        1,
+        2,
+        4,
+        -1,
+        1,
+        1,
+        1
+      ],
+      "eta_range": [
+        0,
+        0
+      ],
+      "kernel_sign": -1,
+      "shift_companion_eta_generator_and_native_checks": true
+    },
+    {
+      "vertex": [
+        1,
+        2,
+        4,
+        -2,
+        1,
+        1,
+        1
+      ],
+      "eta_range": [
+        0,
+        0
+      ],
+      "kernel_sign": 1,
+      "shift_companion_eta_generator_and_native_checks": true
+    },
+    {
+      "vertex": [
+        1,
+        2,
+        4,
+        -3,
+        1,
+        1,
+        1
+      ],
+      "eta_range": [
+        0,
+        0
+      ],
+      "kernel_sign": -1,
+      "shift_companion_eta_generator_and_native_checks": true
+    }
+  ],
+  "state_count": 16
+}

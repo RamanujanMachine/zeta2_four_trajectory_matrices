@@ -1,0 +1,39 @@
+Independent audit of ../all_shells.tex
+
+No mathematical gap found in the unified all-six-shell argument.
+
+Checked:
+* Q root multiplicities: f has multiplicity h-e on minimal support,
+  whereas z^(h-1)g has exactly h-e; Q vanishes off minimal support.
+* For a zero low digit, the normalized binomial leading coefficient is
+  f'_u(k)(a+1) binom(lambda_u+V,a+1), including the positive (a+1) factor.
+* The kernel numerator unit is (-1)^d M!d!, and denominator unit is
+  (-1)^M g'(k) or (-1)^M g(k). Combined with z'=-1 this gives the
+  displayed kappa=(-1)^(d-M+h-1) M!d!.
+* Residues with respect to V introduce the required factor 1/p, giving
+  c_j/p^h. Noncongruent residue terms vanish after scaling S because all
+  c_j already contain p^h.
+* Integer-valued T of degree below p^2 has p-integral coefficients after
+  substituting s=k+pV: each Newton numerator of degree t contains at
+  least floor(t/p) factors of p, cancelling v_p(t!). Thus the rational
+  kernel identity extends to the derivative nodes after cancellation.
+* If minimal-support e=1, unsupported residues k<=d have an additional
+  term l=M; its normalized c_j vanishes modulo p since chi(k)>h. A
+  zero-extension convention makes the harmonic factorization explicit.
+* All small high-digit factorials and harmonic indices l+A are units
+  modulo p under p^2>50N. The two omitted x-split endpoints force p=11
+  and are ineligible. The finite field degree sum vanishes also for the
+  constant term.
+
+Independent exact numerical audit, performed with Python integer binomials:
+  (N,p)=(80,347),(80,263),(160,347),(100,109).
+  All 4624 coefficients c_j/p^h agree modulo p with kappa Q(k) A_l.
+  This covers k3, k4, and both delicate e=1 cases k6b and k12b, including
+  unsupported extra l=M terms. These tests support the uniform argument.
+
+Earlier direct-cut experiment, retained as a separate numerical observation:
+  m=0 componentwise prefix/suffix bounds passed all sampled missing-shell
+  primes at N=20,40,80,320, but FAILED to certify the target at N=160,
+  p=347,349 (shell6, h=2). Thus it is not an all-N certificate. Data are
+  in negative_cuts_N.json; no uniform direct multiplication-order rule
+  has been derived from that experiment.

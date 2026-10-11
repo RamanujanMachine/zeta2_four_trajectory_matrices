@@ -1,0 +1,6 @@
+{'N': 1, 'column': 0, 'scaled_error': '-5.07988414871515327679590154471e-13', 'barnes_integral': '-5.07988414871515327679590154471e-13', 'relative_difference': '4.139841861e-115'}
+{'N': 1, 'column': 1, 'scaled_error': '2.49980281715046602112888305031e-12', 'barnes_integral': '2.49980281715046602112888305031e-12', 'relative_difference': '1.232375648e-114'}
+{'N': 1, 'column': 2, 'scaled_error': '-6.62806552902284017718942271899e-12', 'barnes_integral': '-6.62806552902284017718942271899e-12', 'relative_difference': '2.074439963e-115'}
+{'N': 2, 'column': 0, 'scaled_error': '-2.1944400334302453927605467638e-24', 'barnes_integral': '-2.1944400334302453927605467638e-24', 'relative_difference': '5.379050836e-89'}
+{'N': 2, 'column': 1, 'scaled_error': '5.74054370718792509676445633382e-23', 'barnes_integral': '5.74054370718792509676445633382e-23', 'relative_difference': '4.363410344e-87'}
+{'N': 2, 'column': 2, 'scaled_error': '-1.14377915799275139620174466436e-21', 'barnes_integral': '-1.14377915799275139620174466436e-21', 'relative_difference': '8.769611769e-87'}

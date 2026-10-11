@@ -1,0 +1,488 @@
+\documentclass[11pt]{article}
+\usepackage[margin=24mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,amsthm,mathtools,booktabs,microtype,hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue!50!black,urlcolor=blue!50!black}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\Fp}{\mathbb F_p}
+\newcommand{\lcm}{\operatorname{lcm}}
+\allowdisplaybreaks
+\setlength{\emergencystretch}{2em}
+\title{Adaptive CMF multiplication orders and a stronger arithmetic divisor\\
+\large An addendum for the direction $(10,9,11,-11;2,1,3)$}
+\author{Exact path experiments and a uniform arithmetic extension}
+\date{10 October 2026}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We test literal changes of native CMF path, independently for each prime
+and each prescribed initial row. Prime-dependent path selection strictly
+improves finite divisibility certificates. Different rows can have
+incompatible maximizing paths and a strictly better path-only divisor;
+after adjoining the previous arithmetic normalization, separate row
+choices give no further common-divisor gain in the tested families.
+The residual prime pattern leads to a uniform extension of the previous
+six-interval arithmetic lemma to all integer translates of its carry
+chambers. Combined with the previously established analytic estimates,
+the extension gives
+$\mu(\zeta(2))\le62636575/13646619<4.589897$.
+The path experiments and the uniform readout argument are distinguished
+throughout: the new measure bound is not attributed to an unproved
+row-dependent ordering rule.
+\end{abstract}
+
+\section{What was tested, and what improved}
+The CMF is the native $\mathrm{pFq}(4,3,1)$ field, with
+\[
+w_0=(1,1,1,0;1,1,1),\quad v=(10,9,11,-11;2,1,3),\quad
+R=\begin{pmatrix}0&2&-1\\2&0&0\end{pmatrix}.
+\]
+Write $W_N=W(w_0,w_0+Nv)$ and
+$(p_N^{\rm raw},q_N^{\rm raw})^T=RW_Ne_0$.
+Conservation identifies admissible paths with the same endpoint.
+It does not permit unshifted matrices to be commuted.
+
+For each cut vertex $w$, compute the complete native products
+$A_w=W(w_0,w)$ and $B_w=W(w,w_0+Nv)$, and verify all nine entries
+of $A_wB_w=W_N$ exactly. At this cut the certificate for initial row
+$r$ and prime $p$ is
+\[
+b_{p,r}(w)=\min_{0\le i\le2}
+ v_p\bigl((RA_w)_{r,i}(B_w)_{i,0}\bigr).
+\]
+It bounds the valuation of the endpoint scalar, since it bounds every
+term in the three-term sum. Entire blocks are evaluated before taking
+this minimum. The suffix always retains at least $2N$ negative-upper
+moves; a cut immediately before the endpoint is excluded.
+
+The two optimizations compared are
+\[
+ \max_w\min_r b_{p,r}(w),\qquad
+ \min_r\max_w b_{p,r}(w).
+\]
+The first uses one path at each prime for both rows. The second also
+allows a different path for each row. They can differ strictly, as the
+example below shows. After adjoining the previous arithmetic certificate,
+the resulting common-divisor bounds agree in these tests. This is a
+finding about the tested certificates, not a general CMF theorem.
+
+We used 89 structured cuts at each of
+$N=20,40,80,160,320,640$, and 240 seeded random cuts at each of
+$N=20,40,80,160,320,640,1280$. The random cuts also vary the progress
+of the three lower parameters separately. All arithmetic in these
+certificates is exact rational arithmetic. The 89-path search found
+strict gains from prime-dependent selection. Beyond the previous
+arithmetic normalization, the extra gain factor from row-dependent
+selection was one at every tested depth. The random family gave the
+same conclusion about that additional gain.
+
+\subsection{A literal prime-dependent order witness}
+At $N=80$, let path $A$ first increase each of $x_0,x_1,x_2$ by
+$3N$, in that order; it then completes the remaining positive-upper
+moves, the lower moves, and the negative-upper moves.
+Path $B$ uses $4N$ instead of $3N$ for that initial block.
+The cut is taken after the initial block. These are different
+multiplication orders, since the remaining $x_0$ moves are performed
+after some $x_1,x_2$ moves, with a different split in the two paths.
+The suffix has all $11N$ negative-upper moves.
+Their common-row valuation certificates are
+\[
+\begin{array}{c|rr}
+ &p=2&p=59\\\hline
+A&-19&-3\\
+B&-25&-2
+\end{array}
+\]
+Use $A$ at 2 and $B$ at 59. In the full 89-path search the sets of
+maximizers at these two primes are disjoint. Thus this benefit is not
+an artifact of choosing different names for tied optimal paths.
+At $N=80$, prime adaptation improves the common factor over the best
+single fixed path (after including the previous arithmetic bound)
+by the factor $147649788$.
+
+\subsection{A strict row-dependent order improvement}
+At $N=40,p=491$, compare the cuts
+\[
+ w_A=w_0+N(3,3,3,-3;0,0,0),\qquad
+ w_B=w_0+N(3,3,3,0;0,0,0).
+\]
+The first moves $3N$ negative-upper steps before completing the remaining
+positive-upper and lower moves; the second postpones all negative-upper
+moves until after those moves. Their certificates are
+\[
+\begin{array}{c|rr}
+ &\text{numerator row}&\text{denominator row}\\\hline
+A&-1&-2\\
+B&-2&0
+\end{array}
+\]
+In the entire 89-path family, the best common-path minimum is $-2$.
+Choosing $A$ for the numerator and $B$ for the denominator gives $-1$.
+Thus independent row choices improve the path-only common-divisor
+certificate by a factor of $491$. The earlier arithmetic normalization
+already certifies valuation $-1$ at this prime, so this gain does not
+improve that normalization further.
+
+For a second illustration, at $N=80,p=883$, a path with cut
+\[
+w=w_0+N(6,6,6,-9;2,1,3)
+\]
+has row certificates $(-2,-2)$, whereas the $3N$ initial-upper
+path above has $(-3,0)$. The first better certifies the numerator
+row, the second the denominator row. The sets of row maximizers in
+the 89-path family are disjoint. Nevertheless the common minimum
+remains $-2$: row adaptation adds no common factor in this example.
+The numerator remains the limiting row in the aggregate experiments.
+
+\subsection{Finite gains against the previous six-interval bound}
+Each certificate is combined prime by prime with the earlier
+normalization. The following are natural logarithms of upper bounds
+on the \emph{reduced} denominator; the actual reduced denominator is
+computed independently from the endpoint rational number.
+\begin{center}
+\begin{tabular}{rrrr}
+\toprule
+$N$&Previous bound&89-path bound&Actual $\log q_N$\\\midrule
+20&1006.830013&969.294302&966.461089\\
+40&2024.521715&1952.684660&1952.684660\\
+80&3995.558516&3897.972570&3897.279423\\
+160&7952.463445&7845.385158&7843.998864\\
+320&15860.979328&15681.089752&15668.557979\\
+640&31662.180409&31318.172451&31310.353216\\
+\bottomrule
+\end{tabular}
+\end{center}
+These finite gains include primes omitted by the cutoff $p^2>50N$;
+that part contributes no exponential-rate improvement. It must not be
+extrapolated as a constant saving per depth. The next section isolates
+a uniform additional divisor among the eligible larger primes.
+
+There is an important distinction: at $N=320,640$, every newly explained
+large-prime factor is already exposed by the \emph{single} cut after all
+positive-upper and lower moves, before the entire negative-upper block.
+Different prime-dependent paths improve other finite factors, but the
+new asymptotic divisor below does not require changing the path by prime.
+It is therefore not evidence that adaptive orders are necessary for the
+stronger irrationality measure.
+
+\section{The uniform arithmetic extension}
+This is an addendum to the supplied full manuscript
+\emph{CMF conservation as an arithmetic tool}, saved as
+\texttt{zeta2\_complete\_proof.tex} in the accompanying bundle.
+We use its exact native readout, baseline normalization, eight-cell
+signature table, and local-kernel lemma. Those statements include the
+initial conditions and all native generator identities. The following
+argument proves the extension needed here; it does not infer it from
+the finite path tests.
+\paragraph{A uniform periodic extension of the arithmetic divisor.}
+The following statement extends the exact finite-field readout argument.
+It is not a theorem asserting optimality, or necessity, of different
+multiplication routes for the two initial rows.
+Let
+\[
+ \mathcal T=\{(2,8,1),(3,9,2),(4,10,3),
+                (5,8,3),(6,9,4),(12,9,8)\}.
+\]
+For $N\ge1$ and $r\in\{0,1,2\}$ define $H^*_{N,r}$ to be the product
+of primes $p$ with $p^2>50N$ for which, with $t=\lfloor N/p\rfloor$,
+at least one $(k,A,B)\in\mathcal T$ satisfies
+\[
+ \frac{13N+r}{13t+k}<p<\frac{AN}{At+B}.
+ \tag{L1}
+\]
+Every prime occurs once. The inequalities imply $p<8N$, so the product
+is finite. Its $t=0$ part is precisely the previous divisor $H_{N,r}$.
+If there are no eligible primes, the product is one.
+
+\begin{theorem}
+With the same initial rows, trajectory, and factors $C_N,G_N$ as in
+the preceding argument, for every integer $N\ge1$ and every
+$r\in\{0,1,2\}$,
+\[
+ \boxed{\frac{C_Nd_{12N}d_{13N+r}}{G_NH^*_{N,r}}
+             RW(N)e_r\in\mathbb Z^2.}
+\]
+\end{theorem}
+
+\begin{proof}
+The baseline integer normalization with $G_N$ has already been established.
+It suffices to prove one additional factor $p$ for each prime in (L1).
+Put $x=N/p=t+f$, where $0\le f<1$. The upper inequality in (L1) says
+$f>B/A$; the lower says
+\[
+ f<\frac{k}{13}-\frac{r}{13p}.
+\]
+Thus $f$ lies in the same one of the six open intervals as in the
+finite chamber table for the original shell argument.
+The two intervals with an internal split are divided at $5/11$ and
+$10/11$, exactly as before.
+
+Write
+\[
+ a=\lfloor8x\rfloor=8t+a_0,\quad
+ M=\lfloor11x\rfloor=11t+M_0,\quad
+ b=8N-ap,\quad d=11N-Mp,\quad h=\phi(x)=\phi(f).
+\]
+The equality for $h$ follows directly from the periodic floor formula.
+For $0\le j<p$, the carry indicators $e=\mathbf1_{j>d}$ and
+$\delta_u=\mathbf1_{(j+uN)\bmod p<b}$ depend only on $f$ and $j/p$.
+On their minimal-carry support they therefore have the same fixed
+values as in the earlier table. The upper digits translate by
+\[
+ \lambda_u=\lfloor j/p+ux\rfloor=ut+\lambda_{u,0}
+ \qquad (u=9,10,11).
+\]
+In particular they are still independent of the supporting residue $j$.
+The two exceptional fractional split points cannot occur: if
+$f=5/11$ or $10/11$, primality forces $p=11$ and
+$N=11t+5$ or $11t+10$, contrary to $p^2>50N$.
+
+Over $\mathbb F_p$ use the same polynomial quotient
+\[
+ \mathcal Q(X)=
+ \frac{\prod_{u=9,10,11}\binom{X+uN}{b}}
+ {(X^p-X)^{h-1}\prod_{j=0}^d(X-j)}.
+\]
+For $h=0$ the displayed formula means multiplication by $X^p-X$.
+The carry multiplicities establish polynomial divisibility exactly as
+before. Its decisive degree parameter is now
+\[
+ K=3a-M+h=13t+(3a_0-M_0+h)=13t+k.
+\]
+Hence (L1) gives
+\[
+ \deg(X^r\mathcal Q)=13N+r-(K-1)p-1<p-1,
+ \qquad \sum_{j\in\mathbb F_p}j^r\mathcal Q(j)=0.
+ \tag{L2}
+\]
+
+For clarity, the local kernel argument also remains valid with these
+larger upper digits. Set
+\[
+ P(V)=\prod_{u=9,10,11}(a+1)^{\delta_u}
+              \binom{\lambda_u+V}{a+\delta_u},\qquad
+ U(V)=\frac{P(V)}{\prod_{l=0}^{M-e}(V-l)},\qquad
+ \kappa=(-1)^{d-M+h-1}M!d!.
+\]
+The cutoff implies $p>50x$; the shell intervals imply $x>1/8$.
+Thus $p$ is odd, $a+1<p$, and $M<p$, so all factorial denominators
+and distinct kernel poles used here are legitimate over $\mathbb F_p$.
+The exact separation of factors divisible by $p$ gives, as previously,
+\[
+ p^{1-h}R_{\rm ker}(j+pV)
+       \equiv\kappa\mathcal Q(j)U(V)\pmod p,
+\]
+where $R_{\rm ker}(s)=F(s)(-1)^{11N}(11N)!/
+\prod_{l=0}^{11N}(s-l)$ is the rational kernel, not the initial-row matrix.
+Taking residues supplies the leading coefficients $c_l/p^h$.
+Subtracting their partial fractions gives
+\[
+ p^{1-h}S_r(j+pV)
+       \equiv\kappa j^r\mathcal Q(j)[U(V)]_+\pmod p,
+ \tag{L3}
+\]
+with $[U]_+$ its polynomial part. This subtraction includes the
+$e=1$ cases and the noncongruent contributions in the original
+kernel. Residue classes outside the minimal-carry support give zero.
+The previously established integer-valued normalization and degree
+bound below $p^2$ justify (L3) also at its removable derivative nodes.
+
+Choose the prime-dependent shift
+\[
+ \eta=p\left\lceil\frac{2N}{p}\right\rceil=Lp.
+\]
+If $p\le2N$, then $2N\le\eta<4N$; if $p>2N$, then
+$\eta=p<8N$. Thus $2N\le\eta\le9N$ in every case, as required by
+the exact readout. In the genuinely new periods $t\ge1$, one has
+$p<N$ and the stronger bound $\eta<3N$.
+All harmonic indices are below $20N<p^2$ (below $14N$ for $t\ge1$),
+and the Newton degree plus one is at most $13N+r<p^2$.
+Also $M+L\le13x+1<p$, so the high-digit harmonic reciprocals are units.
+The integer factors at the relevant shifted Newton nodes have
+absolute values below $24N+r<50N<p^2$.
+
+The harmonic leading residue factors as a constant times the sum in
+(L2), because the multiples of $p$ up to $j+(l+L)p$ are indexed by
+$l+L$, independently of $j\in\{0,\ldots,p-1\}$.
+For the polynomial part, (L3) and Lucas's congruence show that every
+Newton coefficient with index $vp-1$ has the same factor
+$\sum_jj^r\mathcal Q(j)$ and hence vanishes modulo $p$.
+These are the only possibly nonintegral weights in the polynomial
+functional. Both contributions therefore have valuation at least
+$h-1$; the second row has valuation at least $h$.
+Finally $v_p(d_{12N}d_{13N+r})=2$ and $v_p(G_N)=h$, so both
+normalized entries acquire the asserted extra $p$.
+Multiplying these prime divisibilities proves the statement for all $N$,
+including the cases where the eligible product is empty.
+\end{proof}
+
+The arithmetic improvement in this theorem comes from the same exact
+matrix readout and its prime-dependent polynomial analysis. Separate
+finite experiments may expose these factors through specific
+multiplication orders; their success alone is not the proof above.
+\section{The improved rate}
+\paragraph{Density of the lifted prime intervals.}
+For
+\[
+ \mathcal B=\{(2,8,1),(3,9,2),(4,10,3),
+                 (5,8,3),(6,9,4),(12,9,8)\},
+\]
+write $(k,a,b)$ for an element. The additional intervals, beyond the six
+original intervals, are
+\[
+ \frac{13N+r}{13t+k}<p<\frac{aN}{at+b},\qquad t=1,2,\ldots .
+\]
+They are disjoint because their reciprocals lie in the disjoint translated
+base intervals. If $H_{N,r}^{\mathrm{lift}}$ is the product of eligible primes
+in these intervals, the prime number theorem gives
+\[
+ \lim_{N\to\infty}\frac{\log H_{N,r}^{\mathrm{lift}}}{N}
+ =g:=\sum_{(k,a,b)\in\mathcal B}\sum_{t=1}^{\infty}
+       \left(\frac{a}{at+b}-\frac{13}{13t+k}\right).
+\]
+To justify the infinite sum, first retain finitely many $t$. The column
+shift changes each endpoint only by a bounded amount. The discarded
+intervals for $t\ge T$ contain only primes $p<N/T$, so their total
+logarithmic weight is at most $\vartheta(N/T)$; after division by $N$,
+the limiting upper bound is $1/T$. The excluded primes
+$p\le\sqrt{50N}$ contribute $o(N)$. This proves the stated limit without
+requiring a prime number theorem uniform in $t$.
+Equivalently,
+\[
+ g=\sum_{(k,a,b)\in\mathcal B}
+       \bigl(\psi(1+k/13)-\psi(1+b/a)\bigr)
+  =0.10868236921910157039\ldots.
+\]
+
+\paragraph{An exact rational enclosure.}
+Each summand is
+\[
+ f_{k,a,b}(t)=\frac{ak-13b}{(at+b)(13t+k)}>0.
+\]
+Put $M=100000$ and $S=10^{24}$. Integer division gives
+\[
+ A:=\sum_{(k,a,b)\in\mathcal B}\sum_{t=1}^{M}
+          \lfloor S f_{k,a,b}(t)\rfloor
+   =108681309400407200714213.
+\]
+Since $f(t)=(\beta-\alpha)/((t+\alpha)(t+\beta))$ with
+$\alpha=b/a<\beta=k/13$, comparison with decreasing reciprocal squares gives
+\[
+ \frac{ak-13b}{a(13M+13+k)}
+ \le \sum_{t=M+1}^{\infty}f_{k,a,b}(t)
+ \le \frac{ak-13b}{13aM}.
+\]
+Consequently
+\[
+ \frac AS+\sum_{\mathcal B}\frac{ak-13b}{a(13M+13+k)}
+ \le g\le
+ \frac{A+6M}{S}+\sum_{\mathcal B}\frac{ak-13b}{13aM}.
+\]
+The accompanying integer-arithmetic script verifies this enclosure:
+\[
+ 0.1086823692136766<g<0.1086823692294671.
+\]
+Using the previously certified carry-density lower bound
+\[
+ \gamma\ge\frac{159010385641752609841}{13110552000000000000},
+\]
+set $c_0=25-233/120-\gamma_{\rm lower}$ and let $g_-$ denote the displayed
+rational lower endpoint. The existing analytic enclosures imply
+\[
+ \sigma\le38.168732909647+c_0-g_-,\qquad
+ \tau\ge24.467842131921-c_0+g_->0.
+\]
+Exact rational cross-multiplication then gives
+\[
+ 1+\frac{38.168732909647+c_0-g_-}
+          {24.467842131921-c_0+g_-}
+   <4.589897.
+\]
+This last implication uses the uniform integer normalization furnished by
+the translated shell argument and the analytic/nonvanishing inputs.
+It does not follow merely from the finite divisibility checks below.
+
+\paragraph{Why the column shift matters even after translation.}
+At $N=3000$, $p=907$, the active lift has $t=3$, $k=4$ and
+$(13t+k)p=43\cdot907=39001$.
+Thus $13N+r<(13t+k)p$ holds only for $r=0$.
+For the pair normalized using the original six-shell divisor, its two
+$p$-valuations are $(1,3)$ in column zero, but $(0,2)$ in columns one and
+two. The unshifted periodic guess therefore fails, whereas the shifted
+inequality predicts precisely the observed distinction.
+The same phenomenon occurs at $N=6000$, $p=1013$:
+$(13\cdot5+12)1013=78001$.
+\paragraph{The improved irrationality exponent.}
+Let $H^*_{N,r}$ include all the translated shells proved in the
+preceding arithmetic lemma. Their additional logarithmic density is
+\[
+ g=\sum_{(k,a,b)\in\mathcal B}\sum_{t\ge1}
+ \left(\frac{a}{at+b}-\frac{13}{13t+k}\right),\qquad
+ 0.1086823692136766<g<0.1086823692294671,
+\]
+where
+$\mathcal B=\{(2,8,1),(3,9,2),(4,10,3),(5,8,3),(6,9,4),(12,9,8)\}$.
+The original six shells have density $233/120$. Together with the certified
+carry-density lower bound, this gives
+\[
+ c=25-\gamma-\frac{233}{120}-g<10.821223.
+\]
+The integer pairs supplied by the arithmetic lemma consequently satisfy
+\[
+ |Q_N|\le\exp\bigl((48.989956+o(1))N\bigr),\qquad
+ |Q_N\zeta(2)-P_N|
+       \le\exp\bigl(-(13.646619-o(1))N\bigr).
+\]
+Here we used the analytic bounds $a<38.168733$ and
+$b<-24.467842$. The previously established bounded-gap nonvanishing
+property supplies the required nonzero rational comparison among three
+consecutive indices. The standard irrationality-measure argument therefore
+implies
+\[
+ \boxed{\mu(\zeta(2))\le
+  1+\frac{48.989956}{13.646619}
+  =\frac{62636575}{13646619}
+  =4.589896955429033\ldots<4.589897.}
+\]
+All decimal inequalities here have exact rational certificates in the
+accompanying code. The CMF approximants and their reduced denominators are
+unchanged: the improvement is in the divisor that the argument certifies.
+
+\section{Reproducibility and limits of the search}
+The bundle includes the previous complete derivation, the present
+addendum, all new search programs, exact checkpoints, the translated
+kernel checks, and the rational density certificate. It also records
+the eight-depth prime-pattern checks for all three output columns.
+The pattern checks are numerical discovery evidence; the translated
+finite-field argument above supplies the all-depth statement.
+
+The requested new attachment
+\texttt{zeta2\_cmf\_matrix\_proof (4).tex} was an empty file on disk.
+The previous nonempty attachment was inspected as background. No
+claim is made about the contents of the empty file.
+
+The search changes arithmetic descriptions of the same endpoint,
+so it cannot change the exact reduced approximants or their actual
+delta values. No new delta search was performed. The previous values
+were $\delta_{3000}=0.278673337629$,
+$\delta_{4000}=0.279047437501$,
+$\delta_{6000}=0.278946586656$, with last-three-depth slope estimate
+$0.279152068816$. These numerical scores are separate from the
+irrationality-measure conclusion proved using upper bounds.
+
+No extra common-divisor benefit from independent row choice \emph{beyond
+the previous arithmetic normalization} has been found in the tested
+families. That remains a target for a richer lattice or residue
+certificate. The precise next region is: keep the
+same field, start, and direction; test $N=640,1280,2560$; retain at
+least $2N$ negative-upper suffix moves; refine cut coordinates in
+quarter-$N$ increments and allow one or two leading $p$-adic residue
+digits. Examine primes outside the periodic divisor with $p^2>50N$.
+At $N=6000$, remaining eligible residual primes include 1583 in all
+three columns and 11743 in column 0. A new uniform rule is needed
+before either can affect the stated measure bound.
+\end{document}

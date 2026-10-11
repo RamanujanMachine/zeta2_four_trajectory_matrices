@@ -1,0 +1,206 @@
+{
+  "status": "exact_chamber_certificate_passed",
+  "regions": [
+    {
+      "name": "k2",
+      "x_interval": [
+        "1/8",
+        "2/13"
+      ],
+      "signature": [
+        1,
+        1,
+        0,
+        0,
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "x_probe_count": 7,
+      "y_cell_checks": 102
+    },
+    {
+      "name": "k3",
+      "x_interval": [
+        "2/9",
+        "3/13"
+      ],
+      "signature": [
+        1,
+        2,
+        2,
+        0,
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "x_probe_count": 3,
+      "y_cell_checks": 46
+    },
+    {
+      "name": "k4",
+      "x_interval": [
+        "3/10",
+        "4/13"
+      ],
+      "signature": [
+        2,
+        3,
+        1,
+        0,
+        [
+          2,
+          3,
+          3
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "x_probe_count": 1,
+      "y_cell_checks": 16
+    },
+    {
+      "name": "k5",
+      "x_interval": [
+        "3/8",
+        "5/13"
+      ],
+      "signature": [
+        3,
+        4,
+        0,
+        0,
+        [
+          3,
+          3,
+          4
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "x_probe_count": 3,
+      "y_cell_checks": 46
+    },
+    {
+      "name": "k6a",
+      "x_interval": [
+        "4/9",
+        "5/11"
+      ],
+      "signature": [
+        3,
+        4,
+        1,
+        0,
+        [
+          4,
+          5,
+          5
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "x_probe_count": 3,
+      "y_cell_checks": 46
+    },
+    {
+      "name": "k6b",
+      "x_interval": [
+        "5/11",
+        "6/13"
+      ],
+      "signature": [
+        3,
+        5,
+        2,
+        1,
+        [
+          4,
+          5,
+          5
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "x_probe_count": 1,
+      "y_cell_checks": 16
+    },
+    {
+      "name": "k12a",
+      "x_interval": [
+        "8/9",
+        "10/11"
+      ],
+      "signature": [
+        7,
+        9,
+        0,
+        0,
+        [
+          8,
+          9,
+          10
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "x_probe_count": 5,
+      "y_cell_checks": 72
+    },
+    {
+      "name": "k12b",
+      "x_interval": [
+        "10/11",
+        "12/13"
+      ],
+      "signature": [
+        7,
+        10,
+        1,
+        1,
+        [
+          8,
+          9,
+          10
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "x_probe_count": 3,
+      "y_cell_checks": 46
+    }
+  ],
+  "total_y_cell_checks": 390
+}

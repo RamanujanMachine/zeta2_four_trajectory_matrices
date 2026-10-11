@@ -1,0 +1,82 @@
+{
+  "sources": [
+    {
+      "source": "results/zeta2_proof_strategy/code/core.py",
+      "package_path": "core.py",
+      "original_sha256": "6bb4325acbd316508223351c60ca88a4c3a66424c9e5e8c1412c421e0052fdb3",
+      "packaged_sha256": "6bb4325acbd316508223351c60ca88a4c3a66424c9e5e8c1412c421e0052fdb3"
+    },
+    {
+      "source": "results/zeta2_proof_strategy/code/toy_cmf.py",
+      "package_path": "toy_cmf.py",
+      "original_sha256": "ce7775faea7682ca841f97c43a70b675417e8a5eb029a7ce4eaf0157a97b175e",
+      "packaged_sha256": "ce7775faea7682ca841f97c43a70b675417e8a5eb029a7ce4eaf0157a97b175e"
+    },
+    {
+      "source": "results/zeta2_proof_strategy/code/rt_blocks.py",
+      "package_path": "rt_blocks.py",
+      "original_sha256": "83523f78b88d0183b8215c0e78d8e6c83bbdb473d8119a2c2f9628fc3bd34cdb",
+      "packaged_sha256": "83523f78b88d0183b8215c0e78d8e6c83bbdb473d8119a2c2f9628fc3bd34cdb"
+    },
+    {
+      "source": "results/zeta2_proof_strategy/code/check_finite_formula.py",
+      "package_path": "check_finite_formula.py",
+      "original_sha256": "a332bace247bfc490e22f526c907c2701d6c6a88188382e39ed31dd8c0915f2e",
+      "packaged_sha256": "c0f0624cd2f02c5e33461dd7ad71b25d3740d977bc559fad1f377f15490a8b07"
+    },
+    {
+      "source": "results/zeta2_proof_strategy/code/check_main_shell.py",
+      "package_path": "check_main_shell.py",
+      "original_sha256": "92c36c4e72c1ed3a07ab058e096d5405c1eb193c0c88c6ea92380e29bd3e9576",
+      "packaged_sha256": "9ce92148c510f22c764cae4600258c5caae895c9bf321696a10a5f26909d39e9"
+    },
+    {
+      "source": "results/zeta2_proof_strategy/code/check_fifth_shell.py",
+      "package_path": "check_fifth_shell.py",
+      "original_sha256": "5e0db84a6d5e24a7ab8c5b4c89c5ef15a8ff0eb221232a70a0b2f23aacbca577",
+      "packaged_sha256": "5e0db84a6d5e24a7ab8c5b4c89c5ef15a8ff0eb221232a70a0b2f23aacbca577"
+    },
+    {
+      "source": "results/zeta2_proof_strategy/code/check_shell_independent.py",
+      "package_path": "check_shell_independent.py",
+      "original_sha256": "ac4d51236ef6637bcddd870def4b0df27a76d03e15c74f5aaafd53a06434a83c",
+      "packaged_sha256": "1f028c0c41f156c8a6f064c486791ece7b993e77686a51231e7e9587450a3dc5"
+    },
+    {
+      "source": "results/zeta2_proof_strategy/code/rate_certificate.py",
+      "package_path": "rate_certificate.py",
+      "original_sha256": "4cbd7ae13a52ab603aa685f7f2747b834538248e9da0f4204c59c94c2a6a77be",
+      "packaged_sha256": "fff5049e7130015bf2e1c5b6f05fffd1119cea0b86738d65e3ff4097a5e61c3d"
+    },
+    {
+      "source": "results/zeta2_proof_strategy/code/requirements.txt",
+      "package_path": "requirements.txt",
+      "original_sha256": "60cf74804b3c51540f9f4b66721950f14a632db485ba86c04bf64064a55f598a",
+      "packaged_sha256": "60cf74804b3c51540f9f4b66721950f14a632db485ba86c04bf64064a55f598a"
+    },
+    {
+      "source": "work/zeta2_completion/chamber_certificate.py",
+      "package_path": "chamber_certificate.py",
+      "original_sha256": "ad7979786a3d02ca3baacf895f7f0846bc9d56c76e145e02a1c7991c7e46c26a",
+      "packaged_sha256": "ad7979786a3d02ca3baacf895f7f0846bc9d56c76e145e02a1c7991c7e46c26a"
+    },
+    {
+      "source": "work/zeta2_completion/check_local_kernel.py",
+      "package_path": "check_local_kernel.py",
+      "original_sha256": "bb827ebeca654393e50b9fbe6817513069313fbb1b9f8c6683face78b390f95a",
+      "packaged_sha256": "0dac6da60abc74536bbde948c04ea1653142219524de4c41208bf93443811b2e"
+    },
+    {
+      "source": "work/zeta2_completion/analytic/certify_analytic_rates.py",
+      "package_path": "analytic/certify_analytic_rates.py",
+      "original_sha256": "bef3f4c231fb9fcbcf3ff3936cf86e14fe74af497948206f70ca620c65623a96",
+      "packaged_sha256": "e0527cbbc4e374421e51b31ea18d41ffccba2a148609689e893819d0498be019"
+    }
+  ],
+  "portability_changes": [
+    "Local import of phi from rate_certificate.py",
+    "Local analytic subdirectory",
+    "Updated manuscript/proof references and rate-result key names; unchanged arithmetic"
+  ],
+  "excluded": "All Lean sources, binaries, toolchain files, logs, and checks"
+}

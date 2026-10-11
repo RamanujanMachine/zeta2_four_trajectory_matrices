@@ -1,0 +1,113 @@
+Exact finite experiments with genuine CMF multiplication orders
+=============================================================
+
+Status: NUMERICAL_CANDIDATE. No inference of a uniform arithmetic bound
+is made from these finite tests.
+
+Reproduce from the project root:
+
+  work/.venv_4f3/bin/python work/zeta2_order_adaptive/orders/adaptive_paths.py 20 40 80 160 320 640
+  work/.venv_4f3/bin/python work/zeta2_order_adaptive/orders/extract_witnesses.py 20 40 80 160 320 640
+
+The first command resumes from complete per-depth JSONL checkpoints.
+
+Experiment
+----------
+The native pFq(4,3,1) field has initial point (1,1,1,0,1,1,1),
+direction (10,9,11,-11,2,1,3), forward orientation, dimension 3,
+selected column 0, and initial rows (0,2,-1) and (2,0,0). These
+give the numerator and denominator of the requested approximant.
+
+For each depth, 89 two-block paths START -> cut -> endpoint were tested.
+Within each block the coordinate order is [x0,x1,x2,y0,y1,y2,x3].
+Cuts use upper progress (t,t,t)N, t in {3,4,6,8,9}, or (10,9,11)N;
+lower progress in {(0,0,0),(1,0,1),(1,1,2),(2,1,3)}N; and negative
+progress -mN, m in {0,3,6,9}. Only regular feasible cuts are retained.
+Every suffix contains at least 2N negative steps. Moving a negative
+prefix ahead of the remaining positive/lower blocks changes the actual
+native multiplication order; these are not merely changed readout shifts.
+
+For prefix A and suffix B, the certificate for row r is the rational gcd
+of the three terms (R A)[r,i] B[i,0], i=0,1,2. Their sum is not used to
+improve the certificate. The exact incoming rows are retained, including
+all cancellation internal to each whole block. Every A B was checked
+against the complete endpoint matrix, all nine entries, at every depth.
+
+This is a decomposition certificate. The endpoint approximant, its true
+reduced denominator, and its true delta do not change with the order.
+
+Results: natural logarithms of denominator bounds
+------------------------------------------------
+ N     old six-shell     plus component bounds     actual reduced q
+ 20    1006.830012605       969.294302411               966.461089067
+ 40    2024.521714953      1952.684659728              1952.684659728
+ 80    3995.558516249      3897.972570343              3897.279423163
+160    7952.463445471      7845.385158372396           7843.998864011
+320   15860.979328136     15681.089752078             15668.557979293
+640   31662.180408568     31318.172450748             31310.353216295
+
+At N=320 and 640, the logarithmic gains divided by N are 0.562155 and
+0.537512. These include primes omitted by the old large-prime cutoff;
+they are not estimates of a certified asymptotic exponent improvement.
+Delta was not recomputed in this lane because the approximants are
+unchanged. No candidate trajectory was created or ranked here.
+
+Prime-dependent choice genuinely helps the tested certificate
+-------------------------------------------------------------
+At N=80, the complete sets of maximizing paths at p=2 and p=29 are
+disjoint. The path with upper cut (3,3,3)N and all other cut coordinates
+zero gives row bounds (-19,1) at p=2, but (-6,0) at p=29. The full
+positive/lower preparation followed by 9N negative steps before the cut
+gives (-27,-10) at p=2, but (-4,0) at p=29. The optimal common bounds
+are respectively -19 and -4. This is strict incompatibility, not a choice
+between tied maxima.
+
+The prime-adaptive common certificate improves on the best single path
+by exact factors 147649788 at N=80, 191016486453 at N=160,
+62736532700183576976227 at N=320, and
+4689573862548643387295944573533940705 at N=640.
+
+Row-dependent maxima also differ, with an important limitation
+-------------------------------------------------------------
+At N=80 and p=883, cut (6,6,6,-9,2,1,3)N gives row bounds (-2,-2),
+whereas cut (3,3,3,0,0,0,0)N gives (-3,0). The individual maxima are
+(-2,0), and no tested path achieves both. This persists in analogous
+witnesses at N=20,40,160,320,640 (primes 223,449,1777,3527,7043).
+
+Nevertheless the shared divisor bound is -2 in that example. At N40,p491
+there IS a strict path-only gain: cuts (3,3,3,-3;0,0,0)N and
+(3,3,3,0;0,0,0)N give (-1,-2) and (-2,0), so independent row choice
+raises the common bound from -2 to -1. The old normalization already
+supplies that factor. Across every tested depth the two common certificates
+agree AFTER adjoining the old arithmetic normalization. The additional
+factor beyond it is exactly 1. The raw gain factor is 491 at N40 and 1
+at the other five depths.
+
+Large-prime holdouts and next region
+-----------------------------------
+At N=320 the new primes beyond the old six-shell normalization, with
+p^2>50N, are 139,149,167,281,283. At N=640 they are
+269,337,439,443,463,491,521,523,557,563. Every gain is one power of p.
+Every one belongs to a periodic lift of the original six chambers.
+
+At each of those two depths, the intersection of maximizing path sets
+for all those large primes consists exactly of the full-preparation cut
+(10,9,11,0,2,1,3)N, followed by the complete negative x3 block. Hence
+these particular gains require no prime-dependent order in this grid.
+
+The next useful finite search region is refined unequal upper-coordinate
+cuts and lower-coordinate progress, with at least 2N negative suffix
+steps, at N=1280. Focus on primes near lifted-shell boundaries and on
+primes where the retained component bound still differs from actual
+content. Require disjoint maximizing sets before claiming incompatible
+prime choices, and compare max_path min_row against min_row max_path
+before claiming a common-divisor benefit from row adaptation.
+
+Inputs and outputs
+------------------
+Read-only inputs: work/zeta2_orders_10911/{core,arithmetic,profile}.py;
+historical native-order experiments and completion proof documents.
+New outputs: adaptive_paths.py, extract_witnesses.py, paths_N.jsonl,
+summary_N.json, witnesses_N.json, run logs, this report. The independent
+audit of the periodic-lift proof extension is in periodic_lift_audit.txt;
+it is logically separate from these finite multiplication-order tests.

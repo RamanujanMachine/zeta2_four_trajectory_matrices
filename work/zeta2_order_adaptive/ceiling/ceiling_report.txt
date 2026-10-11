@@ -1,0 +1,84 @@
+Status: NUMERICAL_CANDIDATE (finite numerical/exact-arithmetic diagnostics).
+
+The exact gcd of the two entries after the existing six-shell normalization
+was completely factored for all three columns at depths
+160, 320, 640, 1280, 2000, 3000, 4000, 6000. No residual prime exceeds 13N.
+Every pair was integral, and reducing it reproduced the cached exact q_N.
+
+Column 0 residual logarithmic headroom per N:
+ N      total       p²<=50N       p²>50N      shifted lifts    unexplained large
+ 160    .677903634   .615227233    .062676401  .030840462       .031835939
+ 320    .601316715   .501428487    .099888229  .082313174       .017575055
+ 640    .549729988   .445295607    .104434381  .095465955       .008968426
+1280    .433736610   .337182924    .096553686  .096553686       .000000000
+2000    .342589881   .245455888    .097133993  .083097901       .014036092
+3000    .307339510   .213312905    .094026605  .089695778       .004330827
+4000    .290722294   .183782532    .106939761  .102742148       .004197613
+6000    .234841497   .142762588    .092078909  .089289227       .002789682
+
+The stable systematic large-prime headroom is explained by the periodic
+column-shifted lifts of the six original intervals. Every predicted prime
+passed exact divisibility at all 8 depths in all 3 columns. No all-N assertion
+is inferred from these finite tests. The independent algebra audit and exact
+density enclosure are in lift_density_and_audit.tex.
+
+First-period p/N bands:
+ (13/15,8/9), (13/16,9/11), (13/17,10/13),
+ (13/18,8/11), (13/19,9/13), (13/25,9/17).
+For later periods and exact column endpoints see periodic_shell_probe.py.
+
+Order-search targets (predicted residual primes common to all three columns):
+ N160: 139.
+ N320: 139,149,167,281,283.
+ N640: 269,337,439,443,463,491,521,523,557,563.
+All these have normalized numerator/denominator valuations (1,3): numerator
+is the common-divisibility bottleneck. At N160p139, N320p281 and N640p557,
+C_N has valuation zero, and native RW valuations are (-1,1) for all columns.
+A successful row-dependent order estimate must certify v_p(P)>=-1 here,
+where the elementary denominator budget only gives >=-2.
+
+Finite column-specific exceptions and leftover sporadic factors are listed
+exhaustively in periodic_shell_probe.json. At N6000 the shifted lift explains
+67 residual primes in column0 and66 in columns1,2. Outside this systematic
+prediction, the remaining eligible factors are 1583*11743 (column0) and1583
+(columns1,2), each to the first power. Their logs/N are .002789682 and
+.001227846 respectively. No persistent additional positive-width bands were
+identified. It would be unwarranted to interpret these sporadic factors as a
+further fixed asymptotic improvement.
+
+The old unshifted periodic guess was rejected at N3000p907 because its
+column1 and2 common valuations are0, versus1 in column0. The corrected
+condition (13t+k)p>13N+r explains that exact counterexample. Another boundary
+example is N6000p1013. Do not restore the old unshifted rule.
+
+Rate implications: the formal infinite-lift density is
+0.10868236921910157... . An exact rational enclosure plus the existing
+certified analytic and carry-density enclosures gives the conditional number
+4.589896910515613 <4.589897. This becomes an irrationality bound only after the
+uniform translated divisibility argument and prior analytic hypotheses are
+supplied; the script does not certify those hypotheses.
+
+Observed finite delta for column0 atN6000 is0.278946586656 (implied numerical
+mu4.58491571). A slope fit over N1280,2000,3000,4000,6000 gives delta0.27864368,
+implied numericalmu4.58881283; using onlyN3000,4000,6000 gives0.27915207 and
+4.58227687. This window dependence makes the finite slope unsuitable as a
+promised bound. The infinite-lift density projects denominator exponent
+48.9899556827; the broad-window fitted exponent is48.9867762669.
+
+Files inspected: prior core.py, arithmetic.py, cuts.py, profile.py, shells.py,
+infer_extra_profile.py; cached matrix/depth/arithmetic/shell checkpoints at
+these depths; all_shells.tex; prior analytic and rate certificates.
+Files created: ceiling_analysis.py; ceiling_N.json for eight depths;
+periodic_shell_probe.py/json; lift_density_certificate.py/json;
+lift_density_and_audit.tex; this report.
+Experiments recovered: exact three-column normalizations and reduced q_N,
+large-prime residual profile, repaired column-aware periodic shell probe.
+Top recovered delta: column0N1280 .281024912773, with finite-depth fluctuations.
+Rejected/unstable: unshifted periodic rule; aggressive tail-only slope inference.
+Uncertainties: no direct new multiplication order constructed by this ceiling
+subtask, finite gcd factors are not a uniform bound, no uniform interpretation
+of sporadic residual primes established.
+Recommended next order-search region: target p/N in (13/15,8/9) first, using
+N160p139 andN320p281. Certify numerator and denominator rows separately and
+check p-specific maximizing cuts. Then target the five remaining t=1 intervals
+and translated t>=2 intervals; preserve exact column endpoint shifts.
